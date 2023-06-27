@@ -1,0 +1,48 @@
+CA-BAS
+SAP Business Application Studio issues.
+CA-BAS
+SAP Business Application Studio issues.
+CA-BAS-BLD-HTML5
+HTML5 module build - SAP Business Application Studio
+CA-BAS-BLD-MTA
+Build MTA applications - SAP Business Application Studio
+CA-BAS-DPL-ABAP
+Deploy to ABAP - SAP Business Application Studio
+CA-BAS-DPL-MTA
+Deploy MTA applications - SAP Business Application Studio
+CA-BAS-RUN-HTML5
+Run HTML5 Module - SAP Business Application Studio
+CA-BAS-RUN-CFG
+Run Configurations view - SAP Business Application Studio
+CA-BAS-RUN-CAP
+Run CAP application - SAP Business Application Studio
+CA-BAS-TPL-FIORI
+SAP Fiori project template - SAP Business Application Studio
+CA-BAS-TPL-MTA
+MTA templates - SAP Business Application Studio
+CA-BAS-WS-MNG
+Dev space Manager - SAP Business Application Studio
+CA-BAS-WS-CTRL
+Dev Space Controller - SAP Business Application Studio
+CA-BAS-EDT-HTML5
+Fiori development (code assist, validations, i18n) - SAP Business Application Studio
+CA-BAS-EDT-W5G
+Layout Editor (WYSIWYG) - SAP Business Application Studio
+CA-BAS-EDT-JAVA
+JAVA tools - SAP Business Application Studio
+CA-BAS-EDT-MTA
+MTA descriptor (mta.yaml) editor
+CA-BAS-CNSM
+Consume SAP Services - SAP Business Application Studio
+CA-BAS-BSC
+Basic Tools (npm, GIT) - SAP Business Application Studio
+CA-BAS-CF
+Cloud Foundry Tools command palette - SAP Business Application Studio
+CA-BAS-WIZ
+Yeoman-UI generator - SAP Business Application Studio
+CA-BAS-FLO
+File system, logging, Operator Clusters - SAP Business Application Studio
+CA-BAS-MON
+Monitoring - SAP Business Application Studio
+CA-BAS-AUT
+Login, roles, authentication, authorizations - SAP Business Application Studio

@@ -1,0 +1,6506 @@
+Support Components
+A list of support components for SAP BTP services and tools. Filter for the service you want to find the component for or have a
+look at the tools and software logistics section.
+Service Components
+Service Availability
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Agentry
+Develop and run
+Agentry metadata-driven mobile
+applications.
+MOB-CLD-AGS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+Japan (Tokyo)
+UAE (Dubai)
+KSA (Riyadh)
+Available
+Note
+The table below lists the support components for services. If you are looking for components of tools or issues related to
+software logistics, see
+Additional Components.
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Alert Notification
+Create and
+receive real-time
+alerts about your
+services
+BC-CP-LCM-ANS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Japan (Tokyo)
+Canada
+(Toronto)
+Australia
+(Sydney)
+KSA (Riyadh)
+UAE (Dubai)
+Brazil (São
+Paulo)
+Yes
+Available
+Alert Notification
+Create and
+receive real-time
+alerts about your
+services
+BC-CP-LCM-ANS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Japan (Tokyo)
+Singapore
+Australia
+(Sydney)
+Canada
+(Montreal)
+Brazil (São
+Paulo)
+Europe
+(Frankfurt) EU
+Access
+South Korea
+(Seoul)
+Yes
+Available
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Alert Notification
+Create and
+receive real-time
+alerts about your
+services
+BC-CP-LCM-ANS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Switzerland
+(Zurich) EU
+Access
+Yes
+Available
+Alert Notification
+Create and
+receive real-time
+alerts about your
+services
+BC-CP-LCM-ANS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+India
+(Mumbai)
+Yes
+Available
+API Management
+Expose your data
+and processes as
+APIs and manage
+their lifecycles.
+OPU-API-OD
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+Australia
+(Sydney)
+Japan (Tokyo)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+API Management
+Expose your data
+and processes as
+APIs and manage
+their lifecycles.
+OPU-API-OD
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Brazil (São
+Paulo)
+Canada
+(Montreal)
+Yes
+Available
+API Management
+Expose your data
+and processes as
+APIs and manage
+their lifecycles.
+OPU-API-OD
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+API Management
+Expose your data
+and processes as
+APIs and manage
+their lifecycles.
+OPU-API-OD
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Mobile App and
+Device
+Management
+Manage your
+mobile devices.
+MOB-SEC
+Neo
+SAP
+Europe (Rot)*
+US East
+(Ashburn)
+US West
+(Chandler)
+Australia
+(Sydney)
+Japan (Tokyo)
+US East
+(Sterling)
+Yes
+Available
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Application
+Autoscaler
+Automatically
+increase or
+decrease the
+number of
+application
+instances.
+BC-CP-CF-AUTOSCALE
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+Canada
+(Montreal)
+Yes
+Available
+Application
+Autoscaler
+Automatically
+increase or
+decrease the
+number of
+application
+instances.
+BC-CP-CF-AUTOSCALE
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Application
+Autoscaler
+Automatically
+increase or
+decrease the
+number of
+application
+instances.
+BC-CP-CF-AUTOSCALE
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Application
+Autoscaler
+Automatically
+increase or
+decrease the
+number of
+application
+instances.
+BC-CP-CF-AUTOSCALE
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Application
+Logging Service
+Create, store, access, and
+analyze
+application logs.
+BC-NEO-LOG
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Application
+Logging Service
+Create, store, access, and
+analyze
+application logs.
+BC-CP-CF-APPLOG
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Application
+Logging Service
+Create, store, access, and
+analyze
+application logs.
+BC-CP-CF-APPLOG
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Application
+Logging Service
+Create, store, access, and
+analyze
+application logs.
+BC-CP-CF-APPLOG
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Application
+Logging Service
+Create, store, access, and
+analyze
+application logs.
+BC-CP-CF-APPLOG
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Authorization and
+Trust
+Management
+Service
+Manage
+application
+authorizations and
+trusted
+connections to
+identity providers.
+BC-NEO-SEC-IAM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Authorization and
+Trust
+Management
+Service
+Manage
+application
+authorizations and
+trusted
+connections to
+identity providers.
+BC-XS-SEC
+Cloud
+Foundry
+AWS
+US East (VA)
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+Authorization and
+Trust
+Management
+Service
+Manage
+application
+authorizations and
+trusted
+connections to
+identity providers.
+BC-XS-SEC
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+Authorization and
+Trust
+Management
+Service
+Manage
+application
+authorizations and
+trusted
+connections to
+identity providers.
+BC-XS-SEC
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Authorization and
+Trust
+Management
+Service
+Manage
+application
+authorizations and
+trusted
+connections to
+identity providers.
+BC-XS-SEC
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Big Data
+Services
+Ready-to-use, fully managed
+Hadoop and
+Spark.
+BC-NEO-BDS
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+10
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Blockchain
+Application
+Enablement
+Deliver
+blockchain-based
+services on any
+connected
+blockchain
+network.
+BC-BCS-VAS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+SAP Build
+Create interactive
+prototypes based
+on end-user
+feedback without
+code writing.
+MOB-UIA-BLD-GEN
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+UAE (Dubai)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+KSA (Riyadh)
+Yes
+Available
+Business Entity
+Recognition
+Detect and
+highlight entities
+from unstructured
+text using
+machine learning.
+CA-ML-BER
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Japan (Tokyo)
+Australia
+(Sydney)
+Europe
+(Frankfurt) EU
+Access
+Yes
+Available
+11
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Business Rules
+Enrich cloud
+offerings with
+decision
+modeling, management, and
+execution service.
+LOD-BPM-RUL
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+Australia
+(Sydney)
+Japan (Tokyo)
+UAE (Dubai)
+KSA (Riyadh)
+Available
+Business Rules
+Enrich cloud
+offerings with
+decision
+modeling, management, and
+execution service.
+LOD-BPM-RUL
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Australia
+(Sydney)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Brazil (São
+Paulo)
+South Korea
+(Seoul)
+Europe
+(Frankfurt) EU
+Access
+Canada
+(Montreal)
+Yes
+Available
+12
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Business Rules
+Enrich cloud
+offerings with
+decision
+modeling, management, and
+execution service.
+LOD-BPM-RUL
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Business Rules
+Enrich cloud
+offerings with
+decision
+modeling, management, and
+execution service.
+LOD-BPM-RUL
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Business Rules
+Enrich cloud
+offerings with
+decision
+modeling, management, and
+execution service.
+LOD-BPM-RUL
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Process
+Integration
+Seamlessly
+orchestrate
+business
+processes and
+integrate data in
+real time.
+LOD-HCI-PI-OPS-PROV
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+KSA (Riyadh)
+UAE (Dubai)
+Available
+13
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Connectivity
+Service
+Establish
+connections
+between cloud
+applications and
+on-premise
+systems.
+BC-NEO-CON
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Connectivity
+Service
+Establish
+connections
+between cloud
+applications and
+on-premise
+systems.
+BC-CP-CON-CF
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+14
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Connectivity
+Service
+Establish
+connections
+between cloud
+applications and
+on-premise
+systems.
+BC-CP-CON-CF
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Connectivity
+Service
+Establish
+connections
+between cloud
+applications and
+on-premise
+systems.
+BC-CP-CON-CF
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Connectivity
+Service
+Establish
+connections
+between cloud
+applications and
+on-premise
+systems.
+BC-CP-CON-CF
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Continuous
+Integration and
+Delivery
+Configure and run
+predefined
+pipelines for
+continuous
+integration and
+delivery.
+BC-CP-CF-CICD
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Japan (Tokyo)
+Yes
+Available
+Data Integration
+Integrate data
+between on-premise and cloud
+applications on a
+scheduled (batch)
+basis.
+LOD-HCI-DS
+Neo
+SAP
+UAE (Dubai)
+Australia
+(Sydney)
+Europe (Rot)*
+Japan (Tokyo)
+KSA (Riyadh)
+US West
+(Colorado
+Springs)
+Available
+15
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Credential Store
+Store and retrieve
+credentials such
+as cryptographic
+keys and
+passwords.
+BC-CP-CF-SEC-CPG
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Australia
+(Sydney)
+US East (VA)
+Brazil (São
+Paulo)
+Singapore
+Canada
+(Montreal)
+Japan (Tokyo)
+Yes
+Available
+Credential Store
+Store and retrieve
+credentials such
+as cryptographic
+keys and
+passwords.
+BC-CP-CF-SEC-CPG
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Yes
+Available
+Credential Store
+Store and retrieve
+credentials such
+as cryptographic
+keys and
+passwords.
+BC-CP-CF-SEC-CPG
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+Yes
+Available
+Credential Store
+Store and retrieve
+credentials such
+as cryptographic
+keys and
+passwords.
+BC-CP-CF-SEC-CPG
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+16
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Custom Domain
+Service
+Configure and
+expose your
+application under
+your own domain.
+BC-NEO-INFR
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Available
+Custom Domain
+Service
+Configure and
+expose your
+application under
+your own domain.
+BC-CP-CF-SEC-DOM
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+17
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Custom Domain
+Service
+Configure and
+expose your
+application under
+your own domain.
+BC-CP-CF-SEC-DOM
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Yes
+Available
+Custom Domain
+Service
+Configure and
+expose your
+application under
+your own domain.
+BC-CP-CF-SEC-DOM
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Custom Domain
+Service
+Configure and
+expose your
+application under
+your own domain.
+BC-CP-CF-SEC-DOM
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Data Attribute
+Recommendation
+Apply machine
+learning to predict
+and classify data
+records.
+CA-ML-DAR
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+Data Enrichment
+Create or enrich
+master data using
+trusted third-party
+data.
+LOD-MDM-DE
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Singapore
+Yes
+Available
+Data Quality
+Services
+Embed data
+quality services to
+validate
+addresses and
+enrich with
+geocodes.
+EIM-DQM-SVS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Yes
+Available
+18
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Java Debugging
+Debug your Java
+application even
+through networks
+with high latency.
+BC-JVM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Destination
+Service
+Retrieve
+information about
+destinations in the
+Cloud Foundry
+environment.
+BC-CP-DEST-CF
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+US East (VA)
+Yes
+Available
+19
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Destination
+Service
+Retrieve
+information about
+destinations in the
+Cloud Foundry
+environment.
+BC-CP-DEST-CF
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Australia
+(Sydney)
+Yes
+Available
+Destination
+Service
+Retrieve
+information about
+destinations in the
+Cloud Foundry
+environment.
+BC-CP-DEST-CF
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Destination
+Service
+Retrieve
+information about
+destinations in the
+Cloud Foundry
+environment.
+BC-CP-DEST-CF
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Mobile Services, users
+Build and run
+mobile apps for
+B2E and B2B use
+cases.
+MOB-CLD-OPS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+KSA (Riyadh)
+UAE (Dubai)
+Yes
+Available
+20
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Mobile Services, users
+Build and run
+mobile apps for
+B2E and B2B use
+cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+AWS
+Australia
+(Sydney)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+US East (VA)
+Europe
+(Frankfurt)
+Singapore
+Canada
+(Montreal)
+South Korea
+(Seoul)
+Europe
+(Frankfurt) EU
+Access
+Yes
+Available
+Mobile Services, users
+Build and run
+mobile apps for
+B2E and B2B use
+cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Japan (Tokyo)
+US East (VA)
+Singapore
+Yes
+Available
+Mobile Services, users
+Build and run
+mobile apps for
+B2E and B2B use
+cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+US Central
+(IA)
+India
+(Mumbai)
+Yes
+Available
+Mobile Services, users
+Build and run
+mobile apps for
+B2E and B2B use
+cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+21
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Mobile Services, consumers
+Build and run
+mobile apps for
+B2C use cases.
+MOB-CLD-OPS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+KSA (Riyadh)
+UAE (Dubai)
+Available
+Mobile Services, consumers
+Build and run
+mobile apps for
+B2C use cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+AWS
+Australia
+(Sydney)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+US East (VA)
+Europe
+(Frankfurt)
+Singapore
+Canada
+(Montreal)
+South Korea
+(Seoul)
+Europe
+(Frankfurt) EU
+Access
+Yes
+Available
+22
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Mobile Services, consumers
+Build and run
+mobile apps for
+B2C use cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Japan (Tokyo)
+US East (VA)
+Singapore
+Yes
+Available
+Mobile Services, consumers
+Build and run
+mobile apps for
+B2C use cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+US Central
+(IA)
+India
+(Mumbai)
+Yes
+Available
+Mobile Services, consumers
+Build and run
+mobile apps for
+B2C use cases.
+MOB-CLD-OPS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Document
+Classification
+Classify business
+documents
+automatically
+using machine
+learning.
+CA-ML-BDP
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+Document
+Information
+Extraction
+Automate your
+document
+information
+extraction
+processes.
+CA-ML-BDP
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Japan (Tokyo)
+US East (VA)
+Australia
+(Sydney)
+Yes
+Available
+23
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Document
+Management
+Service, Integration
+Option
+Provide API and UI
+based document
+management
+capabilities to
+your business
+applications.
+BC-CP-CF-SDM
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+Brazil (São
+Paulo)
+Canada
+(Montreal)
+Europe
+(Frankfurt) EU
+Access
+South Korea
+(Seoul)
+Yes
+Available
+Document
+Management
+Service, Integration
+Option
+Provide API and UI
+based document
+management
+capabilities to
+your business
+applications.
+BC-CP-CF-SDM
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Japan (Tokyo)
+Singapore
+Yes
+Available
+Document
+Management
+Service, Integration
+Option
+Provide API and UI
+based document
+management
+capabilities to
+your business
+applications.
+BC-CP-CF-SDM
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+US Central
+(IA)
+Yes
+Available
+24
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Document
+Service
+Store and manage
+your documents.
+BC-NEO-ECM-DS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+25
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Dynatrace Agent
+Activation
+Connect your Java
+applications to a
+Dynatrace SaaS
+monitoring
+environment.
+BC-NEO-MON-APM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Enhanced
+Disaster
+Recovery
+Restore your cloud
+production
+environment with
+minimal data loss.
+BC-NEO-DR
+Neo
+SAP
+Europe (Rot)*
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+Australia
+(Sydney)
+Available
+26
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Event Mesh
+Connect
+applications, services and
+systems across
+different
+landscapes.
+BC-CP-EM-MES
+Cloud
+Foundry
+AWS
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Europe
+(Frankfurt)
+Canada
+(Montreal)
+Yes
+Available
+Event Mesh
+Connect
+applications, services and
+systems across
+different
+landscapes.
+BC-CP-EM-MES
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Yes
+Available
+Event Mesh
+Connect
+applications, services and
+systems across
+different
+landscapes.
+BC-CP-EM-MES
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+Yes
+Available
+Event Mesh
+Connect
+applications, services and
+systems across
+different
+landscapes.
+BC-CP-EM-MES
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Extension
+Factory, serverless
+runtime
+Allows you to
+create, manage, configure
+extensions on SAP
+Cloud Platform
+BC-CP-XF-SRT
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Brazil (São
+Paulo)
+Canada
+(Montreal)
+Yes
+Available
+27
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Extension
+Factory, serverless
+runtime
+Allows you to
+create, manage, configure
+extensions on SAP
+Cloud Platform
+BC-CP-XF-SRT
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Japan (Tokyo)
+Singapore
+Yes
+Available
+Feature Flags
+Control the rollout
+of new features.
+BC-CP-CF-FEATUREFLG
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Australia
+(Sydney)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+Feature Flags
+Control the rollout
+of new features.
+BC-CP-CF-FEATUREFLG
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Yes
+Available
+Feature Flags
+Control the rollout
+of new features.
+BC-CP-CF-FEATUREFLG
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Feature Flags
+Control the rollout
+of new features.
+BC-CP-CF-FEATUREFLG
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+28
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP Fiori Cloud
+Revamp your user
+experience with
+SAP Fiori on SAP
+Cloud Platform.
+EP-CPP-NEO-OPS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+Europe
+(Amsterdam)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+SAP Fiori Mobile
+Optimize, build, manage, and
+monitor SAP Fiori
+apps on mobile
+devices.
+MOB-FM
+Neo
+SAP
+Europe (Rot)*
+US East
+(Ashburn)
+US West
+(Chandler)
+Australia
+(Sydney)
+Japan (Tokyo)
+US East
+(Sterling)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+Yes
+Available
+29
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Forms Service by
+Adobe
+Generate print and
+interactive forms
+using Adobe
+Document
+Services.
+BC-SRV-FP-NEO
+Neo
+SAP
+Europe (Rot)*
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+Australia
+(Sydney)
+Japan (Tokyo)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+UAE (Dubai)
+Europe
+(Amsterdam)
+KSA (Riyadh)
+Europe
+(Frankfurt)
+US West
+(Colorado
+Springs)
+Yes
+Available
+30
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Gamification
+Introduce
+gamification
+concepts into your
+applications.
+BC-NEO-SVC-GAM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+31
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Git Service
+Store and version
+source code in Git
+repositories.
+BC-NEO-GIT
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+HTML5
+Application
+Repository
+Service
+Enables storage of
+HTML5
+applications and
+provides runtime
+environment for
+HTML5
+applications.
+BC-CP-CF-HTML5
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Brazil (São
+Paulo)
+Canada
+(Montreal)
+Japan (Tokyo)
+Yes
+Available
+32
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+HTML5
+Application
+Repository
+Service
+Enables storage of
+HTML5
+applications and
+provides runtime
+environment for
+HTML5
+applications.
+BC-CP-CF-HTML5
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Yes
+Available
+HTML5
+Application
+Repository
+Service
+Enables storage of
+HTML5
+applications and
+provides runtime
+environment for
+HTML5
+applications.
+BC-CP-CF-HTML5
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Yes
+Available
+HTML5
+Application
+Repository
+Service
+Enables storage of
+HTML5
+applications and
+provides runtime
+environment for
+HTML5
+applications.
+BC-CP-CF-HTML5
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Hyperledger
+Fabric
+Create
+Hyperledger
+Fabric nodes and
+connect them to a
+blockchain
+network.
+BC-BCS-HL
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+Identity
+Authentication -Additional Tenant
+Secure
+authentication and
+single sign-on for
+users in the cloud.
+BC-IAM-IDS
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+Identity
+Authentication
+Secure
+authentication and
+single sign-on for
+users in the cloud.
+BC-IAM-IDS
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+33
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Identity
+Provisioning
+Manage identity
+lifecycle
+processes for
+cloud and on-premise systems.
+BC-IAM-IPS
+Neo
+SAP
+UAE (Dubai)
+Australia
+(Sydney)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+Japan (Tokyo)
+KSA (Riyadh)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Yes
+Available
+Intelligent
+Product Design
+Accelerate
+product innovation
+with instant
+collaboration and
+live product
+intelligence.
+PLM-DC
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Available
+Intelligent
+Product Design
+Accelerate
+product innovation
+with instant
+collaboration and
+live product
+intelligence.
+PLM-DC
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+Internet of Things
+Develop, customize, and
+operate IoT
+business
+applications in the
+cloud.
+BC-NEO-SVC-IOT
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+Invoice Object
+Recommendation
+Recommendation
+of the G/L
+accounts using
+machine learning.
+CA-ML-AR-GL
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+34
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Peppol Exchange
+Meet compliance
+requirements by
+exchanging
+documents with
+the Peppol
+network.
+LOD-LH-DCS-PAP
+Neo
+SAP
+Europe (Rot)*
+Available
+Java Server
+Develop and run
+Java Web
+applications on
+SAP Cloud
+Platform Neo
+Environment.
+BC-NEO-RT-JAV
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+35
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Job Scheduling
+Service
+Define and
+manage your jobs
+or Cloud Foundry
+tasks that run on
+one-time or
+recurring
+schedules.
+BC-XS-SRV-JBS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+Job Scheduling
+Service
+Define and
+manage your jobs
+or Cloud Foundry
+tasks that run on
+one-time or
+recurring
+schedules.
+BC-XS-SRV-JBS
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Yes
+Available
+Job Scheduling
+Service
+Define and
+manage your jobs
+or Cloud Foundry
+tasks that run on
+one-time or
+recurring
+schedules.
+BC-XS-SRV-JBS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Job Scheduling
+Service
+Define and
+manage your jobs
+or Cloud Foundry
+tasks that run on
+one-time or
+recurring
+schedules.
+BC-XS-SRV-JBS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+36
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Keystore Service
+Manage
+cryptographic
+keys and
+certificates.
+BC-NEO-SEC-CPG
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Kyma runtime
+Extend SAP
+solutions using
+cloud-native
+microservices and
+serverless
+Functions.
+BC-CP-XF-KYMA
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+37
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Java Apps
+Lifecycle
+Management
+Manage the
+lifecycle of Java
+applications by
+using a REST API.
+BC-NEO-DPL
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+SAP Live Link
+365 for
+Authentication
+Generate and
+validate
+configurable one-time PINs or
+verification codes.
+BC-IAM-IDS
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+SAP Live Link
+365 for SMS
+Send and receive
+SMSs globally via
+REST APIs. View
+traffic logs and
+analytics.
+CEC-DI-INE
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+38
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Rapid
+Application
+Development by
+Mendix
+Develop SAP
+business
+applications with
+a low-code, graphical toolset.
+XX-PART-MDX-RAD
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+MongoDB
+Implement a
+NoSQL document
+store.
+BC-NEO-BS-MONGO
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+MongoDB
+Implement a
+NoSQL document
+store.
+BC-NEO-BS-MONGO
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+MongoDB
+Implement a
+NoSQL document
+store.
+BC-NEO-BS-MONGO
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+39
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Monitoring
+Monitor Java, SAP
+HANA XS and
+HTML5
+applications, and
+databases.
+BC-NEO-MON
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+MultiChain
+Create MultiChain
+nodes and
+connect them to a
+blockchain
+network.
+BC-BCS-MC
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+40
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+OAuth 2.0
+Protect
+applications and
+APIs with OAuth
+2.0.
+BC-NEO-SEC-IAM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Object Store
+Supports storage
+and management
+of unstructured
+data (files, BLOBs).
+BC-CP-CF-OSAAS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+US East (VA)
+Yes
+Available
+41
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Object Store
+Supports storage
+and management
+of unstructured
+data (files, BLOBs).
+BC-CP-CF-OSAAS
+Cloud
+Foundry
+Azure
+Japan (Tokyo)
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Yes
+Available
+Object Store
+Supports storage
+and management
+of unstructured
+data (files, BLOBs).
+BC-CP-CF-OSAAS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+OData
+Provisioning
+Access data in
+SAP Business
+Suite using OData
+services.
+OPU-GW-OD-FW
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+KSA (Riyadh)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+Yes
+Available
+OData
+Provisioning
+Access data in
+SAP Business
+Suite using OData
+services.
+OPU-GW-OD-FW
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+OData
+Provisioning
+Access data in
+SAP Business
+Suite using OData
+services.
+OPU-GW-OD-FW
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Japan (Tokyo)
+Yes
+Available
+42
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Open Connectors
+Simplify
+integration via
+APIs
+LOD-OCN-OPS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US West
+(Chandler)
+US West
+(Colorado
+Springs)
+Yes
+Available
+Open Connectors
+Simplify
+integration via
+APIs
+LOD-OCN-OPS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Canada
+(Montreal)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Yes
+Available
+Open Connectors
+Simplify
+integration via
+APIs
+LOD-OCN-OPS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Open Connectors
+Simplify
+integration via
+APIs
+LOD-OCN-OPS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Yes
+Available
+SAP S/4HANA
+Cloud for
+Intelligent
+Product
+Selection
+Enable an
+intelligent
+customer
+experience for
+complex
+configurable
+products
+LOD-PCI
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+43
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Personalized
+Recommendation
+Personalized
+Recommendation
+draws insights
+from user data to
+deliver highly
+personalized
+recommendations.
+CA-ML-PR
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+Platform Identity
+Provider
+Use your user
+base from the
+identity
+authentication
+tenant for admin
+tasks.
+BC-NEO-SEC-IAM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Available
+44
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Cloud Portal
+Service
+Create role based, multi-channel
+sites to access
+business apps
+and content.
+EP-CPP-NEO-OPS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+Europe
+(Amsterdam)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Cloud Portal
+Service
+Create role based, multi-channel
+sites to access
+business apps
+and content.
+EP-CPP-CF-OPS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+Canada
+(Montreal)
+Europe
+(Frankfurt) EU
+Access
+South Korea
+(Seoul)
+Yes
+Available
+45
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Cloud Portal
+Service
+Create role based, multi-channel
+sites to access
+business apps
+and content.
+EP-CPP-CF-OPS
+Cloud
+Foundry
+Azure
+Singapore
+US West (WA)
+US East (VA)
+Europe
+(Netherlands)
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Cloud Portal
+Service
+Create role based, multi-channel
+sites to access
+business apps
+and content.
+EP-CPP-CF-OPS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+India
+(Mumbai)
+Yes
+Available
+Cloud Portal
+Service
+Create role based, multi-channel
+sites to access
+business apps
+and content.
+EP-CPP-CF-OPS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+PostgreSQL
+Consume an
+object-relational
+database with
+PostgreSQL.
+BC-NEO-BS-POSTGRES
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+46
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+PostgreSQL
+Consume an
+object-relational
+database with
+PostgreSQL.
+BC-NEO-BS-POSTGRES
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+PostgreSQL
+Consume an
+object-relational
+database with
+PostgreSQL.
+BC-NEO-BS-POSTGRES
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Pricing service
+Calculate prices
+for configurable-and non-configurable
+products
+LOD-CPS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Singapore
+Yes
+Available
+Pricing service
+Calculate prices
+for configurable-and non-configurable
+products
+LOD-CPS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+Yes
+Available
+Print Service
+Manage print
+queues, connect
+print clients and
+monitor print
+status
+BC-CCM-PRN-OM-SCP
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+Process Visibility
+Cloud Offering
+with End-to-End
+visibility on
+Business
+Processes
+LOD-BPM-VIS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Japan (Tokyo)
+Brazil (São
+Paulo)
+South Korea
+(Seoul)
+Europe
+(Frankfurt) EU
+Access
+Canada
+(Montreal)
+Yes
+Available
+47
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Process Visibility
+Cloud Offering
+with End-to-End
+visibility on
+Business
+Processes
+LOD-BPM-VIS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Process Visibility
+Cloud Offering
+with End-to-End
+visibility on
+Business
+Processes
+LOD-BPM-VIS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Process Visibility
+Cloud Offering
+with End-to-End
+visibility on
+Business
+Processes
+LOD-BPM-VIS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Variant
+Configuration
+service
+Configure your
+SAP ERP or SAP
+S/4HANA
+products
+interactively in the
+cloud
+LOD-CPS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Singapore
+Yes
+Available
+Variant
+Configuration
+service
+Configure your
+SAP ERP or SAP
+S/4HANA
+products
+interactively in the
+cloud
+LOD-CPS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+Yes
+Available
+48
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Java Profiling
+Profile and
+analyze your Java
+applications.
+BC-JVM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Quorum
+Create Quorum
+nodes and
+connect them to a
+blockchain
+network.
+BC-BCS-QRM
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+49
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+RabbitMQ
+Get robust
+asynchronous
+messaging
+between
+applications.
+BC-NEO-BS-RABBITMQ
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+RabbitMQ
+Get robust
+asynchronous
+messaging
+between
+applications.
+BC-NEO-BS-RABBITMQ
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+RabbitMQ
+Get robust
+asynchronous
+messaging
+between
+applications.
+BC-NEO-BS-RABBITMQ
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+50
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Redis
+Implement an in-memory caching
+layer with Redis.
+BC-NEO-BS-REDIS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+Redis
+Implement an in-memory caching
+layer with Redis.
+BC-NEO-BS-REDIS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+Redis
+Implement an in-memory caching
+layer with Redis.
+BC-NEO-BS-REDIS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Remote Data
+Sync
+Synchronize data
+between remote
+databases and a
+cloud SAP HANA
+database.
+BC-NEO-CON
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+Australia
+(Sydney)
+Japan (Tokyo)
+Yes
+Available
+51
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Data Retention
+Manager
+Manage retention
+and residence
+rules to block or
+delete personal
+data.
+LOD-GDP-RM
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Australia
+(Sydney)
+Yes
+Available
+Data Retention
+Manager
+Manage retention
+and residence
+rules to block or
+delete personal
+data.
+LOD-GDP-RM
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Yes
+Available
+SAP Business
+Application
+Studio
+Develop, debug, test, and deploy
+SAP business
+applications.
+CA-BAS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Australia
+(Sydney)
+Canada
+(Montreal)
+Japan (Tokyo)
+Brazil (São
+Paulo)
+Singapore
+Europe
+(Frankfurt) EU
+Access
+South Korea
+(Seoul)
+Yes
+Available
+SAP Business
+Application
+Studio
+Develop, debug, test, and deploy
+SAP business
+applications.
+CA-BAS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Japan (Tokyo)
+Singapore
+Yes
+Available
+SAP Business
+Application
+Studio
+Develop, debug, test, and deploy
+SAP business
+applications.
+CA-BAS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+India
+(Mumbai)
+Yes
+Available
+SAP Business
+Application
+Studio
+Develop, debug, test, and deploy
+SAP business
+applications.
+CA-BAS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+52
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Document
+Management
+Service, Application
+Option
+Organize your
+documents with
+ready-to-use
+document
+management
+capabilities.
+BC-CP-CF-SDM
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+Brazil (São
+Paulo)
+Canada
+(Montreal)
+Europe
+(Frankfurt) EU
+Access
+South Korea
+(Seoul)
+Yes
+Available
+Document
+Management
+Service, Application
+Option
+Organize your
+documents with
+ready-to-use
+document
+management
+capabilities.
+BC-CP-CF-SDM
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Japan (Tokyo)
+Singapore
+Yes
+Available
+Document
+Management
+Service, Application
+Option
+Organize your
+documents with
+ready-to-use
+document
+management
+capabilities.
+BC-CP-CF-SDM
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+US Central
+(IA)
+Yes
+Available
+SAP Analytics
+Cloud, embedded
+edition
+Analyze data via
+live connection to
+your business
+application's SAP
+HANA database.
+LOD-ANA-OEM-CP
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+Yes
+Available
+53
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP API
+Business Hub
+Discover, explore
+and test the APIs
+offered by SAP
+LOD-CHB
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+SAP ASE Service
+Create and
+consume SAP ASE
+databases.
+BC-NEO-PERS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+54
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP Build Work
+Zone, standard
+edition
+Simplify access to
+applications by
+establishing a
+central entry
+point.
+EP-CPP-CF-LND
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+Canada
+(Montreal)
+Europe
+(Frankfurt) EU
+Access
+South Korea
+(Seoul)
+Yes
+Available
+SAP Build Work
+Zone, standard
+edition
+Simplify access to
+applications by
+establishing a
+central entry
+point.
+EP-CPP-CF-LND
+Cloud
+Foundry
+Azure
+Singapore
+US West (WA)
+US East (VA)
+Europe
+(Netherlands)
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+SAP Build Work
+Zone, standard
+edition
+Simplify access to
+applications by
+establishing a
+central entry
+point.
+EP-CPP-CF-LND
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+India
+(Mumbai)
+Europe
+(Frankfurt)
+Yes
+Available
+SAP Build Work
+Zone, standard
+edition
+Simplify access to
+applications by
+establishing a
+central entry
+point.
+EP-CPP-CF-LND
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+55
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP Analytics
+Cloud
+Carry out
+business
+intelligence, planning, and
+predictive
+analysis tasks.
+LOD-ANA
+Neo
+SAP
+Europe (Rot)*
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+Europe
+(Frankfurt)
+UAE (Dubai)
+KSA (Riyadh)
+Available
+SAP Analytics
+Cloud
+Carry out
+business
+intelligence, planning, and
+predictive
+analysis tasks.
+LOD-ANA
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Yes
+Available
+SAP Analytics
+Cloud
+Carry out
+business
+intelligence, planning, and
+predictive
+analysis tasks.
+LOD-ANA
+Cloud
+Foundry
+Azure
+US West (WA)
+Europe
+(Netherlands)
+Yes
+Available
+SAP Analytics
+Cloud
+Carry out
+business
+intelligence, planning, and
+predictive
+analysis tasks.
+LOD-ANA
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+56
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Cloud Foundry
+Runtime
+Operate polyglot
+cloud applications
+in Cloud Foundry.
+BC-CP-CF
+Cloud
+Foundry
+AWS
+US East (VA)
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Canada
+(Montreal)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Yes
+Available
+Cloud Foundry
+Runtime
+Operate polyglot
+cloud applications
+in Cloud Foundry.
+BC-CP-CF
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Cloud Foundry
+Runtime
+Operate polyglot
+cloud applications
+in Cloud Foundry.
+BC-CP-CF
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Cloud Foundry
+Runtime
+Operate polyglot
+cloud applications
+in Cloud Foundry.
+BC-CP-CF
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+57
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Integration Suite
+Integrate
+applications, services, and
+systems across
+landscapes.
+LOD-HCI-PI
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Canada
+(Montreal)
+Australia
+(Sydney)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+Integration Suite
+Integrate
+applications, services, and
+systems across
+landscapes.
+LOD-HCI-PI
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+Integration Suite
+Integrate
+applications, services, and
+systems across
+landscapes.
+LOD-HCI-PI
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+SAP
+Conversational AI
+Build and deploy
+innovative
+chatbots using
+this
+comprehensive
+end-to-end
+platform.
+CA-ML-CAI
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+SAP Customer
+Order Sourcing
+Calculate sourcing
+results based on
+your own sourcing
+strategies.
+LOD-CID-OSR
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+SAP Data
+Intelligence
+Orchestrate, refine, enrich, apply intelligence
+on your governed
+data across your
+entire distributed
+data landscape.
+CA-DI
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Australia
+(Sydney)
+Japan (Tokyo)
+Yes
+Available
+58
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP Data
+Intelligence
+Orchestrate, refine, enrich, apply intelligence
+on your governed
+data across your
+entire distributed
+data landscape.
+CA-DI
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Yes
+Available
+SAP Document
+Center
+Use uniform
+standard-based
+file access and
+mobilize your
+business content.
+BC-NEO-ECM-APP
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+SAP Excise Tax
+Management
+Help Excise Tax
+customers
+calculate, track, and comply with
+excise duty tax
+requirements in
+real time
+LOD-ET-INT
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+59
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP HANA Cloud
+A single gateway
+to all your data.
+HAN-CLS-HC
+Cloud
+Foundry
+AWS
+Australia
+(Sydney)
+Singapore
+Brazil (São
+Paulo)
+Canada
+(Montreal)
+Europe
+(Frankfurt)
+Japan (Tokyo)
+US East (VA)
+Yes
+Available
+SAP HANA Cloud
+A single gateway
+to all your data.
+HAN-CLS-HC
+Cloud
+Foundry
+Azure
+Singapore
+Europe
+(Netherlands)
+Japan (Tokyo)
+US West (WA)
+US East (VA)
+Yes
+Available
+SAP HANA Cloud
+A single gateway
+to all your data.
+HAN-CLS-HC
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+Yes
+Available
+SAP HANA
+spatial services
+SAP HANA spatial
+services provides
+a set of APIs for
+location-based
+services.
+BC-CP-CF-HSS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+60
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP HANA
+Service
+Create and
+consume SAP
+HANA databases.
+BC-NEO-PERS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+SAP HANA
+Service
+Create and
+consume SAP
+HANA databases.
+HAN-CLS-DB
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Yes
+Available
+61
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP HANA
+Service
+Create and
+consume SAP
+HANA databases.
+HAN-CLS-DB
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+SAP HANA
+Service
+Create and
+consume SAP
+HANA databases.
+HAN-CLS-DB
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Yes
+Available
+SAP HANA
+Service
+Create and
+consume SAP
+HANA databases.
+HAN-CLS-DB
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+SAP Intelligent
+Robotic Process
+Automation
+Design, configure, and execute
+automation
+projects.
+CA-ML-IPA
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Australia
+(Sydney)
+Japan (Tokyo)
+US East (VA)
+Yes
+Available
+SAP Intelligent
+Robotic Process
+Automation
+Design, configure, and execute
+automation
+projects.
+CA-ML-IPA
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+SAP IoT
+Put raw sensor
+data into business
+context and
+leverage it in
+analytical or
+transactional
+applications.
+IOT-BSV-APB
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+SAP IoT
+Put raw sensor
+data into business
+context and
+leverage it in
+analytical or
+transactional
+applications.
+IOT-BSV-APB
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+Yes
+Available
+62
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP IoT Connect
+365
+Simplify the
+complex
+connectivity, scalability, and
+management of
+IoT.
+BC-NEO-SVC-IOT
+SAP
+This service
+does not run
+on standard
+SAP Cloud
+Platform
+regions.
+Check out this
+note for
+further
+details.
+Available
+Launchpad
+Service
+Simplify access to
+applications by
+establishing a
+central launchpad.
+EP-CPP-CF-LND
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+Canada
+(Montreal)
+Europe
+(Frankfurt) EU
+Access
+South Korea
+(Seoul)
+Yes
+Available
+Launchpad
+Service
+Simplify access to
+applications by
+establishing a
+central launchpad.
+EP-CPP-CF-LND
+Cloud
+Foundry
+Azure
+Singapore
+US West (WA)
+US East (VA)
+Europe
+(Netherlands)
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Launchpad
+Service
+Simplify access to
+applications by
+establishing a
+central launchpad.
+EP-CPP-CF-LND
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+India
+(Mumbai)
+Europe
+(Frankfurt)
+Yes
+Available
+Launchpad
+Service
+Simplify access to
+applications by
+establishing a
+central launchpad.
+EP-CPP-CF-LND
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+63
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP Leonardo
+ML Foundation
+Infuse your
+applications with
+intelligent, easy-to-use services
+based on Machine
+Learning.
+CA-ML-PLT
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Japan (Tokyo)
+Yes
+Available
+SAP Leonardo
+ML Foundation
+Infuse your
+applications with
+intelligent, easy-to-use services
+based on Machine
+Learning.
+CA-ML-PLT
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Yes
+Available
+Market Rates, Bring Your Own
+Rates
+Upload market
+rates and
+download the
+same multiple
+times from
+different systems.
+LOD-CBS-CS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+Market Rates, Refinitiv
+Get daily and
+historical
+Exchange Rates
+and Interest Rates
+from Refinitiv.
+LOD-CBS-CS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+SAP
+Omnichannel
+Promotion
+Pricing
+Calculate effective
+sales prices by
+applying
+promotional rules.
+LOD-CID-OPP
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+SAP
+Omnichannel
+Promotion
+Pricing
+Calculate effective
+sales prices by
+applying
+promotional rules.
+LOD-CID-OPP
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+Yes
+Available
+SAP Process
+Mining by
+Celonis, cloud
+edition
+Mine data from
+your operational
+systems, visualize
+processes, and
+transform your
+business with AI.
+XX-PART-CEL
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+SAP Procurement
+Intelligence
+Automate and
+simplify your
+business
+processes by
+applying machine
+learning
+intelligence.
+CA-ML-PA
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Yes
+Available
+64
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP RealSpend
+Manage and track
+expenses, and
+compare them
+against your
+budget in real
+time.
+LOD-MAP-RS
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Available
+SAP S/4HANA
+Cloud
+Extensibility
+Connects
+extension
+applications
+running in a
+subaccount in SAP
+BTP to an SAP
+S/4HANA Cloud
+system.
+BC-NEO-EXT-S4C
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+Canada
+(Montreal)
+Yes
+Available
+SAP S/4HANA
+Cloud
+Extensibility
+Connects
+extension
+applications
+running in a
+subaccount in SAP
+BTP to an SAP
+S/4HANA Cloud
+system.
+BC-NEO-EXT-S4C
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Japan (Tokyo)
+Yes
+Available
+SAP S/4HANA
+Cloud
+Extensibility
+Connects
+extension
+applications
+running in a
+subaccount in SAP
+BTP to an SAP
+S/4HANA Cloud
+system.
+BC-NEO-EXT-S4C
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+SAP
+SuccessFactors
+Extensibility
+Connects
+extension
+applications
+running in a
+subaccount in SAP
+BTP to an SAP
+SuccessFactors
+system.
+BC-NEO-EXT-SF
+Cloud
+Foundry
+AWS
+Brazil (São
+Paulo)
+Australia
+(Sydney)
+Europe
+(Frankfurt)
+US East (VA)
+Canada
+(Montreal)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+65
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP
+SuccessFactors
+Extensibility
+Connects
+extension
+applications
+running in a
+subaccount in SAP
+BTP to an SAP
+SuccessFactors
+system.
+BC-NEO-EXT-SF
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Japan (Tokyo)
+Yes
+Available
+SAP
+SuccessFactors
+Extensibility
+Connects
+extension
+applications
+running in a
+subaccount in SAP
+BTP to an SAP
+SuccessFactors
+system.
+BC-NEO-EXT-SF
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+SAP Translation
+Hub
+Translate UI texts
+and get
+suggestions for UI
+texts during
+development.
+LOD-TH
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+Australia
+(Sydney)
+Japan (Tokyo)
+Europe
+(Frankfurt)
+Yes
+Available
+66
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+SAP Web IDE
+Full-Stack
+Create and extend
+SAP full-stack
+applications for
+browsers and
+mobile devices.
+CA-WDE-PLFRM
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+Service Manager
+The central
+registry for
+service brokers
+and platforms in
+SAP BTP
+BC-NEO-SVCMGR
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Australia
+(Sydney)
+Singapore
+Canada
+(Montreal)
+Yes
+Available
+Service Manager
+The central
+registry for
+service brokers
+and platforms in
+SAP BTP
+BC-NEO-SVCMGR
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Japan (Tokyo)
+Singapore
+Yes
+Available
+67
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Service Manager
+The central
+registry for
+service brokers
+and platforms in
+SAP BTP
+BC-NEO-SVCMGR
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+Service Ticket
+Intelligence
+Build a self-driven
+customer service
+powered by
+machine learning.
+CA-ML-STI
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Yes
+Available
+Service Ticket
+Intelligence
+Build a self-driven
+customer service
+powered by
+machine learning.
+CA-ML-STI
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Yes
+Available
+SAP Smart
+Business Service
+Expose KPIs and
+OPIs as SAP Fiori
+applications
+without the need
+to write any code.
+CA-GTF-SB-HCP
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+Australia
+(Sydney)
+Japan (Tokyo)
+Europe
+(Frankfurt)
+US East
+(Sterling)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+Yes
+Available
+SAP Smart
+Business Service
+Expose KPIs and
+OPIs as SAP Fiori
+applications
+without the need
+to write any code.
+CA-GTF-SB-HCP
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+68
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Solutions
+Lifecycle
+Management
+Deploy, subscribe
+and transport
+solutions using
+multi-target
+applications
+(MTAs).
+BC-NEO-LCM-SRV
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+Australia
+(Sydney)
+Japan (Tokyo)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+69
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Streaming
+Analytics
+Process
+continuous
+streams of event
+data in real time
+and act on the
+results.
+HAN-SDS
+Neo
+SAP
+Europe (Rot)*
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+KSA (Riyadh)
+Europe
+(Amsterdam)
+Europe
+(Frankfurt)
+UAE (Dubai)
+Available
+Tax Service
+Determine and
+calculate indirect
+taxes to support
+tax compliance.
+LOD-LH-TAX
+Neo
+SAP
+Europe (Rot)*
+US East
+(Sterling)
+Available
+Tax Service
+Determine and
+calculate indirect
+taxes to support
+tax compliance.
+LOD-LH-TAX
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Yes
+Available
+Tax Service
+Determine and
+calculate indirect
+taxes to support
+tax compliance.
+LOD-LH-TAX
+Cloud
+Foundry
+Azure
+US West (WA)
+Yes
+Available
+70
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Cloud Transport
+Management
+Provides
+programmatic
+access to Cloud
+Transport
+Management.
+BC-CP-LCM-TMS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+US East (VA)
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Canada
+(Montreal)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Yes
+Available
+Cloud Transport
+Management
+Provides
+programmatic
+access to Cloud
+Transport
+Management.
+BC-CP-LCM-TMS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Japan (Tokyo)
+Switzerland
+(Zurich) EU
+Access
+Yes
+Available
+Cloud Transport
+Management
+Provides
+programmatic
+access to Cloud
+Transport
+Management.
+BC-CP-LCM-TMS
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+US Central
+(IA)
+India
+(Mumbai)
+Yes
+Available
+71
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+UI Theme
+Designer
+Apply your
+corporate
+branding to
+applications
+based on SAPUI5
+technology.
+CA-UI2-THD
+Neo
+SAP
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Australia
+(Sydney)
+Japan (Tokyo)
+Canada
+(Toronto)
+Brazil (São
+Paulo)
+UAE (Dubai)
+KSA (Riyadh)
+Yes
+Available
+UI Theme
+Designer
+Apply your
+corporate
+branding to
+applications
+based on SAPUI5
+technology.
+CA-UI2-THD
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Brazil (São
+Paulo)
+Canada
+(Montreal)
+US East (VA)
+Australia
+(Sydney)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+UI Theme
+Designer
+Apply your
+corporate
+branding to
+applications
+based on SAPUI5
+technology.
+CA-UI2-THD
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+Japan (Tokyo)
+Singapore
+US East (VA)
+Yes
+Available
+72
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+UI Theme
+Designer
+Apply your
+corporate
+branding to
+applications
+based on SAPUI5
+technology.
+CA-UI2-THD
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+Yes
+Available
+UI Theme
+Designer
+Apply your
+corporate
+branding to
+applications
+based on SAPUI5
+technology.
+CA-UI2-THD
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+UI5 fiexibility for
+key users
+Add UI adaptation
+to your UI5
+applications.
+CA-UI5-FL-CLS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Japan (Tokyo)
+Singapore
+South Korea
+(Seoul)
+Australia
+(Sydney)
+Canada
+(Montreal)
+Europe
+(Frankfurt) EU
+Access
+Brazil (São
+Paulo)
+Yes
+Available
+UI5 fiexibility for
+key users
+Add UI adaptation
+to your UI5
+applications.
+CA-UI5-FL-CLS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+Australia
+(Sydney)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+UI5 fiexibility for
+key users
+Add UI adaptation
+to your UI5
+applications.
+CA-UI5-FL-CLS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Europe
+(Frankfurt)
+India
+(Mumbai)
+Yes
+Available
+73
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Virtual Machines
+Virtualized
+hardware
+resources (CPU, RAM, disk space, installed OS) to
+install and
+maintain the
+Linux-based
+software.
+BC-NEO-INFR-VM
+Neo
+SAP
+Europe (Rot)*
+Australia
+(Sydney)
+US East
+(Sterling)
+Available
+Web Analytics
+Analyze usage of
+your websites and
+web applications.
+CA-SWA
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+US East (VA)
+Australia
+(Sydney)
+Brazil (São
+Paulo)
+Japan (Tokyo)
+Singapore
+Yes
+Available
+Web Analytics
+Analyze usage of
+your websites and
+web applications.
+CA-SWA
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Yes
+Available
+Workfiow
+Management
+Digitize workfiows, manage decisions
+and gain end-to-end process
+visibility
+LOD-BPM-PFS
+Cloud
+Foundry
+AWS
+Europe
+(Frankfurt)
+Australia
+(Sydney)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Brazil (São
+Paulo)
+South Korea
+(Seoul)
+Europe
+(Frankfurt) EU
+Access
+Canada
+(Montreal)
+Yes
+Available
+74
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Workfiow
+Management
+Digitize workfiows, manage decisions
+and gain end-to-end process
+visibility
+LOD-BPM-PFS
+Cloud
+Foundry
+Azure
+Europe
+(Netherlands)
+US West (WA)
+US East (VA)
+Singapore
+Japan (Tokyo)
+Australia
+(Sydney)
+Yes
+Available
+Workfiow
+Management
+Digitize workfiows, manage decisions
+and gain end-to-end process
+visibility
+LOD-BPM-PFS
+Cloud
+Foundry
+GCP
+US Central
+(IA)
+Yes
+Available
+Workfiow
+Management
+Digitize workfiows, manage decisions
+and gain end-to-end process
+visibility
+LOD-BPM-PFS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Workfiow
+Automate
+business
+processes using
+workfiow
+technology.
+LOD-BPM-WFS
+Neo
+SAP
+UAE (Dubai)
+Australia
+(Sydney)
+Brazil (São
+Paulo)
+Canada
+(Toronto)
+Europe (Rot)*
+Europe
+(Frankfurt)
+Europe
+(Amsterdam)
+Japan (Tokyo)
+KSA (Riyadh)
+US East
+(Ashburn)
+US West
+(Chandler)
+US East
+(Sterling)
+US West
+(Colorado
+Springs)
+Available
+75
+Service Name
+Short Description
+Support
+Component
+Environment
+Infrastructure
+Region
+Available
+as Trial
+Release
+Status
+Workfiow
+Automate
+business
+processes using
+workfiow
+technology.
+LOD-BPM-WFS
+Cloud
+Foundry
+AWS
+Australia
+(Sydney)
+Singapore
+South Korea
+(Seoul)
+Brazil (São
+Paulo)
+Canada
+(Montreal)
+Europe
+(Frankfurt)
+Europe
+(Frankfurt) EU
+Access
+Japan (Tokyo)
+US East (VA)
+Yes
+Available
+Workfiow
+Automate
+business
+processes using
+workfiow
+technology.
+LOD-BPM-WFS
+Cloud
+Foundry
+Azure
+Australia
+(Sydney)
+Singapore
+Europe
+(Netherlands)
+Japan (Tokyo)
+US West (WA)
+US East (VA)
+Yes
+Available
+Workfiow
+Automate
+business
+processes using
+workfiow
+technology.
+LOD-BPM-WFS
+Cloud
+Foundry
+GCP
+Europe
+(Frankfurt)
+US Central
+(IA)
+Yes
+Available
+Workfiow
+Automate
+business
+processes using
+workfiow
+technology.
+LOD-BPM-WFS
+Cloud
+Foundry
+Alibaba
+China
+(Shanghai)**
+Yes
+Available
+Additional Components
+Tools
+Name
+Support Component
+SAP BTP Cockpit
+BC-NEO-CPT [Feature Set A]
+BC-CP-CPT [Feature Set B]
+BC-CP-CF-CPT [Cloud Foundry environment UI]
+76
+Name
+Support Component
+SAP BTP Command Line Interface
+BC-CP-TOOLS-CLI
+SAP BTP Console Client
+BC-NEO-CMDTOOL
+SAP UI Development Toolkit for HTML5 (SAPUI5)
+CA-WDE
+SDK for SAP BTP, Neo Environment
+BC-NEO-SDK
+SAP HANA Cockpit 2.0
+HAN-CLS-CPT
+Software Logistics
+Name
+Support Component
+Deployment (Neo Environment)
+BC-NEO-DPL
+Deployment (Cloud Foundry Environment)
+BC-XS-SL-DS
+Other
+Name
+Support Component
+Infrastructure (Neo environment)
+BC-NEO-IT-NW
+SAP Cloud Management Service
+BC-NEO-CIS
+SAP Usage Data Management Service
+BC-NEO-MET-REP
+SAP Audit Log service
+BC-NEO-AUDITLOG (Neo environment)
+BC-CP-CF-SEC-AUDITLG (Cloud Foundry environment)
+SAP Streaming Analytics
+HAN-SDS
+SAP Cloud Application Programming Model (CAP)
+BC-XS-CDX
+BC-XS-CDX-COR (Compiler and CDS Language)
+BC-XS-CDX-JAV (Java Runtime)
+BC-XS-CDX-NJS (Node.js Runtime)
+BC-XS-CDX-TLS (Tools, IDEs, Build, Deployment)

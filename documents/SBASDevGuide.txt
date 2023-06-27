@@ -1,0 +1,5045 @@
+Developer Guide
+With SAP Business Application Studio, you can develop business applications for the Intelligent Enterprise.
+Note
+Available in AWS and Azure regions
+only.
+Note
+Available in AWS and Azure regions
+only.
+Note
+o work in SAP Business Application Studio, your subaccount must be subscribed to the SAP Business Application Studio
+application. See
+Getting Started.
+If you are woking in a trial account, follow the procedure in
+Getting Started with a T
+rial Account.
+38
+Dev Spaces in SAP Business Application Studio
+A dev space is a development environment with the tools, capabilities, and resources needed for developing your
+application.
+Working in SAP Business Application Studio
+SAP Business Application Studio provides the features needed for the entire life cycle of your application, from the
+moment you create the project until it is ready to be deployed.
+Working with a Trial Account
+Get a trial account to experience SAP Business Application Studio for free.
+Restrictions
+Troubleshooting
+Contact SAP Support
+We suggest you report an incident or error through the SAP Support Portal.
+Dev Spaces in SAP Business Application Studio
+A dev space is a development environment with the tools, capabilities, and resources needed for developing your application.
+A dev space provides tailored tools and pre-installed runtimes for your business scenario. This simplifies and saves time in
+setting up your development environment and allows you to efficiently develop, test, build, and run your solution locally or in the
+cloud.
+Each dev space type contains a set of predefined extensions that help improve your experience.
+An SAP Business Application Studio extension is a set of tools that help you perform a specific development task. For example, the
+Java Tools
+extension provides you with the tools that you need to develop a Java application. The
+Fiori Tools
+extension
+includes the templates, CLI, and code completion required to create an SAP Fiori application.
+During dev space creation, you can choose to add additional extensions to the dev space. The additional extensions provide
+additional tools to supplement the application with additional components for the scenario to your developer environment. See
+Additional Extensions.
+You can also add extensions to an existing dev space. See
+Add Extensions to Your Dev Space.
+When creating a new dev space, select the dev space type that best fits the application you want to create. See
+Dev Space
+Types.
+Configure Your Dev Space Settings
+You can configure your preferred settings for working in the dev space: 1. Open your dev space.
+2. From the left-side menu, select
+File
+Preferences
+Settings
+3. Configure your settings: Keyboard shortcuts
+Color theme
+File icon theme
+General preferences
+Note
+39
+You can create, delete, stop, and start dev spaces. You can also download dev space content, and import dev space content. See
+Working in the Dev Space Manager.
+Using Additional Tools
+It is possible to install additional tools on a dev space or consume additional software components for developing applications
+using the terminal, the dedicated UI, or directly in the code.
+Working in the Dev Space Manager
+You can create, delete, stop, and start dev spaces. You can also download dev space content, and import dev space content.
+Create a Dev Space
+You can generate a dev space to create and manage applications. You can select the application type that includes the
+extensions that you need to do a development task.
+1. Open SAP Business Application Studio and log in with your credentials.
+2. Click
+Create Dev Space
+3. Enter a name for the dev space.
+4. Select the relevant application type.
+5. (Optional) Select the relevant additional extensions to enhance your space.
+You can also add or remove extensions later. See the
+Add Extensions to Your Dev Space section.
+6. Click
+Create Dev Space
+Settings are relevant per dev space. You must configure your settings for each dev space separately.
+Note
+Dev spaces not used for more than 30 days are archived to save on disk space. You can still access them just like any other
+dev space, but they might take up to 1 minute longer to load.
+Note
+SAP provides you with a mechanism to access third party sites to view and download open-source, 3rd party or its own tools, libraries, or software components (“Extensions”) to dev spaces in SAP Business Application Studio. Using this mechanism, you can view and install Extensions at your own risk.
+SAP does not certify or endorse any of the third-party sites or Extensions, and they are not part of SAP Business Application
+Studio.
+You must ensure that you have all the necessary rights to use these Extensions.
+You are responsible for all aspects of the Extensions, including maintenance, management, security, and support.
+You will assume all responsibility for any negative effects caused by or relating to the Extensions.
+SAP may disable any dev space that includes Extensions that cause system malfunction or that SAP reasonably believes
+may cause harm to SAP systems.
+40
+Stop, Start, or Delete Your Dev Space
+If you don't need to work with your dev space for a while, you can stop your dev space. When your dev space is running, it
+consumes memory, energy, and CPU. If you don't use your dev space and it sits idle for a while, the dev space is stopped.
+When you restart your stopped dev space, all content in your dev space, including files and settings, are available. If you want to
+apply updates to extensions and bug fixes, you must stop your dev space and start it again.
+You can also delete your dev space.
+Add or Remove Extensions
+You can change the extensions you selected for your dev space.
+1. From the Dev Space Manager, click
+to edit the dev space.
+2. Select the additional SAP extensions that you want to add, or clear the checkmark from extensions you want to remove.
+3. Click
+Save Changes
+Download Dev Space Content
+You can download the dev space content in the following situations: When your dev space is in the
+RUNNING
+state to save the dev space contents.
+When your dev space is in the
+ERROR
+state to recover your data and move the contents to another dev space.
+o download the content of your dev space, click
+and then
+Download
+Note
+You can only click the button if you entered a dev space name.
+Note
+Dev Space creation is infiuenced by the application plan you are using.
+If you are using a productive account, see SAP Business Application Studio Restrictions.
+If you are using a free account, see Free Plan Restrictions.
+If you are using a trial account, see T
+rial Account Restrictions.
+Note
+By creating a dev space, you create a project and file system for yourself. If you delete your dev space, you can't recover it.
+We recommend syncing, backing up, and saving your project to a Git repository. See Connect to Your Git Source Control
+System.
+Note
+o edit an extension, the dev space must be in the stopped state.
+41
+If your dev space is in the
+ERROR
+state, after the download begins, the dev space state changes to
+STARTING. The dev space
+state then changes to
+SAFE MODE
+and then the
+tar
+file downloads.
+After the dev space changes to
+SAFE MODE, it's not possible to return to the
+RUNNING
+state. You can only download the dev
+space content and delete the dev space.
+When the export process is complete, the
+tar
+file, with the dev space content, is downloaded.
+Import Dev Space Content
+After downloading the dev space content, you can import the content to another dev space: 1. Create a new dev space, start it, and open it.
+2. From the Explorer view, click
+Open Folder
+The path to the
+user
+folder (/home/user/) is displayed in the command palette.
+3. Click
+OK
+to open the
+user
+folder.
+4. Right-click the
+projects
+folder and click
+Upload...
+5. From the
+Downloads
+folder, choose the file with the dev space content.
+6. Right-click the
+projects
+folder and click
+Open in Integrated Terminal
+7. Enter the following command to uncompress the uploaded file: Dev Space Types
+When creating a new dev space, select the dev space type that best fits the application you want to create.
+SAP Business Application Studio has the following dev space types: SAP Fiori: Develop SAP Fiori applications based on various environments, including Cloud Foundry, ABAP Cloud, and SAP
+S/4HANA.
+Full-Stack Application Using Productivity T
+ools: Easily develop, test, build, and deploy apps using high productivity tools.
+Full Stack Cloud Application: Build business services, business applications, and extend S/4HANA using the SAP Cloud
+Application Programming Model, Fiori and Java
+or
+Node.js
+SAP HANA Native Application: Build and deploy native SAP HANA applications or analytical models. This dev space
+contains a comprehensive set of editors to support the creation of database artifacts (calculation views, tables, SQLScript procedures, and more), as well as tools to enable an end-to-end development fiow from project creation to
+the deployment to the SAP BTP.
+SAP Mobile Application: The SAP Mobile Development Kit (MDK) lets you customize, deploy, and manage your
+customized iOS and Android apps in the cloud.
+Note
+After exporting the dev space content, check the size of the dev space before uploading. Make sure that the size doesn't
+exceed 10 GB.
+tar
+xvzf
+<Your.tar.gzFile>
+42
+Basic: Contains the SAP basic tools extension.
+SAP Fiori
+Develop SAP Fiori applications based on various environments: Cloud Foundry, ABAP on-prem, and ABAP Cloud.
+See
+Develop SAP Fiori Applications with SAP Fiori tools.
+Migration from SAP Web IDE
+If you have projects that were created using SAP Web IDE, you can migrate them to SAP Business Application Studio. See
+Migration in the
+SAP Fiori tools Users Guide.
+The SAP Fiori scenario contains the following predefined extensions: SAPUI5 Adaptation Project
+Allows you to extend SAPUI5 applications, using the Adaptation Project and the Visual Editor. See
+Extending an SAP Fiori
+Application.
+Basic Tools
+Allows you to optimize your web development workfiow. The extension includes capabilities such as a code editor, file
+management capabilities, split view and window management, preferences and settings.
+Fiori Freestyle Tools
+Allows you to optimize your Fiori-based development. This extension provides Fiori templates with the following tools: UI5 CLI
+Grunt CLI
+abap-deploy CLI
+HTML5 Runner
+Allows you to locally run HTML5 applications. This extension includes the HTML5 application runner and run
+configurations.
+See
+Create Run Configurations for HTML5 Applications.
+MTA Tools
+Allows you to perform operations such as build, deployment, and validation on multitarget applications. The following
+tools will be installed as part of the extension: Cloud Foundry environment CLI
+Cloud Foundry environment deployment plugin
+Cloud MTA Build T
+ool
+MTA module runner (VS Code extension)
+See MTA T
+ools.
+SAP Fiori Tools
+Allows you to simplify the development of SAP Fiori elements applications by providing extensions that can help you
+create applications, visualize navigation, automatically generate code, and more. The following extensions will be
+43
+installed: Fiori elements Yeoman Generator
+Application Modeler
+Guided Development
+Service Modeler
+XML Annotation Language Server
+See
+Getting Started with SAP Fiori tools.
+Startup Server
+Allows you to leverage a trigger and perform an action.
+SAPUI5 Layout Editor & Extensibility
+Allows you to visually develop your XML view and extend an existing SAPUI5 application that resides in the SAPUI5 ABAP
+repository.
+See
+Working with the Layout Editor and
+Extend SAPUI5 Applications.
+Full-Stack Application Using Productivity Tools
+Easily develop, test, build, and deploy apps using high productivity tools.
+See
+Develop a Business Application Using Productivity T
+ools.
+The Full-Stack Application Using Productivity T
+ools scenario contains the following predefined extensions: Basic Tools
+Allows you to optimize your web development workfiow. The extension includes capabilities such as a code editor, file
+management capabilities, split view and window management, preferences and settings.
+CDS Graphical Modeler
+Allows you to design SAP core data service models in SAP Cloud Business Application development projects.
+The extension includes the CDS Editor, which provides capabilities for SAP business developers to visually design SAP
+CDS models. Models include artifacts, such as entities, types, unstructured types, enums, arrayed types, events, associations and compositions, and projects and services, which accelerate SAP Cloud Business Application
+development.
+See
+Design CDS Models Using SAP Business Application Studio.
+CAP Tools
+Allows you to develop applications based on CDS using the CDS command line and tools.
+Includes enhanced code editors and database management capabilities.
+Productivity Tools
+Collection of low code tools enabling developers to easily build full stack applications for desktop and mobile use.
+Mobile Services App Development Tools
+44
+Allows you to build end to end mobile applications. From modeling and generating OData services, creating mobile native
+apps from metadata with MDK to building content for SAP Mobile Cards.
+Fiori Freestyle Tools
+Allows you to optimize your Fiori-based development. This extension provides Fiori templates with the following tools: UI5 CLI
+Grunt CLI
+abap-deploy CLI
+HTML5 Runner
+Allows you to locally run HTML5 applications. This extension includes the HTML5 application runner and run
+configurations.
+See
+Create Run Configurations for HTML5 Applications.
+Java Tools
+Allows you to develop, test, and run Java applications. Includes debugging capabilities and enhanced code editors. The
+following tools are installed as part of the extension: Redhat Java V 0.76.0
+Project Manager for Java V 0.18.1
+Java T
+est Runner V 0.28.0
+Wing Java Run V 1.6.0
+Springboot T
+ools V 1.19.0-RC.1
+Java Debug V 0.31.0
+See
+Language support for Java ™ for Visual Studio Code
+Debugger for Java
+Spring Boot tools, Java T
+est Runner, and
+Project Manager for Java
+MTA Tools
+Allows you to perform operations such as build, deployment, and validation on multitarget applications. The following
+tools are installed as part of the extension: Cloud Foundry environment CLI
+Cloud Foundry environment deployment plugin
+Cloud MTA Build T
+ool
+MTA module runner (VS Code extension)
+See MTA T
+ools.
+SAP Fiori Tools
+Allows you to simplify the development of SAP Fiori elements applications by providing extensions that can help you
+create applications, visualize navigation, automatically generate code, and more. The following extensions are installed: Fiori elements Yeoman Generator
+Note
+Not all the features described in the extension documentation are supported.
+45
+Application Modeler
+Guided Development
+Service Modeler
+XML Annotation Language Server
+See SAP Fiori T
+ools.
+Startup Server
+Allows you to leverage a trigger and perform an action.
+SAPUI5 Layout Editor & Extensibility
+Allows you to visually develop your XML view and extend an existing SAPUI5 application that resides in the SAPUI5 ABAP
+repository.
+See
+Working with the Layout Editor and
+Extend SAPUI5 Applications.
+Full Stack Cloud Application
+Build business services and business applications and extend SAP S/4HANA using SAP Cloud Application Programming Model, SAP Fiori, and Java or Node.js.
+See
+Developing a CAP Application in
+SAP Business Application Studio.
+The Full Stack Cloud Application scenario contains the following predefined extensions: Basic Tools
+Allows you to optimize your web development workfiow. The extension includes capabilities such as a code editor, file
+management capabilities, split view and window management, preferences and settings.
+CDS Graphical Modeler
+Allows you to design SAP core data service models in SAP Cloud Business Application development projects.
+The extension includes the CDS Editor, which provides capabilities for SAP business developers to visually design SAP
+CDS models. Models include artifacts, such as entities, types, unstructured types, enums, arrayed types, events, associations and compositions, and projects and services, which accelerate SAP Cloud Business Application
+development.
+See
+Design CDS Models Using SAP Business Application Studio.
+CAP Tools
+Allows you to develop CAP applications using the CDS command-line and tools. Includes enhanced code and graphical
+editors, database management capabilities, and tools for running your application.
+Fiori Application
+Allows you to create a Fiori application, using the Yeoman generator.
+Fiori Freestyle Tools
+Allows you to optimize your Fiori-based development. This extension provides Fiori templates with the following tools: UI5 CLI
+Grunt CLI
+46
+abap-deploy CLI
+SAP HANA Database Explorer
+Allows you to access and inspect SAP HANA run-time objects. The extension includes a command that opens the SAP
+HANA Database Explorer in a new browser tab.
+Java Tools
+Allows you to develop, test, and run Java applications. Includes debugging capabilities and enhanced code editors. The
+following tools are installed as part of the extension: SapMachine 11
+Maven V 3.8.1
+omcat V 9.0.33
+See
+Language support for Java ™ for Visual Studio Code
+Debugger for Java
+Spring Boot tools, Java T
+est Runner, and
+Project Manager for Java
+MTA Tools
+Allows you to perform operations such as build, deployment, and validation on multitarget applications. The following
+tools are installed as part of the extension: Cloud Foundry environment CLI
+Cloud Foundry environment deployment plugin
+Cloud MTA Build T
+ool
+MTA module runner (VS Code extension)
+See MTA T
+ools.
+SAP Fiori Tools
+Allows you to simplify the development of SAP Fiori elements applications by providing extensions that can help you
+create applications, visualize navigation, automatically generate code, and more. The following extensions are installed: Fiori elements Yeoman Generator
+Application Modeler
+Guided Development
+Service Modeler
+XML Annotation Language Server
+See SAP Fiori T
+ools.
+Startup Server
+Allows you to leverage a trigger and perform an action.
+SAPUI5 Layout Editor & Extensibility
+Allows you to visually develop your XML view and extend an existing SAPUI5 application that resides in the SAPUI5 ABAP
+repository.
+Note
+Not all the features described in the extension documentation are supported.
+47
+See
+Working with the Layout Editor and
+Extend SAPUI5 Applications.
+SAP HANA Native Application
+Build and deploy native SAP HANA applications or analytical models. This dev space contains a comprehensive set of editors to
+support the creation of database artifacts (calculation views, tables, SQLScript procedures, and more), as well as tools to
+enable an end-to-end development fiow from project creation to the deployment to the SAP BTP.
+See
+Working with SAP Business Application Studio.
+The SAP HANA Native Application scenario contains the following predefined extensions: Basic Tools
+Allows you to optimize your web development workfiow. The extension includes capabilities such as a code editor, file
+management capabilities, split view and window management, preferences and settings.
+SAP HANA Calculation View Editor
+Allows you to edit and manage SAP HANA calculation views. The extension includes the SAP HANA calculation view
+editor, the synonym editor, and the analytical privilege editor.
+See
+SAP HANA Cloud Modeling Guide for SAP Business Application Studio.
+SAP HANA Database Explorer
+Allows you to access and inspect SAP HANA run-time objects. The extension includes a command that opens the SAP
+HANA Database Explorer in a new browser tab.
+See
+SAP HANA Database Explorer.
+SAP HANA Tools
+Allows you to develop native SAP HANA applications. The extension includes tools such as enhanced graphical and text-based editors, project generators, and productivity tools.
+See
+SAP HANA Cloud Developer Guide.
+MTA Tools
+Allows you to perform operations such as build, deployment, and validation on multitarget applications. The following
+tools will be installed as part of the extension: Note
+SAP Business Application Studio needs to connect to the SAP HANA Cloud instance where you want to deploy your
+application’s database artifacts. By default, SAP HANA Cloud accepts all connections from allowed IP addresses in SAP BTP, for example, in the same region and infrastructure where SAP HANA was provisioned.
+If you are working on an Azure account or you are trying to connect an SAP HANA instance from a different region, you must
+configure SAP HANA Cloud to allow connections from the IP address hosting SAP Business Application Studio for your Cloud
+region and the underlying platform.
+o learn how to change the SAP HANA Cloud allowed connections, see
+Change Allowed Connections.
+o find out your SAP Business Application Studio IP address, see
+SAP Business Application Studio Availability.
+48
+Cloud Foundry environment CLI
+Cloud Foundry environment deployment plugin
+Cloud MTA Build T
+ool
+MTA module runner (VS Code extension)
+See MTA T
+ools.
+SAP HANA Smart Data Integration Tools
+Allows you to do data federation, replication and transformation in SAP HANA. The extension includes graphical editors
+such as Flowgraph, Replication T
+ask and File Format editors.
+See
+Modeling Guide for SAP Web IDE and SAP Business Application Studio
+Startup Server
+Allows you to leverage a trigger and perform an action.
+SAP Mobile Application
+The Mobile Development Kit (MDK) lets you customize, deploy, and manage your customized iOS and Android apps in the cloud.
+See, Mobile Development Kit.
+The SAP Mobile Application scenario contains the following predefined extensions: Basic Tools
+Allows you to optimize your web development workfiow. The extension includes capabilities such as a code editor, file
+management capabilities, split view and window management, preferences and settings.
+Mobile Services App Development Tools
+Mobile Services App Development T
+ools enable developers to build end to end mobile applications. From modeling and
+generating OData services, creating mobile native apps from metadata with MDK to building content for SAP Mobile
+Cards.
+HTML5 Runner
+Allows you to locally run HTML5 applications. Includes the HTML5 application runner and run configurations.
+See
+Create Run Configurations for HTML5 Applications.
+Java Tools
+Allows you to develop and run Java applications. Includes debugging capabilities and enhanced code editors. The
+following tools will be installed as part of the extension: Java JDK V 8
+Maven V 3.8.1
+omcat V 9.0.33
+See
+Language support for Java ™ for Visual Studio Code
+and
+Debugger for Java
+MTA Tools
+49
+Allows you to perform operations such as build, deployment, and validation on multitarget applications. The following
+tools are installed as part of the extension: Cloud Foundry environment CLI
+Cloud Foundry environment deployment plugin
+Cloud MTA Build T
+ool
+MTA module runner (VS Code extension)
+See MTA T
+ools.
+Startup Server
+Allows you to leverage a trigger and perform an action.
+Additional Extensions
+You can extend and enrich your development environment with tools and capabilities based on your needs.
+Each dev space contains a group of extensions that enhance its existing functionality. Some extensions are predefined by each
+development scenario, and others can be manually enabled based on your specific development needs.
+The extensions may be used to add specific tools or to add an additional scenario to the dev space.
+The list below shows a selection of our most used additional extensions.
+Scenario Extensions
+Extension
+Description
+Basic UI5 Template
+Allows you to perform operations such as build and deployment of multitarget
+applications, while optimizing your web development workfiow. The extension
+includes capabilities such as the Cloud Foundry CLI, a code editor, preferences, and settings. The following tools will be installed as part of the extension: Cloud Foundry environment CLI
+Cloud Foundry environment deployment plugin
+Cloud MTA Build Tool
+See
+Basic Template.
+Development Tools for SAP Build Work Zone
+Allows you to build UI Integration cards, which are user interface elements that
+present new means to provide application information to the end user in a
+unified way. The business information is represented compactly and allows
+interaction on it being executed. This editor allows users to create new cards or
+build cards from available samples, edit card properties, and preview the
+changes. Finally, users can bundle and deploy the cards into different systems.
+See
+SAP Build Work Zone, advanced edition Developer Guide.
+HTML5 Application Template
+Allows you to create an HTML5 application, using a template wizard.
+See
+Developing an HTML5 Application for Cloud Foundry.
+Note
+o learn more about the predefined extensions, see
+Dev Space Types.
+50
+Extension
+Description
+HTML5 Runner
+Allows you to locally run HTML5 applications. Includes the HTML5 application
+runner and run configurations.
+See
+Create Run Configurations for HTML5 Applications.
+SAP BTP, serverless runtime
+Allows you to create and deploy extensions in a serverless environment.
+See
+https://help.sap.com/viewer/bf7b2ff68518427c85b30ac3184ad215/Cloud/en-US/4c67df38735d48a7be0043a96c6a2827.html.
+Workfiow Management
+Create Extensions with Extension Factory,Allows you to create workfiow
+applications and process templates with SAP Workfiow Management.
+See
+SAP Workfiow Management.
+Tool Extensions
+Extension
+Description
+CDS Graphical Modeler
+Allows you to design SAP core data service models in SAP Cloud
+Business Application development projects.
+The extension includes the CDS Editor, which provides capabilities
+for SAP business developers to visually design SAP CDS models.
+Models include artifacts, such as entities, types, unstructured
+types, enums, arrayed types, events, associations and
+compositions, and projects and services, which accelerate SAP
+Cloud Business Application development.
+See
+Design CDS Models Using SAP Business Application Studio.
+Chromium Browser Tools
+Allows you to use Chromium tools.
+Headless Testing Framework
+Allows you to run cross-platform end-to-end tests on a UI5
+application, with selectors compatible to OPA5.
+See
+Using BAS with wdi5
+51
+Extension
+Description
+Java Tools
+Allows you to develop, test, and run Java applications. Includes
+debugging capabilities and enhanced code editors. The following
+tools are installed as part of the extension: SapMachine 11
+SAP JVM 8
+Maven V 3.8.1
+Tomcat V 9.0.33
+You can configure the Java version to either JavaSE-11 or JavaSE-1.8.
+To set the default Java version, enter the following command: Java: Set Default JDK
+If you only work with source files and don't use a build tool, the
+appropriate runtime is set based on the default Java version you
+defined.
+See
+Language support for Java ™ for Visual Studio Code
+Debugger for Java
+Spring Boot tools, Java Test Runner
+and
+Project Manager for Java
+Launchpad Module
+Allows you to add a launchpad to your multitarget application.
+See
+Basic Development Flow in SAP Business Application Studio.
+MTA Tools
+Allows you to create and develop multitarget applications.
+See MTA Tools.
+SAPUI5 Adaptation Project
+SAPUI5 Adaptation Project allows developers to extend SAP Fiori
+applications in SAP Business Application Studio.
+See
+Extending an SAP Fiori Application.
+SAPUI5 Layout Editor & Extensibility
+Allows you to visually develop your XML view and extend an
+existing SAPUI5 application that resides in the SAPUI5 ABAP
+repository.
+See
+Working with the Layout Editor and Extend SAPUI5
+Applications.
+Extending SAP Business Application Studio
+Enrich the IDE with additional features and capabilities to make your development more efficient.
+The SAP Business Application Studio extension framework allows you to add new project and module templates to ease project
+creation. You can enrich the IDE with tools that will help you develop faster and more efficiently, such as code assist, static code
+Note
+Not all the features described in the extension documentation
+are supported.
+Note
+This feature is not available in the China (Shanghai) region.
+52
+analysis, and code formatting. Likewise, you can integrate your IDE with external services and systems.
+The extension framework allows you to extend SAP Business Application Studio in 2 different ways: Extend a specific dev space with VS Code extensions and Yeoman generators.
+Search the Open VSX Registry for additional VS Code extensions to install directly on your dev space.
+See
+Explore and Install VS Code Extensions.
+Search and install open source generators to add the most suitable templates for your wizards.
+See
+Explore and Install Generators.
+Create your own SAP Business Application Studio extension
+Package VS Code extensions and Yeoman generators into an SAP Business Application Studio extension and then
+deploy it to the subaccount in which your team is working. All the team members can then enable the extension
+from the Dev Space Manager.
+See
+Create and Deploy an SAP Business Application Studio Extension.
+Explore and Install VS Code Extensions
+You can install VS Code extensions from the
+Open VSX Registry
+to get additional tools to support the development activities
+in your dev space.
+To install an extension: 1. Click
+(Extensions) from the activity bar or select
+View
+Extensions
+from the left-side menu.
+2. The first time you open this view, a disclaimer is displayed. Click
+OK
+to open the
+Extensions
+view. T
+o read it again later, click
+Show Disclaimer
+The
+Extensions
+view includes the following sections: Search box - Explore the extensions in the
+Open VSX Registry. You can see the relevant extensions together
+with their short descriptions. Double-clicking on an extension opens the extension page with the full details. T
+Note
+SAP provides you with a mechanism to access third-party sites to view and download open-source, 3rd party, or its own tools, libraries, or software components (“Extensions”) to dev spaces in SAP Business Application Studio. Using this mechanism, you can view and install VS Code Extensions from the Open VSX Registry at your own risk.
+SAP does not certify or endorse any of the third-party sites or Extensions, and they are not part of SAP Business Application
+Studio.
+You must ensure that you have and maintain all the necessary rights to use these Extensions.
+You are responsible for all aspects of the Extensions, including maintenance, management, security, and support. SAP
+Business Application Studio does not support the auto-update feature for these extensions.
+You will assume all responsibility for any negative effects caused by or relating to the Extensions.
+SAP may elect, in its sole discretion, to disable any dev space that includes Extensions that cause system malfunction or that
+SAP reasonably believes may cause harm to SAP systems.
+53
+clear the search results, click
+Dev Space - Installed- Shows the list of extensions you have installed in your dev space. You can uninstall
+extensions from here.
+3. Use the Search box to find the extension you want, and click
+Install
+To uninstall an extension: 1. Search for the extension using the Search box or in the
+Dev Space - Installed
+section.
+2. Click
+Uninstall
+from the Manage button context menu.
+To update an extension: 1. Search for the extension using the Search box or in the
+Dev Space - Installed
+section.
+2. Click
+Uninstall
+from the Manage button context menu.
+3. Click
+Install
+Explore and Install Generators
+Use external open source generators to add the most suitable templates for your wizards.
+1. Click
+Explore and Install Generators
+from the upper-right corner of the T
+emplate wizard or enter
+Explore and
+Install Generators
+in the command palette.
+The
+Explore and Install Generators
+tool opens in a new tab.
+2. The first time you access the tool, a disclaimer is displayed. Click
+OK
+to continue.
+The generators from the
+npm registry
+are displayed.
+3. In the
+Search for Generators
+field, enter the desired template type (for example SAP Fiori or SAP HANA).
+4. Scroll down to find the relevant generator.
+5. Click
+Install. The generator is added to your machine and can now be selected from the
+emplate Wizard.
+Create and Deploy an SAP Business Application Studio Extension
+Note
+SAP provides you with a mechanism to access third-party sites to view and download open-source, 3rd party, or its own tools, libraries, or software components (“Extensions”) to dev spaces in SAP Business Application Studio.
+Using this mechanism, you can view and install Yeoman Generators from the public npm registry at your own risk.
+SAP does not certify or endorse any of the third-party sites or Extensions, and they are not part of SAP Business Application
+Studio. You must ensure that you have and maintain all the necessary rights to use these Extensions. You are responsible for
+all aspects of the Extensions, including maintenance, management, security, and support. You will assume all responsibility
+for any negative effects caused by or relating to the Extensions.
+SAP may elect, in its sole discretion, to disable any dev space that includes Extensions that cause system malfunction or that
+SAP reasonably believes may cause harm to SAP systems.
+54
+Create an SAP Business Application Studio extension that includes VS Code extensions and Yeoman generators and deploy it to
+your subaccount.
+Prerequisites
+You must have the
+Extension deployer
+role. See
+Manage Authorizations.
+You must enable the
+SAP Business Application Studio Extension Development
+additional extension in your dev space.
+See
+Working in the Dev Space Manager.
+o create an SAP Business Application Studio extension: 1. In your workspace, create an extension definition file called
+extension.json
+with the following content.
+The extension definition file includes two main parts: The extension metadata
+The list of components that are part of the extension: VS Code extensions, Yeoman generators
+2. Open a terminal and run the following command to deploy the extension to the subaccount: Note
+Make sure to replace the placeholders in the file with the relevant information.
+Note
+You must include at least one of these components in the file.
+Sample Code
+{
+"apiVersion": "1", "name": "<technical
+name>", "namespace": "ext-<subdomain
+where
+<subdomain>
+is
+the
+subdomain
+of
+the
+subaccount
+of
+th
+"about": {
+"description": "<description>", "author": "<author>", "tagline": "<the
+extension
+name
+displayed
+in
+the
+dev
+space
+manager>", "thumbnail": "<thumbnail
+The
+thumbnail
+must
+be
+base64
+encoded
+SVG>"
+}, "version": "<version>", "yeomanPackages": {
+"name": "<package
+name>", "versionRange": "<package
+version>"
+}
+], "vscodeExtensions": {
+"source": "url", "uri": "<the
+url
+to
+the.vsix
+file>"
+}
+}
+55
+3. Go to the Dev Space Manager to verify that the SAP Business Application Studio extension you created is visible as an
+additional extension. All developers working on the subaccount to which you deployed can enable this extension from
+their Dev Space Manager.
+To delete the extension: 1. Open a terminal and run the following command: Working in SAP Business Application Studio
+SAP Business Application Studio provides the features needed for the entire life cycle of your application, from the moment you
+create the project until it is ready to be deployed.
+Get Started
+Get started with SAP Business Application Studio.
+Explore Services Using the Service Center
+The Service Center provides a central entry point to explore services from various service providers.
+Create a Project
+You can create a project from scratch using the project wizard, you can clone a project, or you can import an already
+existing project to your workspace.
+Develop
+SAP Business Application Studio provides you with the tools you require for making your development experience more
+efficient and productive.
+Test and Run
+Once you have finished coding, you can test and run your application.
+Build and Deploy
+Use our dedicated tools to build and deploy your application.
+Develop an App Using Different Subaccounts
+You can develop your application with different subaccounts. You use one subaccount to create and run your application
+in SAP Business Application Studio. You use the other subaccount, in a different region, to deploy your application to
+Cloud Foundry.
+Extend SAPUI5 Applications
+You can extend SAPUI5 applications that reside remotely on the on-premise SAPUI5 ABAP repository.
+Get Started
+Get started with SAP Business Application Studio.
+This section describes the steps to take when you open your dev space for the first time.
+wex
+deploy
+wex
+delete-x
+<namespace>/<ext-name>
+Note
+Deletion of an extension is only possible if the extension is not being used by any dev space.
+56
+Get Started Page
+The
+Get Started
+page provides you contextual links useful to users at the beginning of their development cycle.
+Accessing On Premise Systems
+You can access SAP ABAP or other on-premise systems using a built-in Web Proxy.
+Get Started Page
+The
+Get Started
+page provides you contextual links useful to users at the beginning of their development cycle.
+The
+Get Started
+page is displayed when you open your dev space or enter
+Get Started
+in the
+command palette.
+It includes the following sections: Quick access to common activities that are relevant for your dev space
+Links to the documentation
+Sample applications relevant for your dev space
+Accessing On Premise Systems
+You can access SAP ABAP or other on-premise systems using a built-in Web Proxy.
+Your dev space includes a built-in Web Proxy (http://localhost:8887) that allows you access to on-premise systems. It is
+already configured with the HTTP_PROXY and the HTTPS_PROXY environment variables.
+The proxy requires destination configuration to your on-premise system from your Cloud Foundry subaccount.
+57
+For more information, see
+Connecting to External Systems.
+Defining On Premise Systems for the Web Proxy
+1. Your administrator must create a destination and configure the Cloud Connector so that as a developer, you can access
+on-premise systems.
+2. T
+o update your dev space with a destination created after your dev space was started, open your dev space terminal and
+execute the following command: This will trigger an immediate update of your on-premise destinations used by the dev space Web Proxy.
+3. Use the same URL that's in the destination from your dev space. The proxy will pass your request through the
+destination.
+Using Git On Premise Repositories
+You can work with on-premise Git repositories once an appropriate destination has been created in your subaccount. Make sure
+to use the exact same host and port as defined in the destination URL property.
+For more information, see
+Connecting to a Corporate Git Repository.
+Using NPM Modules from On Premise Repositories
+You can use npm modules from an on-premise npm repository or an on-premise Git repository.
+Use standard npm registry configurations to set the repository URL.
+For example: Make sure an appropriate destination has been created in your subaccount and that you are using the exact same host and
+port as defined in the destination URL property.
+Using Java Modules from On Premise Repositories
+You can use Java modules as dependencies to your Java projects from an on-premise Maven repository.
+Edit the standard Maven settings file (open file /home/user/.m2/settings.xml) to add the repository URL.
+For example: curl
+http://localhost:8887/reload
+npm
+config
+set
+@<scope>:registry
+<URL>
+<repositories>
+<repository>
+<id>corporate.repository</id>
+<url>PUT
+YOUR
+FULL
+REPOSITORY
+URL
+HERE</url>
+</repository>
+<\repositories>
+58
+Make sure an appropriate destination has been created in your subaccount and that you are using the exact same host and
+port as defined in the destination URL property.
+Explore Services Using the Service Center
+The Service Center provides a central entry point to explore services from various service providers.
+You can use the services as data sources in your application and you can trigger application development from the Service
+Center.
+o explore services, click
+(Service Center) from the activity bar or select
+View
+Open View
+from the left-side menu, and enter
+Service Center
+in the input field.
+The Service Center opens with the various service providers displayed, including the
+SAP System Service Provider, the SAP API
+Business Hub Service Provider, the
+API Business Hub Enterprise Service Provider, and the
+Unified Customer Landscape Service
+Provider.
+You can hide or display each service provider in the file explorer. Right-click
+Service Center
+and select or clear the service
+provider.
+SAP System Service Provider
+The SAP System service provider includes systems from your SAP Business Application Studio subaccount. You can use the
+services as data sources in your application or for application development.
+Login occurs automatically, using the SAP Business Application Studio user credentials.
+Explore SAP System Services
+1. Click the gray arrow to display the SAP Business Application Studio subaccount's destinations ().
+2. Click the system () to see the system properties, including the name, description, URL, authentication type, and
+status.
+There are different types of systems displayed using the SAP Business Application Studio subaccount's destinations: ABAP Service Catalog
+The destination points to the ABAP system directly. The system shows its service catalogs with a list of services
+(V2 and V4, for example). T
+o see the list of services, click the system and log in with your user credentials, if
+needed.
+If the service catalog is available and connected (), you can search for services within it. Click the search icon () and select the relevant service from the command palette.
+Service Host
+The destination points to a host. T
+o log in, enter the service path and your credentials, if needed, and click
+CONNECT
+Service URL
+The destination points directly to the service.
+Cloud for Customer Catalog
+59
+The destination points to the SAP Cloud for Customer system directly. The system shows its service catalog with
+a list of services (V2). T
+o see the list of services, click the system and log in with your user credentials, if needed.
+If the service catalog is available and connected (), you can search for services within it. Click the search icon () and select the relevant service from the command palette.
+If you maintain credentials in the destination configuration of the account, login can occur automatically. If a system is
+available, the icon has a green dot ().
+If you don't maintain the credentials in the destination configuration of the account, you need to log in manually to open
+the system information.
+3. Click the gray arrow to display the list of services.
+4. Click a service () to see its properties, including the service name, URL, and status.
+If a service is available, the icon has a green dot ().
+5. Click an entity to see the service details, including entity data and live data: a. You can see the entity's metadata from the
+Entity Details
+tab.
+b. You can see a preview of the live production data associated with the entity set from the
+Live Data
+tab.
+This helps you choose an entity for your application.
+6. You can click
+View Diagram
+to see the service entities, their properties, and the relationships between the entities in a
+new tab.
+Service Actions for Development
+Create a Project from a Service
+1. Click
+Service Actions
+Create Project from Service
+The template wizard displays the projects that you can create from a service. For example, an HTML5 project or an SAP
+Fiori application. See
+Create an HTML5 Project or SAP Fiori Elements for more information.
+2. Use the template wizard to create the relevant project.
+Add an External Data Model to a CAP Project
+You can select a service from the Service Center and add it as an external data model to a CAP Node project: 1. Open a service and click
+Service Actions
+Add External Data Model to CAP Project
+2. Select the target CAP Node project to add the external data model to.
+3. (Optional) You can generate a sample service and select the relevant entities.
+a. Select
+Yes
+to add a sample service.
+b. Select the entities that you want to add.
+4. Click
+Add
+Note
+The live data only displays: Up to 20 rows of data
+Data for simple data types
+60
+You added the external data model to the CAP project. The following changes happen: The
+<service_name>.xml
+and
+<service_name>.cds
+files appear in the
+srv
+external
+folder of the
+project.
+A service section appears in the
+package.json
+file of the CAP project, which refers to the
+srv
+external
+<service_name>.xml
+file. This file has the metadata of the service: If you added a sample service with the relevant entities, the
+<service_name>.cds
+and the
+<service_name>.js
+files appear in the
+srv
+external
+folder of the CAP project.
+Add a System
+You can add a new system to your SAP Business Application Studio subaccount: 1. Click the relevant button to add a system: If you are adding a system for the first time, click
+Add System
+If you already have a system, hover over the subaccount and click
+(Add system).
+A new tab opens.
+2. Enter the system name and URL and select the system type, proxy, authentication method, and product, if needed.
+3. Click
+Add
+SAP API Business Hub Service Provider
+The SAP API Business Hub service provider includes SAP API Business Hub products, packages, and services. You can use the
+services as data sources in your application or for application development.
+"<service_name>": {
+"kind": "odata", "model": "srv/external/<service_name>"
+"credentials": {
+"destination": "<service_name>"
+}
+}
+Note
+If your account isn't a trial account, make sure that the
+Business_Application_Studio_Administrator
+role is assigned
+to you in the cockpit. See
+Manage Authorizations and Roles.
+If you're adding a system based on an ABAP Service Catalog, the following prerequisites apply: For SAP S/4HANA on-premise, SAP ERP, or another on-premise ABAP, make sure that the Cloud Connector is
+set up. See this
+blog post
+(under the
+Create a Data Source (Destination)
+heading in the
+Service Catalog
+section).
+For SAP S/4HANA Cloud or the SAP BTP ABAP environment, which both use SAML Bearer Assertion
+authentication, see
+Create a Destination to Connect to SAP Business Application Studio.
+Note
+You can select
+Basic Authentication
+and enter the username and password for your system. This configuration
+enables you to view the system information without needing to log in each time.
+Note
+61
+Explore SAP API Business Hub Services
+1. From the Service Center, click the gray arrow to display the SAP API Business Hub products: SAP S/4HANA Cloud, SAP S/4HANA, SAP SuccessFactors, SAP Customer Experience, and SAP Business T
+echnology
+Platform
+2. Click the gray arrow next to the product () to display the packages.
+If the package is available and connected (), you can search for services within it. Click the search icon () and
+select the relevant service from the command palette.
+3. Click the gray arrow next to the package () to display the services (APIs).
+4. Click a service () and log in with your SAP API Business Hub credentials, if needed.
+After you log in to a service, the icon has a green dot ().
+The service editor displays the service's properties, including the service name, protocol, status, and product.
+You can navigate to the API package by clicking
+You can also navigate to the service in the SAP API Business Hub by clicking the URL. From the SAP API Business Hub, you can click
+Try Out
+to test the API in the sandbox environment.
+5. Click an entity to see the service details, including entity data and live data: a. You can see the entity's metadata from the
+Entity Details
+tab.
+b. You can see a preview of the live production data associated with the entity set from the
+Live Data
+tab.
+This helps you choose an entity for your application.
+6. You can click
+View Diagram
+to see the service entities, their properties, and the relationships between the entities in a
+new tab.
+Service Actions for Development
+Create a Project from a Service
+1. Click
+Service Actions
+Create Project from Service
+The template wizard displays the projects that you can create from a service. For example, an HTML5 project or an SAP
+Fiori application. See
+Create an HTML5 Project or SAP Fiori Elements for more information.
+2. Use the template wizard to create the relevant project.
+The Service Center only shows SAP API Business Hub products and packages with OData services.
+Note
+You must log in with your SAP API Business Hub credentials one time at the beginning of your session.
+Note
+The live data only displays: Up to 20 rows of data
+Data for simple data types
+62
+Add an External Data Model to a CAP Project
+You can select a service from the Service Center and add it as an external data model to a CAP Node project: 1. Open a service and click
+Service Actions
+Add External Data Model to CAP Project
+2. Select the target CAP Node project to add the external data model to.
+3. (Optional) You can generate a sample service and select the relevant entities.
+a. Select
+Yes
+to add a sample service.
+b. Select the entities that you want to add.
+4. Click
+Add
+You added the external data model to the CAP project. The following changes happen: The
+<service_name>.xml
+and
+<service_name>.cds
+files appear in the
+srv
+external
+folder of the
+project.
+A service section appears in the
+package.json
+file of the CAP project, which refers to the
+srv
+external
+<service_name>.xml
+file. This file has the metadata of the service: If you added a sample service with the relevant entities, the
+<service_name>.cds
+and the
+<service_name>.js
+files appear in the
+srv
+external
+folder of the CAP project.
+API Business Hub Enterprise Service Provider
+The API business hub enterprise service provider offers products and services that are published in the API business hub
+enterprise. You can use the services as data sources in your application or for application development.
+Prerequisite
+You created a service instance in the API business hub enterprise. See
+Creating a Service Instance in the API Management, API
+business hub enterprise.
+Add a System
+You can add a new system, referring to the API business hub enterprise instance, from the SAP BTP cockpit in the SAP Business
+Application Studio subaccount. This destination will be used
+to register new developers to API business hub enterprise and to
+subscribe them to products
+1. Create a destination in your SAP Business Application Studio subaccount from the cockpit with the following fields: Note
+o run your project with the SAP API Business Hub sandbox, see the prerequisites in
+Developing an HTML5
+Application for Cloud Foundry.
+"<service_name>": {
+"kind": "odata", "model": "srv/external/<service_name>"
+"credentials": {
+"destination": "<service_name>"
+}
+}
+63
+Property
+Value
+Name
+Provide a name for the system.
+Type
+HTTP
+URL
+Use the
+url
+value from the service key of the API business hub
+enterprise instance.
+You can find the service key for the service instance that you
+created (in the Prerequisite) in the SAP BTP cockpit, under the
+API Management, API Business Hub Enterprise
+service.
+Proxy Type
+Internet
+Authentication
+OAuth2ClientCredentials
+Client ID
+Use the
+clientId
+value from the service key of the API
+business hub enterprise instance.
+Client Secret
+Use the
+clientSecret
+value from the service key of the API
+business hub enterprise instance.
+Token Service URL
+Use the
+tokenUrl
+value from the service key of the API
+business hub enterprise instance.
+2. In the
+Additional Properties
+section, configure the following: Property
+Value
+HTML5.DynamicDestination
+true
+WebIDEEnabled
+true
+WebIDEUsage
+apihub_enterprise
+64
+Property
+Value
+apiBusinessHubEnterpriseURL
+Adding this property is optional.
+This property enables navigation from the Service Center to the API business hub
+enterprise.
+Use the following format: <subscribed subaccount name>.<devportal_url>.cfapps.<region>.hana.ondemand.com
+Replace the placeholders with the following information: Property
+Value
+subscribed
+subaccount
+name
+Use the first part of the
+tokenUrl
+from the destination system of API
+business hub enterprise.
+For example, if the URL is
+https://abcd123trial.authentication.eu10.hana.ondemand.com/oauth/token
+Use
+abcd123trial
+for the subscribed subaccount name.
+devportal_url
+For trial, use
+integrationsuitetrial-devportal
+For production, use
+apibhubenterprise
+region
+Find it in the
+tokenUrl
+For example, if the
+tokenUrl
+is
+https://abcd123trial.authentication.eu10.hana.ondemand.com/oauth/token
+The region is
+eu10
+Explore API Business Hub Enterprise Services
+1. From the Service Center, click the gray arrow to display the API business hub enterprise systems.
+Each system points to an API business hub enterprise instance.
+2. Click the gray arrow next to the system () to display the products within it.
+Multiple APIs are grouped into a product.
+If the product is available and connected (), you can search for services within it. Click the search icon () and
+select the relevant service from the command palette.
+3. Click the gray arrow next to the products () to display the services (APIs).
+If the product is available, the icon has a green dot ().
+4. Click a service () to see its properties, including the service name, protocol, and status.
+o see the service details, you must be onboarded to the API business hub enterprise and subscribed to the selected
+product: If you aren't onboarded to the API business hub enterprise, enter your first name, last name, and subscription
+name and click
+Subscribe
+Note
+The Service Center only shows API business hub enterprise systems and products with OData services.
+65
+You're now subscribed to the product and all services associated with it.
+If you're onboarded to the API business hub enterprise, but you aren't subscribed to the product, enter a
+subscription name and click
+Subscribe
+You can now access the service.
+After you're subscribed to the selected product, you'll see the following information: Subscription details
+This section includes a link to the product in the API business hub enterprise, the subscription name with a link to
+the subscription in the API business hub enterprise, and the subscription date.
+Service properties
+This section includes the service name, protocol, and status.
+If a service is available, the icon has a green dot ().
+5. Click an entity to see the service details, including entity data and live data: a. You can see the entity's metadata from the
+Entity Details
+tab.
+b. You can see a preview of the live production data associated with the entity set from the
+Live Data
+tab.
+This helps you choose an entity for your application.
+6. You can click
+View Diagram
+to see the service entities, their properties, and the relationships between the entities in a
+new tab.
+Service Actions for Development
+If the SAP Business Application Studio Administrator role is assigned to you, after creating a project or adding a data model, the
+destination to the selected product subscription is generated in the SAP BTP cockpit. The destination enables you to preview
+live data and run your deployed application. The destination includes information about the product subscription, including the
+subscription's API key and the subscription's ID.
+If you don’t have the SAP Business Application Studio Administrator role, the destination isn't generated with your subscription.
+Create a Project from a Service
+1. Click
+Service Actions
+Create Project from Service
+Note
+If a service is unavailable and the target endpoint of the service requires authentication, make sure that the
+target endpoint is configured to be authenticated via Basic Authentication. See the "Configure API
+Management to Use the Basic Authentication Policy" section in this
+blog post
+It is recommended to use the
+verify API key policy to ensure secure access to the service. This policy is added
+in the PreFlow of the ProxyEndpoint of the corresponding API proxy.
+Note
+The live data only displays: Up to 20 rows of data
+Data for simple data types
+66
+The template wizard displays the projects that you can create from a service. For example, an HTML5 project or an SAP
+Fiori application. See
+Create an HTML5 Project or SAP Fiori Elements for more information.
+2. Use the template wizard to create the relevant project.
+Add an External Data Model to a CAP Project
+You can select a service from the Service Center and add it as an external data model to a CAP Node project: 1. Open a service and click
+Service Actions
+Add External Data Model to CAP Project
+2. Select the target CAP Node project to add the external data model to.
+3. (Optional) You can generate a sample service and select the relevant entities.
+a. Select
+Yes
+to add a sample service.
+b. Select the entities that you want to add.
+4. Click
+Add
+You added the external data model to the CAP project. The following changes happen: The
+<service_name>.xml
+and
+<service_name>.cds
+files appear in the
+srv
+external
+folder of the
+project.
+A service section appears in the
+package.json
+file of the CAP project, which refers to the
+srv
+external
+<service_name>.xml
+file. This file has the metadata of the service: Note
+If the deployed application to Cloud Foundry fails to bring data from the service, make sure that the
+Assign Message policy is
+used in the PreFlow of the ProxyEndpoint of the API proxy.
+We use the Assign Message policy to override the HTTP request Accept-Encoding header: <!--This
+policy
+can
+be
+used
+to
+create
+or
+modify
+the
+standard
+HTTP
+request
+and
+response
+messages
+<AssignMessage
+async="false"
+continueOnError="false"
+enabled="true"
+xmlns='http://www.sap.com/api
+<!--Sets
+new
+value
+to
+the
+existing
+parameter--> <Set>
+<Headers>
+<Header
+name="Accept-Encoding">identity</Header>
+</Headers>
+</Set>
+<IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+<AssignTo
+createNew="false"
+type="request"></AssignTo>
+</AssignMessage>
+"<service_name>": {
+"kind": "odata", "model": "srv/external/<service_name>"
+"credentials": {
+"destination": "<service_name>"
+}
+}
+67
+If you added a sample service with the relevant entities, the
+<service_name>.cds
+and the
+<service_name>.js
+files appear in the
+srv
+external
+folder of the CAP project.
+Unified Customer Landscape Service Provider
+The Unified Customer Landscape service provider includes packages and services from registered SAP S/4HANA Cloud systems
+in SAP BTP. You can use the services as data sources in your application or for application development.
+Prerequisites
+Your administrator registered an SAP S/4HANA Cloud system in an SAP BTP global account.
+See
+Enabling System Landscape for SAP Business Application Studio.
+Your administrator created a
+Developing with SAP Business Application Studio
+formation type in the SAP BTP cockpit to
+assign the SAP S/4HANA Cloud system to an SAP Business Application Studio subaccount.
+You created a destination in your SAP Business Application Studio subaccount for each consumption bundle from the
+SAP BTP cockpit with the following fields: Property
+Value
+Name
+Provide a name of your choice.
+Type
+HTTP
+URL
+Enter the URL of the the SAP S/4HANA Cloud target system.
+This value is displayed in the
+System Landscape
+System
+Details
+URL
+field in the SAP BTP cockpit.
+Proxy Type
+Internet
+Authentication
+Select the authentication based on your SAP S/4HANA Cloud
+system inbound communication settings.
+In the
+Additional Properties
+section, you configured the following: Property
+Value
+HTML5.DynamicDestination
+true
+WebIDEEnabled
+true
+x-system-type
+SAP S/4HANA Cloud
+This value is displayed in the
+System Landscape
+System
+Details
+System Type
+field in the SAP BTP cockpit.
+Note
+You must be a global account administrator to see the
+System Landscape
+68
+Property
+Value
+x-correlation-id
+sap.s4:communicationScenario:SAP_COM_<XXXX>
+Replace the number based on the relevant com_scenario for
+the destination.
+This value is displayed in the
+System Landscape
+System
+Details
+Consumption Bundles
+Correlation IDs
+column
+in the SAP BTP cockpit.
+x-system-id
+Enter the name of the system ID.
+This value is displayed in the
+System Landscape
+System
+Details
+System ID
+field in the SAP BTP cockpit.
+Explore Unified Customer Landscape Services
+1. Click the gray arrow to display the available systems () for the account.
+2. Click the gray arrow to display the packages () under a system.
+If the package is available and connected (), you can search for services within it. Click the search icon () and
+select the relevant service from the command palette.
+3. Click the gray arrow to display the services under a package.
+4. Click a service () to see its properties, including the service name, protocol, version, URL, and status.
+If there are many destinations available for the Unified Customer Landscape service, you can see the
+Connectivity
+Information
+for the specific destination that you're exploring. You can see the destination's name, authentication, proxy, consumption bundle name and ID, and correlation ID.
+If a service is available, the icon has a green dot ().
+5. Click an entity to see the service details, including entity data and live data: a. You can see the entity's metadata from the
+Entity Details
+tab.
+b. You can see a preview of the live production data associated with the entity set from the
+Live Data
+tab.
+This helps you choose an entity for your application.
+6. You can click
+View Diagram
+to see the service entities, their properties, and the relationships between the entities in a
+new tab.
+Service Actions for Development
+Create a Project from a Service
+1. Click
+Service Actions
+Create Project from Service
+The template wizard displays the projects that you can create from a service. For example, an HTML5 project or an SAP
+Fiori application. See
+Create an HTML5 Project or SAP Fiori Elements for more information.
+Note
+The live data only displays: Up to 20 rows of data
+Data for simple data types
+69
+2. Use the template wizard to create the relevant project.
+Add an External Data Model to a CAP Project
+You can select a service from the Service Center and add it as an external data model to a CAP Node project: 1. Open a service and click
+Service Actions
+Add External Data Model to CAP Project
+2. Select the target CAP Node project to add the external data model to.
+3. (Optional) You can generate a sample service and select the relevant entities.
+a. Select
+Yes
+to add a sample service.
+b. Select the entities that you want to add.
+4. Click
+Add
+You added the external data model to the CAP project. The following changes happen: The
+<service_name>.xml
+and
+<service_name>.cds
+files appear in the
+srv
+external
+folder of the
+project.
+A service section appears in the
+package.json
+file of the CAP project, which refers to the
+srv
+external
+<service_name>.xml
+file. This file has the metadata of the service: If you added a sample service with the relevant entities, the
+<service_name>.cds
+and the
+<service_name>.js
+files appear in the
+srv
+external
+folder of the CAP project.
+Create a Project
+You can create a project from scratch using the project wizard, you can clone a project, or you can import an already existing
+project to your workspace.
+Creating a Project Using the Wizard
+You can create projects based on your development scenario and the extensions installed in the dev space using
+predefined templates.
+Creating a Project from the Terminal
+You can create projects based on your development scenario and the extensions installed in the dev space using the
+terminal.
+Cloning Repositories
+Add an existing project to your local workspace by cloning its repository from Git.
+"<service_name>": {
+"kind": "odata", "model": "srv/external/<service_name>"
+"credentials": {
+"destination": "<service_name>"
+}
+}
+Note
+It is recommended to always connect your projects to a Git repository for long-term persistency. See Connect to Your Git
+Source Control System.
+70
+Importing Projects
+Import projects from your local file system to SAP Business Application Studio.
+Project Visibility in SAP Business Application Studio
+Projects are displayed in the file explorer within a workspace or as stand-alone folders.
+Template Wizard
+SAP Business Application Studio allows you to use any type of Yeoman generator including project and module
+generators.
+Creating a Project Using the Wizard
+You can create projects based on your development scenario and the extensions installed in the dev space using predefined
+templates.
+1. Open the wizard in one of the following ways: From the left-side menu, select
+File
+New Project from Template
+Select
+Start from template
+from the
+Get Started
+page.
+Enter
+New Project
+in the command palette and select
+SAP Business Application Studio: New Project from
+Template
+The Project Wizard opens showing the project templates that are relevant based on the dev space and additional
+extensions that you selected.
+2. Follow the wizard steps and provide the required information. You can move between steps using the
+Back
+and
+Next
+buttons or clicking the steps from the wizard tree.
+The wizard displays error notifications on the field level and on the step level.
+The project is added to your dev space in a new workspace or as part or a multi-root workspace depending on the
+Workspace preferences that you defined.
+The wizard generates the project including the relevant folder structure, artifacts, and resources.
+Creating a Project from the Terminal
+You can create projects based on your development scenario and the extensions installed in the dev space using the terminal.
+1. T
+o open the terminal, select
+Terminal
+New Terminal
+from the left-side menu.
+2. Enter
+yo
+in the terminal.
+3. Select the relevant project type from the list, such as
+Fiori Project
+or
+Basic Multitarget Application
+4. Answer the questions according to the type of application that you want to create.
+Related Information
+erminal
+Cloning Repositories
+Add an existing project to your local workspace by cloning its repository from Git.
+71
+Use the Terminal to Clone a Repository
+1. Open a terminal.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Type
+git clone, and then paste your URL.
+For example: Use the Command Palette to Clone a Repository
+1. Open the Command Palette.
+2. Enter
+Git: Clone
+in the input field and press
+Enter
+3. Enter the repository URL and press
+Enter
+4. Select the folder into which you want to clone the repository and click
+Select Repository Location
+5. If prompted, enter your credentials in the input field.
+Importing Projects
+Import projects from your local file system to SAP Business Application Studio.
+If you have an SAP Web IDE project or a project you worked on in another IDE, you can save it as a ZIP or a TAR file and import it
+to SAP Business Application Studio.
+1. Make sure there is an open workspace in your dev space. If there is no open workspace: a. Click
+Open Folder
+b. Select
+projects
+from the list provided in the command palette.
+c. Click
+OK
+2. From the
+Get Started
+page, click
+Import, or select
+SAP Business Application Studio: Import Project
+from the command
+palette.
+3. Select the desired ZIP or TAR file.
+4. Click
+Open
+The project is added to your dev space in a new workspace or as part or a multi-root workspace depending on the Workspace
+preferences that you defined.
+Project Visibility in SAP Business Application Studio
+Projects are displayed in the file explorer within a workspace or as stand-alone folders.
+A workspace is an entity containing your project's settings, debug configurations, and task configurations.
+We recommend you work in an environment where projects reside in a multi-root workspace.
+Sample Code
+git
+clone
+https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+72
+In SAP Business Application Studio, a workspace is created for you as part of the project creation wizard. If a workspace is
+already open, new projects are added to it by default.
+Working in a multi-root workspace environment means that you can group projects that are saved in different locations or even
+in different workspaces. All project files are visible in the file explorer under the same workspace.
+You also have the option to open a project as a stand-alone folder, and not belonging to a workspace.
+1. From the left-side menu, select
+File
+Open Folder...
+2. Select the desired project and click
+Open. The project opens as the root folder in the file explorer.
+Reopening a Workspace
+If you already have a workspace in which you want to create your project, click
+Open Workspace
+in the file explorer or from the
+left-side menu, select
+File
+Open Workspace from File...
+and select the desired workspace file.
+73
+Changing the Default Settings
+If you do not want your projects to be opened in a workspace by default, you can change the settings.
+1. From the left-side menu, select
+File
+Preferences
+Settings
+2. From the Settings page, select
+Application Wizard
+3. Under
+Workspace, select the preferred default behavior from the dropdown list.
+Template Wizard
+SAP Business Application Studio allows you to use any type of Yeoman generator including project and module generators.
+1. Enter
+Open Template Wizard
+in the command palette.
+The T
+emplate wizard opens showing all the Yeoman generators that are installed in your machine.
+2. Follow the wizard steps and provide the required information. You can move between steps using the
+Back
+and
+Next
+buttons or clicking the steps from the wizard tree.
+The wizard displays error notifications on the field level as well as on the step level.
+The artifact is added to your dev space in a new workspace or as part or a multi-root workspace depending on the
+Workspace preferences that you defined.
+If you do not find a wizard that suits your development needs, you can search for more wizards using the
+Explore and Install
+Generators tool.
+Develop
+SAP Business Application Studio provides you with the tools you require for making your development experience more efficient
+and productive.
+Guide Center
+This tool shows you how to execute common development tasks for specific SAP scenarios.
+Project Explorer
+Use the project explorer to browse the contents of your current workspace.
+Git Source Control
+SAP Business Application Studio enables you to connect and interact with the Git source control system, letting you
+connect and interact with remote Git repositories.
+Terminal
+Opening the integrated terminal allows you to access the underlying system. The terminal is a convenient tool because
+you don't need to switch windows or change the state of an existing terminal to perform a quick command-line task.
+Layout Editor
+Display the content of an XML view in the layout editor to see it in a way that closely corresponds to how it will appear in
+your finished application.
+Note
+When you create a project using a template, you become the code owner and as such, you are responsible for any updates or
+fixes that must be performed for it. We recommend you follow the industry best practice of using automated vulnerability
+scanning in the CI/CD pipeline to avoid supply chain and other cyber-attacks.
+74
+Command Palette
+The command palette provides access to all the IDE functionality including shortcuts for the most common operations.
+Outline View
+The Outline view displays a symbol tree of the currently active editor. This view is useful for understanding the structure
+of a file or for navigating to a specific element in a file.
+Problems View
+The Problems view displays the coding errors and warnings of all open files in a list. When you click an item from the list, the problematic piece of code is highlighted in the editor.
+Search
+There are different Search capabilities in SAP Business Application Studio.
+Guide Center
+This tool shows you how to execute common development tasks for specific SAP scenarios.
+The Guide Center tool provides guidance to perform development tasks based on the best practices defined by SAP experts.
+The tool presents a set of guides per development scenario. Different guides are displayed depending on the dev space type you
+selected and the extensions you enabled for it.
+Each guide contains a list of steps you have to perform to complete the development task.
+Steps contain detailed instructions as well as the option to trigger an action, such as opening the relevant tool required to
+perform the task in a new tab. For example, you can open the snippet tool to add code into your project, open the Project
+Creation wizard to create an SAP application, or open documentation in a separate browser window.
+o use the Guide Center tool: 1. Open the command palette and enter
+Guide Center. The Guide Center tool opens showing the list of guides available for
+your dev space.
+2. Open each step within the relevant guide and follow the instructions.
+Project Explorer
+Use the project explorer to browse the contents of your current workspace.
+The project explorer displays application components in a logical view, which simplifies browsing of the contents of your
+application.
+It gives you a bird's-eye view of the components involved in your application at any point in time.
+Open the project explorer from the activity bar
+75
+Git Source Control
+SAP Business Application Studio enables you to connect and interact with the Git source control system, letting you connect
+and interact with remote Git repositories.
+Prerequisite
+Before you can work with the Git view, you or your administrator must establish a connection to your corporate Git
+system. See
+Connect to Your Git Source Control System.
+Ask your administrator which is the recommended authentication method for your company. See Connect to Your Git
+Source Control System.
+You can perform all your Git tasks using the terminal, but SAP Business Application Studio allows you to use the the
+SIMPLIFIED GIT
+view or the
+SOURCE CONTROL
+view, if you prefer.
+Workfiow
+Using Git is easy. The basic workfiow is as follows: 1.
+Clone: Clone a repository from a remote Git source control system. All the information about the repository is copied, and a local master branch is created and is visible in your workspace. If the remote repository has several branches, you
+can create additional local branches based on those remote branches.
+2.
+Develop: Once you have the code, you can develop – add files, delete files, modify files. Your changes are visible. When
+you are ready, you can stage your changes and commit them.
+76
+3.
+Fetch and Merge/Rebase: (Optional) Before sending back your changes to the remote repository, you can fetch all the
+changes made by others. Then you can merge or rebase the changes into your changes to make sure there are no
+confiicts. If there are confiicts, you can adjust your code.
+4.
+Push: Add your changes to the remote repository.
+Related Information
+Clone a Repository in the Simplified Git View
+Cloning Repositories
+Connect to a Remote Git Repository
+Connecting an Existing Project to Git
+Using the Simplified Git View
+Using the Advanced Git View
+Connect to Your Git Source Control System
+Connecting to a Public Git Repository
+roubleshooting
+Using the Simplified Git View
+Use the
+SIMPLIFIED GIT
+view to perform Git operations and manage Git repositories in SAP Business Application Studio.
+o open the
+SIMPLIFIED GIT
+view, click
+from the activity bar.
+Connect to a Remote Git Repository
+77
+Connect to a remote Git repository to enable contributions from other developers and to track changes in your project.
+1. Click
+from the activity bar to open the
+SIMPLIFIED GIT
+view.
+If you haven’t created a project, click
+Create Project
+to create one from a template. See
+Creating a Project Using the
+Wizard.
+2. Click
+Add Remote Repository
+3. When prompted, add the URL for the remote repository where your local repository will be pushed.
+4. Enter your Git username and password (or token).
+5. Choose whether to save your Git credentials for future use.
+Commit Changes in the Simplified Git View
+In the
+SIMPLIFIED GIT
+view, you can add the current changes to the last commit.
+o add your changes to the remote Git repository, enter a message describing your changes and click
+Commit & Sync
+Pull Changes in the Simplified View
+In the
+SIMPLIFIED GIT
+view, you can pull changes to download objects and references from the remote repository into your
+local repository, and then merge the changes into your project.
+78
+You can see a list of all changes in the
+PENDING CHANGES
+section.
+For example, if you make a change to the project from the terminal, the change is automatically detected and appears in the
+PENDING CHANGES
+section.
+Click
+Pull
+to pull the changes made in the remote repository to your project.
+Resolve Confiicts in the Simplified Git View
+Merge operations can fail because of confiicts between the current branch and the branch from which you choose to
+incorporate the changes. You can resolve merge confiicts using the
+SIMPLIFIED GIT
+view.
+1. When there are confiicts, the
+MERGE FILES
+section is displayed.
+79
+2. Click one of files to resolve the confiict.
+A split view is displayed.
+3. Choose one of the following options to resolve the merge confiict: Accept Current Change: Apply the selected line of change from the current branch.
+80
+Accept Incoming Change: Apply the selected line of change from the remote branch.
+Ignore: Ignore the selected line of change.
+Complete Merge: Open the
+SOURCE CONTROL
+view to complete the merge. Only choose this option if you want
+to use the
+SOURCE CONTROL
+view.
+4. Enter a message describing your changes and click
+Commit & Sync
+to complete the confiict resolution and sync your
+changes to the remote repository.
+Clone a Repository in the Simplified Git View
+Clone a repository using the
+SIMPLIFIED GIT
+view.
+1. Click
+(Clone Repository).
+2. Enter the URL of the remote repository that you want to clone.
+3. Select the folder where you want to clone the repository.
+4. Click
+Open
+to open the cloned repository in SAP Business Application Studio.
+You can also choose to open the repository in a new window or add it to a workspace.
+Perform Actions in the Pending Changes Section
+You can discard all changes, individually ignore each pending change, or you can open an updated file in the
+PENDING CHANGES
+section.
+Discard All Changes
+1. In the
+PENDING CHANGES
+section, click the arrow to discard all changes.
+2. Confirm that you want to merge all files without any of your changes.
+Ignore Pending Changes Individually
+Click
+(Add to .gitignore) to ignore pending changes individually.
+Open Updated File
+Click
+(Open File) to open an updated file.
+Create a Branch in the Simplified Git View
+Create a new branch using the
+SIMPLIFIED GIT
+view and publish it to the remote repository.
+1. In the
+Branch
+section, open the dropdown list and select
++ Add New Branch
+81
+2. Enter a name for the new branch.
+3. Select one the following options: main: Create a branch of the main directory on the local repository
+origin/main: Create a branch of the main directory on the remote repository
+The new branch is added to the dropdown list in the
+Branch
+section.
+4. Select
+Publish Branch
+to sync the new branch with the remote repository.
+Using the Advanced Git View
+General overview of the advanced Git view, the
+SOURCE CONTROL
+view, in SAP Business Application Studio.
+SAP Business Application Studio provides a graphical user interface for executing Git commands and managing your source
+control and versioning. You can also manually perform other Git commands from the terminal. This view contains all the options
+for Git source control.
+Source Control View
+o open the
+SOURCE CONTROL
+view, click
+from the activity bar.
+82
+The
+SOURCE CONTROL
+view is divided into the following sections: SOURCE CONTROL
+view menu
+Click
+to toggle between list and tree views.
+Click
+(or press
+<Ctrl>
+<Enter>) to commit the changes.
+Click
+to refresh the Git pane.
+Click
+to view the Git history.
+Click
+to see more available actions. See Git Commands
+Message
+section
+Enter a description for the commit.
+Staged Changes
+section
+Shows the files that will be included in the next commit.
+Hover over the section title to see additional actions.
+Click
+to unstage all files in the section.
+Hover over the files in this section to see additional actions: Click
+to unstage the changes in the file.
+Click
+to open the file.
+Changes
+section
+Shows the files that contain changes.
+Hover over the section title to see additional actions.
+Click
+to discard all changes.
+Click
+to stage all changes.
+Hover over the files in this section to see additional actions: Click
+to discard the changes in the file.
+Click
+to open the file.
+Click
+to stage the changes in the file.
+Amend
+section.
+83
+Click
+Amend
+at the bottom of the pane to make changes to a commit.
+Git Status Bar
+At the bottom-left corner of SAP Business Application Studio, you can find indicators describing the status of your Git
+repository. They show the current branch, dirty indicators, and the number of ahead and behind changes of the current branch.
+The dirty indicators are as follows:: You have unstaged changes in your branch.: You have staged changes in your branch, but no unstaged changes.: You have confiicting changes in your branch.
+Clicking on the branch name, opens the command palette showing additional Git commands.
+There is also a
+Synchronize Changes
+action in the status bar, next to the branch indicator, if the currently checked-out branch
+has an upstream branch configured. Clicking
+Synchronize Changes
+opens the command palette showing additional Git
+commands that can be applied to the branch.
+Branches
+You can create and check out branches directly within the IDE by using the
+Git: Checkout
+command in the command palette.
+o create a new branch: 1. Click on the active branch name in the status bar. The command palette opens.
+2. Enter a name for the new branch. A new branch is created and checked out.
+Gutter Indicators
+If you open a folder that is a Git repository and begin making changes, annotations are added to the gutter and to the overview
+ruler.
+A red triangle indicates where lines have been deleted.
+A green bar indicates new added lines.
+A blue bar indicates modified lines.
+Connecting an Existing Project to Git
+You can add an existing project to Git.
+1. In the Project Explorer, select you project.
+2. Click
+from the activity bar to open the Git view.
+3. Click
+to initialize the local repository.
+84
+4. Click
+in the
+Changes
+section to add the files in your new local repository. This stages them for the first commit.
+5. Click
+(or press
+<Ctrl>
+<Enter>) to commit the files that you've staged in your local repository.
+6. When prompted, provide a commit message. Your project is now connected to your local Git repository.
+Adding a Project to Git Remote
+1. Click
+from the activity bar to open the Git view.
+2. Click
+to see more available actions.
+3. Select
+Remote
+Add Remote
+4. When prompted, add the URL for the remote repository where your local repository will be pushed.
+5. Push the changes in your local repository to the remote Git repository. See
+Push Changes.
+Understanding the UI
+SAP Business Application Studio provides a graphical user interface for executing Git commands and managing your source
+control and versioning.
+Understanding the UI
+The Git view consists of three major sections. The top section is for authoring the commit messages. It also provides access to a
+couple of basic Git commands.
+Below this, you find the commit section, which lists the changed files by their name and separates them in two groups: Staged Changes- A list of the files that have been staged. Click
+to open the selected file, or
+to unstage it.
+Changes- Files listed under the
+Changes
+section contain unstaged changes. Each file name is followed by a path to its
+parent directory and an indicator describing the status of the change.
+Click
+to open the selected file, to stage the file, or
+to refresh it.
+85
+The files can be in any of the following statuses:- A new file that has been staged.- An unstaged file. An unstaged change can be reverted by clicking on the
+Discard Changes
+action next to the file
+location.- A modified file. Double-clicking on a modified file will open it in a diff editor. The read-only editor on the left-hand side
+shows the state from the index. The right-hand side of the editor refiects the state of the working tree, and it lets you to
+further modify the file.- A copied file (if blue) or a confiicted file (if red).- A deleted file.
+At the bottom of the Git view you can see the last commit section, where a description of the most recent commit is displayed.
+After staging the desired files and specifying the commit message, the changes can be committed to the repository. After a
+successful commit, the Last Commit section is automatically updated.
+Git Commands
+SAP Business Application Studio supports Git commands from the Git view and from the command palette.
+Commit (Amend) Changes
+Enables you to add the current changes to the last commit.
+Commit (Signed Off) Changes
+Enables you to save your changes to the local repository. Sign-off is a line at the end of the commit message that
+certifies who is the author of the commit.
+Fetch Changes
+Fetching enables you to download objects and references from a remote repository into your local repository. You can
+then merge or rebase the changes into your project.
+Merge Changes
+You can incorporate all the changes from one branch into another in a single commit.
+Pull Changes
+Pulling is the same as fetching and merging. Pulling enables you to download objects and references from the remote
+repository into your local repository, and then merge the changes into your project.
+Push Changes
+The Push option incorporates all unsynced committed changes into the remote branch of the currently checked-out local
+branch.
+Discard Changes
+Discarding removes all changes from the active branch. For example, discarding a new file removes it from the branch.
+Stage and Unstage Changes
+You can add or remove all the changes in the
+Changes
+section with one click.
+Git Stash
+Use
+Stash
+to record the current state to the working directory and then go back to a clean working directory. Your local
+changes are saved and the directory reverts to match the HEAD commit.
+View Diffs
+Compare different versions of a file.
+Commit (Amend) Changes
+86
+Enables you to add the current changes to the last commit.
+You can combine staged changes with the previous commit instead of creating an entirely new commit. It can also be used to
+simply edit the previous commit message without changing it.
+1. From the
+SOURCE CONTROL
+view menu, click More Actions.
+2. Select
+Commit (Amend)
+Commit (Signed Off) Changes
+Enables you to save your changes to the local repository. Sign-off is a line at the end of the commit message that certifies who
+is the author of the commit.
+1. From the
+SOURCE CONTROL
+view menu, click More Actions.
+2. Select
+Commit (Signed Off). The commit message is sent including the signature of the committer.
+Fetch Changes
+Fetching enables you to download objects and references from a remote repository into your local repository. You can then
+merge or rebase the changes into your project.
+1. From the
+SOURCE CONTROL
+view menu, click More Actions.
+2. Select
+Fetch.... The command palette is displayed.
+3. From the list, select the remote Git repository from which you want to fetch the changes.
+Merge Changes
+You can incorporate all the changes from one branch into another in a single commit.
+o merge a branch into another: 1. From the
+SOURCE CONTROL
+view menu, click More Actions.
+2. Select
+Merge.... The command palette opens.
+3. Select the branch you want to merge into the currently active branch.
+Dealing with Merge Confiicts
+87
+Merge operations can fail because of confiicts between the current branch and the branch you choose from which to
+incorporate the changes. T
+o see which files have merge confiicts, navigate to the console or the explorer: The console displays a list of all files with merge confiicts.
+The explorer displays "!" next to any files with confiicts.
+When you access a file with confiicts, the confiicts and the options for resolving them are displayed in the file.
+Choose from the following options to resolve the merge confiict: 1.
+Accept Current Change: Apply only the changes from the current branch.
+2.
+Accept Incoming Change: Apply only the changes from the target branch.
+3.
+Accept Both Changes: Merge both changes (the first change from the current branch and the second change from the
+target branch).
+4.
+Compare changes: View the differences (current and target) in a split window.
+Pull Changes
+Pulling is the same as fetching and merging. Pulling enables you to download objects and references from the remote
+repository into your local repository, and then merge the changes into your project.
+Pull
+1. From the
+SOURCE CONTROL
+view menu, click More Actions.
+2. Select
+Pull
+The changes are fetched from the specific branch and merged into your local checked-out branch.
+88
+Pull From
+This feature has the same functionality as Pull, but in this case, when you select the action, the command palette is displayed
+and you can define the repository from which you want to pull the changes.
+1. From the
+SOURCE CONTROL: GIT
+menu, click More Actions.
+2. Select
+Pull from. The command palette is displayed.
+3. Select the the repository from which you want to pull the changes.
+Push Changes
+The Push option incorporates all unsynced committed changes into the remote branch of the currently checked-out local
+branch.
+The number of unsynced committed changes is displayed next to the repository name. All tags created within the open
+repository are pushed.
+Push
+1. From the
+SOURCE CONTROL
+view menu, click More Actions.
+2. Select
+Push
+Push to
+1. From the
+SOURCE CONTROL
+menu, click More Actions.
+2. Select
+Push to. The command palette is displayed.
+3. Select the target remote repository branch to which you want to push.
+Discard Changes
+Discarding removes all changes from the active branch. For example, discarding a new file removes it from the branch.
+Move your mouse over the file containing the changes you want to discard and click
+Discard Changes
+Note
+It is recommended to
+pull changes before pushing changes. This action ensures that your local copy is synced with the
+remote repository.
+If a team member pushed to the remote repository and you push changes before syncing, you may encounter some issues, including head annotations or merge confiicts.
+Note
+89
+Stage and Unstage Changes
+You can add or remove all the changes in the
+Changes
+section with one click.
+Click
+Stage All Changes
+to adds all changed files to the list of changes that will be included in the next commit.
+Click
+Unstage All Changes
+to remove all changed files from the next commit.
+Git Stash
+Use
+Stash
+to record the current state to the working directory and then go back to a clean working directory. Your local changes
+are saved and the directory reverts to match the HEAD commit.
+Pop Stash
+Removes a single entry from the stash list and applies it on top of the current working tree state. This is the inverse operation
+of stash push.
+If there are confiicts, the entry is not removed from the stash list. You need to resolve the confiicts and perform stash drop
+manually afterwards.
+Pop Latest Stash
+Removes the latest entry from the stash list and applies it on top of the current working tree state.
+Apply Stash
+akes a single entry from the stash list and applies it on top of the current working tree state. This functionality is like Pop Stash, but without removing the entry from the stash list.
+Apply Latest Stash
+akes the latest entry from the stash list and applies it on top of the current working tree state.
+Drop Stash
+Removes a single stash entry from the list of stash entries.
+View Diffs
+Compare different versions of a file.
+View Changes in Local Repository
+Clicking a modified file opens a diff viewer. Its left-hand side is a read-only editor showing the index state, and the right-hand
+side is an editor for the working-tree state.
+Only unstaged files can be discarded.
+90
+View Changes in Different Branches
+1. Select a modified file from the task explorer.
+2. From the command palette, enter
+Git Diff: Compare With
+3. Select the branch to which you want to compare the currently active branch.
+A diff viewer is displayed. Its left-hand side is a read-only editor showing the current branch, and the right-hand side shows the
+file in the selected branch.
+Setting Up Git to Work with Gerrit
+Gerrit is a web-based software code review tool for reviewing, approving, or rejecting changes to the source code developed by
+your colleagues. Gerrit works as an intermediate environment for source control between the local environment and the
+remote Git repository.
+Prerequisite
+You configured the required Cloud Connector and destination in your account.
+Procedure
+1. Enable Gerrit: a. Navigate to
+File
+Preferences
+Settings
+b. From the list of preferences, under
+Extensions, click
+Sapbas
+c. Under
+Gerrit: Enabled, select the
+Whether gerrit is enabled
+checkbox.
+d. Under
+Gerrit: Configuration, click
+Add Item
+and add the required properties (hookPath
+protocol, and
+hostname)
+and their values, which can be obtained from your organization's Gerrit administrator.
+This is the configuration for SAP WDF Gerrit system:
+91
+2. Clone your project. See
+Cloning Repositories.
+3. Perform your change and create a commit. See
+Commit (Amend) Changes.
+4. From the
+SOURCE CONTROL
+view menu, click More Actions.
+5. Select
+Push to Gerrit
+Related Information
+Cloud Connector
+Install the cloud connector
+Configure Systems in Cloud Connector
+Terminal
+Opening the integrated terminal allows you to access the underlying system. The terminal is a convenient tool because you
+don't need to switch windows or change the state of an existing terminal to perform a quick command-line task.
+You can create multiple terminals open to different locations and easily navigate between them.
+With access to the terminal, you can use any tool that is pre-installed on your dev space, such as maven and npm. You can install
+additional tools, including global npm packages and other CLIs, using npm install. You can execute commands from the
+command line, create new projects or modules, build applications, and deploy applications from the terminal.
+92
+From the left-side menu, select
+Terminal
+New Terminal
+to open the terminal.
+o open the terminal at a specific directory, right-click the desired file in the
+File Explorer, and select
+Open in Integrated
+Terminal
+erminal
+Related Information
+Create an SAPUI5 App from the Command Line
+Layout Editor
+Display the content of an XML view in the layout editor to see it in a way that closely corresponds to how it will appear in your
+finished application.
+Layout Editor Landscape
+The layout editor is composed of a canvas, a pane on the left that includes the
+Controls
+and
+Outline
+tabs, and a pane on the
+right that includes the
+Properties
+pane.
+Note
+The layout editor is not supported in the Safari browser.
+93
+Toolbar
+The buttons on the layout editor toolbar allow you to: Change the device format of the canvas to smartphone, tablet, or desktop view.
+Expand and collapse the panes to the right and left of the canvas.
+The pane on the left side includes the
+Controls
+and
+Outline
+tabs.
+The pane on the right side includes the
+Properties
+pane.
+Undo and redo actions.
+Controls Tab
+You can expand or collapse each section by clicking the arrow on each section header. You can also search for controls by
+entering the control name in the search field at the top of the
+Controls
+tab. The relevant sections expand to display the controls
+that match the search criteria.
+You can drag and drop controls from the
+Controls
+tab onto the canvas. For more information, see Add Controls from the
+Controls T
+ab.
+Note
+Make sure to delete the search criteria if you want to expand other sections.
+94
+You can find the list of available controls in
+SAPUI5 Controls Supported in the Layout Editor.
+Outline Tab
+Controls that are selected on the
+Outline
+tab are automatically selected on the canvas and vice versa.
+You can use the
+Outline
+tab to see the hierarchy of controls on the canvas. In addition, you can add and remove controls from
+the canvas using the
+Outline
+tab.
+For more information, see Add Controls from the Outline T
+ab.
+95
+Canvas
+The canvas in the middle of the layout editor area provides a graphical display of the selected XML view.
+Click a control on the canvas to select it. T
+o select a parent control, hold
+Ctrl
+and click. You can keep clicking until you reach the
+highest control in the hierarchy and then the focus will return to the original control. Click outside the canvas to undo the
+selection.
+96
+Properties Pane
+On the right side of the canvas is a pane that displays the following pane: Properties Pane
+The
+Properties
+pane shows the properties of the control that is currently selected in the canvas and allows you to modify its
+property values. The most commonly used properties for each control are displayed at the top of the list. The
+icon next to
+each property opens the
+Data Binding
+dialog box.
+For more information, see
+Binding Data, Bind Data to a Simple Control, and
+Bind Data to an Aggregate-Type Control.
+97
+Related Information
+Working with the Layout Editor
+Note
+Deprecated properties or aggregations are marked with the label
+deprecated
+(also in the
+Outline
+tab). For more
+information, see
+SAP Library for User Interface Add-On 1.0 for SAP NetWeaver
+on SAP Help Portal at
+http://help.sap.com/nw-uiaddon. Under
+Application Help, open
+SAP Library, and search for
+deprecation.
+98
+SAPUI5 Controls Supported in the Layout Editor
+Working with the Layout Editor
+An overview of the steps required to edit a project using the layout editor.
+Prerequisites
+You have created a project using the
+SAP Fiori List-Detail Application
+template.
+o create a project using this template, perform the following steps: 1. From the template wizard, select the
+SAP Fiori application
+generator.
+2. Select the
+SAPUI5 freestyle
+application type.
+3. Select the
+SAP Fiori List-Detail Application
+4. Follow the wizard steps and provide the required information.
+In the
+view
+folder of this project, you can edit the following views: Detail.view.xml
+List.view.xml
+Procedure
+1. From the context menu of the XML view, choose
+Open With...
+and select the
+Layout Editor
+from the command center.
+2. Edit the views of your application as follows: Add controls to your view using the drag and drop functionality.
+Delete controls from your view.
+Rearrange controls in your view using the drag and drop functionality.
+Use the keyboard to navigate within the canvas. Double-click on a control to move the selection to its parent.
+Bind controls in the layout editor to elements from the OData service.
+Add Controls from the Outline Tab
+You can add controls to the canvas from the
+Outline
+tab.
+Procedure
+1. On the
+Outline
+tab, select a control to which you want to add another control.
+2. At the top of the
+Outline
+tab, click the
+Add
+button, then in the popup menu, select the control you want to add.
+The control is added on the
+Outline
+tab and appears on the canvas.
+Note
+The information bar at the top of the canvas shows you where you are about to drop the control.
+99
+Related Information
+Delete Controls from the Outline T
+ab
+SAPUI5 Controls Supported in the Layout Editor
+Delete Controls from the Outline Tab
+You can remove controls from the
+Outline
+tab.
+Procedure
+1. On the
+Outline
+tab, select a control that you want to delete.
+2. At the top of the
+Outline
+tab, click the
+Delete
+button.
+The control is removed from the view.
+Related Information
+Add Controls from the Outline T
+ab
+SAPUI5 Controls Supported in the Layout Editor
+Add Controls from the Controls Tab
+Add controls to the canvas by using drag and drop functionality.
+Select the control that you want to add to the canvas from the
+Controls
+tab on the left side of the layout editor area and drag it
+to the drop target on the canvas. A tooltip displays the drop targets as you drag the control around the canvas.
+Example
+If you want to add an
+HBox
+layout with a
+Button
+control to your view, do the following: 1. Choose the
+Controls
+tab.
+2. Open the
+Layout
+section by clicking the arrow to the left of the section title.
+3. Select the
+HBox
+control and drag it to the canvas. Drop it at the position where you want it to appear.
+4. Open the
+Action
+section by clicking the arrow to the left of the section title.
+5. Select the
+Button
+control and drag it to the canvas.
+6. Drop the
+Button
+control onto the
+HBox
+layout.
+Keyboard Support
+Use the keyboard to move selected controls or navigate within the view that you opened with the layout editor.
+Selecting Controls
+If you selected a control in the canvas of the layout editor, you can move the selection using the arrow keys: UP ARROW : moves the selection to the parent of the selected control
+100
+DOWN ARROW : moves the selection to the child of the selected control
+LEFT ARROW : moves the selection to the control that is up/to the right of the selected control (within the same
+aggregation)
+RIGHT ARROW : moves the selection to the control that is down/to the left of the selected control (within the same
+aggregation)
+CTRL + click: moves the selection to the parent of the selected control
+Moving Selected Controls
+If you have selected a control in the canvas of the layout editor, you can change its position within the aggregation: SHIFT + LEFT ARROW : moves the control up/to the right
+SHIFT + RIGHT ARROW : moves the control down/to the left
+Changing the Drop Target
+When you drag and drop a control from the palette to the canvas or from one position within the canvas to another, you can use
+the keyboard to define the drop position of the dragged control: Use
+SHIFT
+or
+ALT
+to define the drop position of the dragged control within an aggregation: SHIFT : moves the drop position up/to the right
+ALT : moves the drop position down/to the left
+Binding Data
+In the layout editor, you can bind properties of controls or control aggregations to an artifact in the OData service.
+Prerequisites
+You have defined a data set for the view that you are working on, by doing one of the following: If you are opening a view that has no data set defined for it, the
+Data Binding
+dialog box opens, where you can define a
+data set.
+Select the view, and define the data set from the dropdown list.
+Overview
+The following types of bindings are possible: Properties of controls
+Aggregations of controls
+Caution
+If you change the data set that is defined for the current view, the existing data bindings might become invalid.
+Note
+o bind properties of models that are not OData models, you must work from the source code files and not from the layout
+editor. Alternatively, if you do not want to work with the source files in the XML editor, you can enter free text for properties
+in the
+Properties
+pane.
+101
+Related Information
+SAPUI5 API Reference
+Define Entity Set
+Before you can bind data to a control, you need to define an entity set.
+Prerequisites
+You have created a project in the layout editor. For more information, see
+Working with the Layout Editor.
+You have dragged a control from the
+Controls
+pane to the canvas. For more information, see Add Controls from the
+Controls T
+ab.
+Procedure
+1. In the canvas, select the control for which you want to define an entity set.
+2. In the
+Properties
+pane, click the icon.
+The
+Select Entity Set
+dialog box opens.
+3. Select and configure one of the entity sets for your control.
+Use ancestor's entity set.
+Define dummy entity set for the selected control.
+Define entity set and set the selected control as template.
+4. Click
+Bind
+Bind Data to a Simple Control
+You can bind data to a simple control.
+Procedure
+1. On the canvas, select the desired control for which you want to define data binding.
+2. In the
+Properties
+pane to the right of the canvas, do one of the following: Note
+If your application does not consume an OData service, you can add the
+OData Service
+component to it.
+Note
+Most users should use either of the first two entity sets listed below.
+Restriction
+The "dummy" entity set is only for advanced users.
+102
+o the right of the property to which you want to bind data, click the
+Binding
+button, and then in the
+Data
+Binding
+dialog box: a. In the
+Data Fields
+list, double-click one or more data fields that you want to add to the expression.
+The data fields are automatically concatenated to the string in the
+Expression
+box.
+b. Click
+Bind
+or first manually edit the expression string and then click
+Bind
+In the
+Properties
+pane, for a field or dropdown list, manually enter the required expression within curly brackets
+{...} according to the data set that you selected.
+Bind Data to an Aggregate-Type Control
+You can bind data to an aggregate-type control, which creates a template.
+Prerequisites
+You have defined an entity set. For more information, see
+Define Entity Set.
+Procedure
+1. In the canvas or on the
+Outline
+tab to the left of the canvas, choose an aggregate-type control that you want to turn into
+a template, such as a
+List Item
+control.
+2. In the
+Properties
+pane to the right of the canvas, from the
+Select Entity Set
+dialog box, select
+Define entity set and set
+the selected control as template., and click
+Bind
+This control becomes a template.
+3. In the
+Confirmation Needed
+dialog box, confirm the removal of any existing controls on the same level by clicking
+OK
+Results
+The template item is now marked
+Template
+in the
+Outline
+tab.
+Bind to the i18n Model
+You can bind a control property to the i18n model or create a new i18n entry.
+Procedure
+1. On the canvas, select the desired control for which you want to define i18n model binding.
+2. In the
+Properties
+pane to the right of the canvas, do one of the following: o the right of the property to which you want to bind data, click the
+Binding
+button, and then in the dialog
+box that appears: a. From the drop down list, select
+i18n, double-click one or more entries that you want to add to the
+expression.
+The entries are automatically concatenated to the string in the
+Expression
+box.
+b. Click
+Bind
+or first manually edit the expression string and then click
+Bind
+In the
+Properties
+pane, for a field or dropdown list, manually enter the required expression within curly brackets
+{...}.
+103
+Click + to add a new i18n entry.
+Bind to a Label Annotation
+You can bind a control property to a label annotation.
+Context
+You can bind a control property to a label annotation that resides in the OData metadata file. Other annotation files are not
+supported.
+Procedure
+1. On the canvas, select the desired control for which you want to define a label annotation binding.
+2. In the
+Properties
+pane to the right of the canvas, do one of the following: o the right of the property to which you want to bind data, click the
+Binding
+button, and then in the dialog
+box that appears: a. From the drop down list, select
+Labels, double-click one or more annotation that you want to add to the
+expression.
+The annotations are automatically concatenated to the string in the
+Expression
+box.
+b. Click
+Bind
+or first manually edit the expression string and then click
+Bind
+In the
+Properties
+pane, for a field or dropdown list, manually enter the required expression within curly brackets
+{...}.
+SAPUI5 Controls Supported in the Layout Editor
+Provides a list of SAPUI5 controls that are supported in the layout editor.
+Controls Tab
+The SAPUI5 controls listed below can be dragged and dropped from the
+Controls
+tab onto the canvas.
+SAPUI5 Controls Available on the Controls Tab
+SAPUI5 Control Name
+Description
+Action List Items
+sap.m.ActionListItem
+Button that is used to fire actions when pressed.
+Note
+The controls on the
+Controls
+tab are also available from the
+Outline
+tab. For more information, see Add Controls from the
+Outline T
+ab.
+Note
+For more information about SAPUI5 controls, see
+UI development toolkit for HTML5 - Demo Kit.
+104
+SAPUI5 Control Name
+Description
+Action Select
+sap.m.ActionSelect
+Provides a list of predefined items that allows end users to choose options and
+additionally trigger some actions.
+Add Bookmark Button
+sap.ushell.ui.footerbar.AddBookmarkButton
+Button that is displayed in the application footer. Clicking the button opens a dialog
+box that allows the user to save the app state, so that the app can be launched in this
+state directly from the launchpad.
+Analytic Map
+sap.ui.vbm.AnalyticMap
+Renders a map based on a GeoJSON source.
+App
+sap.m.App
+The root element of an SAPUI5 mobile application. It inherits from the
+NavContainer
+control and thus provides its navigation capabilities.
+App
+provides certain header tags
+to the HTML page that are relevant for mobile apps.
+Bar
+sap.m.Bar
+Centers a control like a title while having other controls on its left and right.
+Breadcrumbs
+sap.m.Breadcrumbs
+Enables users to navigate between items by providing a list of links to previous steps
+in the user's navigation path. The last three steps can be accessed as links directly, while the remaining links prior to them are available in a drop-down menu.
+Busy Indicator
+sap.ui.core.BusyIndicator
+Provides methods to show or hide a waiting animation that covers the whole page and
+blocks user interaction.
+Button
+sap.m.Button
+Allows users to trigger actions.
+Calendar
+sap.ui.unified.Calendar
+Basic calendar that is used for
+DatePickers
+Calendar Legend
+sap.ui.unified.CalendarLegend
+Legend for the
+Calendar
+control. Displays special date colors with their
+corresponding description.
+CalendarLegendItem
+sap.ui.unified.CalendarLegendItem
+Item to be displayed in a CalendarLegend.
+Carousel
+sap.m.Carousel
+Navigates through a list of controls by swiping right or left.
+Check Box
+sap.m.CheckBox
+Allows the user to select one or multiple items from a list.
+Component Container
+sap.ui.core.ComponentContainer
+Container that embeds a
+UIComponent
+in a control tree.
+Control Configuration
+sap.ui.comp.smartfilterbar.ControlConfiguration
+Can be used to add additional configuration for filter fields in the SmartFilterBar
+control, in order to overwrite the default settings from the OData metadata. For
+instance, it is possible to change the label, index or control type of a filter field.
+Column
+sap.m.Column
+Allows definition of column-specific properties that are applied when rendering a
+List
+control.
+Column List Item
+sap.m.ColumnListItem
+Used with cell aggregation to create rows for the
+sap.m.Table
+control.
+105
+SAPUI5 Control Name
+Description
+Combo Box
+sap.m.ComboBox
+Combines a dropdown list with items and a text input field with a button allowing the
+user to either type a value directly or choose from a list of predefined items.
+Custom Data
+sap.ui.core.CustomData
+Contains a single key/value pair of custom data attached to an Element.
+Custom List Item
+sap.m.CustomListItem
+With content aggregation, can be used to customize standard list items that are not
+provided by SAPUI5.
+ListItem
+type is applied to
+CustomListItem
+as well.
+Custom Tile
+sap.m.CustomTile
+Displays application-specific content in the
+Tile
+control.
+Date Picker
+sap.m.DatePicker
+Date input control with a calendar used as a date picker.
+Detail Page
+sap.m.semantic.DetailPage
+An
+sap.m.semantic.ShareMenuPage
+control that supports certain semantic
+buttons that have default semantic-specific properties and are eligible for content
+aggregation.
+Display List Item
+sap.m.DisplayListItem
+Used to represent a label and a value.
+DraftIndicator
+sap.m.DraftIndicator
+A draft indicator is
+sap.m.Label
+Feed Input
+sap.m.FeedInput
+Allows the user to enter text for a new feed entry and then post it.
+Feed List Item
+sap.m.FeedListItem
+Provides a set of properties for text, sender information, and time stamp.
+Filter Group Item
+sap.ui.comp.filterbar.FilterGroupItem
+Represents a filter belonging to a group other than basic.
+Filter Item
+sap.ui.comp.filterbar.FilterItem
+Represents a filter belonging to the basic group.
+Flex Item Data
+sap.m.FlexItemData
+Holds layout data for a FlexBox / HBox / VBox.
+Flex Box
+sap.m.FlexBox
+Builds the container for a fiexible box layout.
+Form
+sap.ui.layout.form.Form
+Structured into
+FormContainer
+controls, each of which consists of
+FormElement
+controls.
+Form Container
+sap.ui.layout.form.FormContainer
+Group inside a
+Form
+Note
+Content aggregation allows any control. Complex responsive layout controls (such
+as
+Table
+and
+Form) should not be aggregated as content.
+106
+SAPUI5 Control Name
+Description
+Form Element
+sap.ui.layout.form.FormElement
+Row in a
+FormContainer
+control.
+Fullscreen Page
+sap.m.semantic.FullscreenPage
+An
+sap.m.semantic.ShareMenuPage
+control that supports certain semantic
+buttons that have default semantic-specific properties and are eligible for content
+aggregation.
+Generic Tile
+sap.m.GenericTile
+Displays header, subheader, and a customizable main area in a tile format.
+Geo Map
+sap.ui.vbm.GeoMap
+A map control that allows the user to position multiple visual objects on top of a map.
+Grid
+sap.ui.layout.Grid
+Layout that positions its child controls in a 12-column fiow layout.
+Grid Container Data
+sap.ui.layout.form.GridContainerData
+The
+GridLayout-specific layout data for
+FormContainers
+Grid Data
+sap.ui.layout.GridData
+Grid layout data.
+Grid Element Data
+sap.ui.layout.form.GridElementData
+The
+GridLayout-specific layout data for
+FormElement
+fields.
+Group
+sap.ui.comp.smartform.Group
+Groups are used to group
+group
+elements.
+Group Configuration
+sap.ui.comp.smartfilterbar.GroupConfiguration
+Can be used to add additional configurations for groups in the SmartFilterBar. A group
+in the SmartFilterBar is a group of filter fields in the advanced search.
+GroupElement
+sap.ui.comp.smartform.GroupElement
+A combination of one label and different controls associated to this label.
+Group Header List Item
+sap.m.GroupHeaderListItem
+Used to display the title of a group and act as a separator between groups in
+sap.m.List
+and
+sap.m.Table
+HBox
+sap.m.HBox
+Builds the container for a horizontal fiexible box layout.
+Horizontal Layout
+sap.ui.layout.HorizontalLayout
+Provides support for horizontal alignment of controls.
+Icon
+sap.ui.core.Icon
+Uses an embedded font instead of a pixel image.
+Icon Tab Bar
+sap.m.IconTabBar
+Represents a collection of tabs with associated content.
+Icon Tab Filter
+sap.m.IconTabFilter
+Represents a selectable item inside an
+Icon Tab Bar
+control.
+107
+SAPUI5 Control Name
+Description
+Icon Tab Header
+sap.m.IconTabHeader
+Displays a number of
+Icon Tab Filter
+and
+Icon Tab Separator
+controls.
+Icon Tab Separator
+sap.m.IconTabSeparator
+Icon used to separate two
+Icon Tab Filter
+controls.
+Image
+sap.m.Image
+Wrapper around the
+IMG
+tag.
+Input
+sap.m.Input
+Allows users to input data.
+Input List Item
+sap.m.InputListItem
+List item used for a label and an input field.
+Invisible Text
+sap.ui.core.InvisibleText
+Used to bring hidden texts to the UI for screen reader support.
+Item
+sap.ui.core.Item
+Control base type.
+Label
+sap.m.Label
+Used in SAPUI5 mobile applications to provide label text for other controls.
+Layout Data
+sap.ui.core.LayoutData
+A layout data base type.
+Link
+sap.m.Link
+Used to trigger actions or to navigate to other applications or web pages.
+List
+sap.m.List
+Provides a container for all types of list items.
+List Item
+sap.ui.core.ListItem
+Used in lists or list-like controls, such as
+DropdownBox
+Master Page
+sap.m.semantic.MasterPage
+An
+sap.m.semantic.SemanticPage
+control that supports certain semantic
+buttons that have default semantic-specific properties and are eligible for content
+aggregation.
+Message Strip
+sap.m.MessageStrip
+Allows the embedding of application-related messages in the application.
+Nav Container
+sap.m.NavContainer
+Handles hierarchical navigation between
+Page
+controls or other fullscreen controls.
+Object Attribute
+sap.m.ObjectAttribute
+Displays a text field that can be normal or active.
+Object Header
+sap.m.ObjectHeader
+Allows the user to easily identify a special object.
+108
+SAPUI5 Control Name
+Description
+Object Identifier
+sap.m.ObjectIdentifier
+Display control that allows the user to easily identify a specific object.
+Object List Item
+sap.m.ObjectListItem
+Display control that provides summary information about an object as an item in a list.
+Object Number
+sap.m.ObjectNumber
+Displays number and number unit properties for an object.
+Object Status
+sap.m.ObjectStatus
+Status information that can be either text with a value state, or an icon.
+Overfiow Toolbar
+sap.m.OverfiowToolbar
+Container based on
+sap.m.Toolbar
+that provides overfiow when its content does not
+fit in the visible area.
+Overfiow Toolbar Button
+sap.m.OverfiowToolbarButton
+Represents an sap.m.Button that shows its text only when in the overfiow area of an
+sap.m.OverfiowToolbar.
+Page
+sap.m.Page
+Basic container for a mobile application screen.
+Paging Button
+sap.m.PagingButton
+Allows users to navigate between items and entities.
+Pane Container
+sap.ui.layout.PaneContainer
+An abstraction of
+Splitter
+Could be used as an aggregation of
+ResponsiveSplitter
+or other
+PaneContainers
+Panel
+sap.m.Panel
+Container for controls that has a header and content.
+Progress Indicator
+sap.m.ProgressIndicator
+Shows the progress of a process in a graphical way.
+Pull To Refresh
+sap.m.PullToRefresh
+Triggers the refresh event.
+Radio Button
+sap.m.RadioButton
+Control similar to
+CheckBox, but it allows the user to choose only one of a predefined
+set of options.
+Radio Button Group
+sap.m.RadioButtonGroup
+Used as a wrapper for a group of
+sap.m.RadioButton
+controls, which then can be
+used as a single UI element.
+Rating Indicator
+sap.m.RatingIndicator
+Used to rate content.
+Responsive Flow Layout Data
+sap.ui.layout.ResponsiveFlowLayoutData
+This is a
+LayoutData
+element that can be added to a control if this control is used
+within a
+ResponsiveFlowLayout
+Search Field
+sap.m.SearchField
+Allows users to input a search string.
+109
+SAPUI5 Control Name
+Description
+Segmented Button
+sap.m.SegmentedButton
+Horizontal control made of multiple buttons, which can display a title or an image.
+Segmented Button Item
+sap.m.SegmentedButtonItem
+Used for creating buttons for the
+sap.m.SegmentedButton. It is derived from the
+sap.ui.core.Item
+Select
+sap.m.Select
+Provides a list of items that allows the user to select an item.
+Select List
+sap.m.SelectList
+Displays a list of items that allows the user to select an item.
+Semantic Page
+sap.f.semantic.SemanticPage
+An enhanced
+sap.f.DynamicPage, that contains controls with semantic-specific
+meaning.
+Semantic Page
+sap.m.semantic.SemanticPage
+An enhanced
+sap.m.Page
+control that can contain controls with semantic meaning.
+Content specified in
+sap.m.semantic.SemanticPage
+semantic control
+aggregations are automatically positioned in dedicated sections of the footer or the
+header of the page, depending on the control's semantics.
+Share Menu Page
+sap.m.semantic.ShareMenuPage
+An
+sap.m.semantic.SemanticPage
+control that supports a
+Share
+menu in the
+footer.
+Shell
+sap.m.Shell
+Can be used as root element of applications. It can contain an
+App
+or a
+SplitApp
+control. The Shell provides some overarching functionality for the overall application
+and takes care of visual adaptation, such as a frame around the App, on desktop
+browser platforms.
+Simple Form
+sap.ui.layout.form.SimpleForm
+Provides an API for creating simple forms. Inside a
+SimpleForm
+control, a
+Form
+control is created along with its
+FormContainers
+control and
+FormElements
+control, but the complexity in the API is removed.
+Slider
+sap.m.Slider
+User interface control that allows the user to adjust values within a specified numerical
+range.
+Smart Chart
+sap.ui.comp.smartchart.SmartChart
+Creates a chart based on OData metadata and the configuration specified. The
+entitySet
+property must be specified to use the control. This property is used to
+fetch fields from OData metadata, from which the chart UI will be generated. It can also
+be used to fetch the actual chart data.
+Based on the
+chartType
+property, this control will render the corresponding chart.
+Smart Field
+sap.ui.comp.smartfield.SmartField
+A wrapper for other controls. It interprets OData metadata to determine the control that
+has to be instantiated. The OData entity is derived from the control's binding context.
+The OData entity's property that is changed or displayed with the control is derived
+from the control's value property.
+Note
+Most of the attributes are not dynamic and cannot be changed once the control has
+been initialized.
+110
+SAPUI5 Control Name
+Description
+Smart Filter Bar
+sap.ui.comp.smartfilterbar.SmartFilterBar
+The
+SmartFilterBar
+control uses the OData metadata of an entity in order to create
+a FilterBar.
+Whether a field is visible on the
+FilterBar, supports type-ahead and value help, for
+example, is automatically determined. When you use control configurations and group
+configurations it is possible to configure the
+FilterBar
+and adapt it according to
+your needs.
+Smart Form
+sap.ui.comp.smartform.SmartForm
+Renders a form (sap.ui.layout.form.Form). When used with the SmartField
+control the label is taken from the metadata annotation sap:label if not specified
+directly.
+Smart Link
+sap.ui.comp.navpopover.SmartLink
+The
+SmartLink
+control uses a semantic object to display
+NavigationPopover
+for
+further navigation steps.
+Smart Table
+sap.ui.comp.smarttable.SmartTable
+Creates a table based on OData metadata and the configuration specified. The
+entitySet attribute must be specified to use the control. This attribute is used to fetch
+fields from OData metadata, from which columns will be generated; it can also be used
+to fetch the actual table data.
+Based on the tableType property, this control will render a standard, analytical, tree, or
+responsive table.
+Split Pane
+sap.ui.layout.SplitPane
+A container of a single control in a responsive splitter. Could be used as an aggregation
+of a
+PaneContainer
+Splitter Layout Data
+sap.ui.layout.SplitterLayoutData
+Holds layout data for the splitter contents. Allowed size values are numeric values
+ending in "px" and "%" and the special case "auto". (The CSS value "auto" is used
+internally to recalculate the size of the content dynamically and is not directly set as
+style property.)
+Standard List Item
+sap.m.StandardListItem
+List item that provides the most common use cases, such as image, title, and
+description.
+Standard Tile
+sap.m.StandardTile
+Displayed in the
+Tile
+container.
+Switch
+sap.m.Switch
+User interface control on mobile devices that is used for switching between binary
+states.
+Table
+sap.m.Table
+Provides a set of sophisticated and convenient functions for responsive table design.
+Text
+sap.m.Text
+Used for embedding longer text paragraphs that need text wrapping into your
+application.
+Text Area
+sap.m.TextArea
+Allows multiline text input.
+Tile Container
+sap.m.TileContainer
+Container that arranges same-size tiles on carousel pages.
+Note
+Navigation targets are determined using
+CrossApplicationNavigation
+of the
+unified shell service.
+111
+SAPUI5 Control Name
+Description
+Tile Content
+sap.m.TileContent
+This control is used within the GenericTile control.
+Title
+sap.ui.core.Title
+Used to aggregate other controls.
+Time Picker
+sap.m.TimePicker
+A single-field input control that enables the users to fill time related input fields.
+Toggle Button
+sap.m.ToggleButton
+Control that toggles between pressed and normal state.
+Toolbar
+sap.m.Toolbar
+Horizontal container that is usually used to display buttons, labels, selects, and other
+input controls.
+Toolbar Layout Data
+sap.m.ToolbarLayoutData
+Defines layout data for the
+sap.m.Toolbar
+items.
+Toolbar Separator
+sap.m.ToolbarSeparator
+Creates a visual separator between toolbar items.
+Toolbar Spacer
+sap.m.ToolbarSpacer
+Adds horizontal space between toolbar items.
+Upload Collection
+sap.m.UploadCollection
+Allows users to upload single or multiple files.
+Upload Collection Item
+sap.m.UploadCollectionItem
+Provides information about uploaded files.
+Variant Layout Data
+sap.ui.core.VariantLayoutData
+Allows to add multiple LayoutData to one control in case that an easy switch of layouts
+(e.g. in a Form) is needed.
+VBox
+sap.m.VBox
+Builds the container for a vertical fiexible box layout.
+Vertical Layout
+sap.ui.layout.VerticalLayout
+Layout in which the content controls are rendered one below the other.
+XML View
+sap.ui.core.mvc.XMLView
+A View defined using (P)XML and HTML markup.
+Outline Tab
+The SAPUI5 controls listed below are available only from the
+Outline
+tab in the layout editor.
+Note
+ToolbarLayoutData
+should not be used together with
+sap.m.ToolbarSpacer
+Note
+112
+SAPUI5 Controls Available on the Outline Tab
+SAPUI5 Control Name
+Description
+sap.m.semantic.AddAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.m.semantic.CancelAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.CloseAction
+A semantic-specific button, eligible for the closeAction aggregation
+of the
+sap.f.semantic.SemanticPage
+to be placed in its
+title.
+sap.f.semantic.CopyAction
+A semantic-specific button, eligible for the copyAction aggregation
+of the
+sap.f.semantic.SemanticPage
+to be placed in its
+title.
+sap.f.semantic.DeleteAction
+A semantic-specific button, eligible for the deleteAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in its title.
+sap.f.semantic.DiscussInJamAction
+A semantic-specific button, eligible for the discussInJamAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in the share menu within its title.
+sap.m.semantic.DiscussInJamAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+sap.f.semantic.EditAction
+A semantic-specific button, eligible for the editAction aggregation
+of the
+sap.f.semantic.SemanticPage
+to be placed in its
+title.
+sap.m.semantic.EditAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.ExitFullScreenAction
+A semantic-specific button, eligible for the exitFullScreenAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in its title.
+sap.f.semantic.FavoriteAction
+A semantic-specific button, eligible for the favoriteAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in its title.
+sap.m.semantic.FavoriteAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.m.semantic.FilterAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.m.semantic.FilterSelect
+sap.m.Select
+control enhanced with styling according to the
+semantics of a common "Filter" action.
+FilterSelect
+cannot be used independently but only as
+aggregation content of a
+sap.m.semantic.SemanticPage
+For more information about SAPUI5 controls, see
+UI development toolkit for HTML5 - Demo Kit.
+113
+SAPUI5 Control Name
+Description
+sap.f.semantic.FlagAction
+A semantic-specific button, eligible for the fiagAction aggregation
+of the
+sap.f.semantic.SemanticPage
+to be placed in its
+title.
+sap.m.semantic.FlagAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.FooterMainAction
+A semantic-specific button, eligible for the footerMainAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in its footer.
+sap.m.semantic.ForwardAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.FullScreenAction
+A semantic-specific button, eligible for the fullScreenAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in its title.
+sap.m.semantic.GroupAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.m.semantic.GroupSelect
+sap.m.Select
+control enhanced with styling according to the
+semantics of a common "Group" acton.
+GroupSelect
+cannot be used independently but only as
+aggregation content of a
+sap.m.semantic.SemanticPage
+sap.m.semantic.MainAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.MessagesIndicator
+A semantic-specific button, eligible for the messagesIndicator
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in its footer.
+sap.m.semantic.MessagesIndicator
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.m.semantic.MultiSelectAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.NegativeAction
+A semantic-specific button, eligible for the negativeAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in its footer.
+sap.m.semantic.NegativeAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.m.semantic.OpenInAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.PositiveAction
+A semantic-specific button, eligible for the positiveAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in its footer.
+114
+SAPUI5 Control Name
+Description
+sap.m.semantic.PositiveAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.PrintAction
+A semantic-specific button, eligible for the printAction aggregation
+of the
+sap.f.semantic.SemanticPage
+to be placed in the
+share menu within its title.
+sap.m.semantic.PrintAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.m.semantic.SaveAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.SendEmailAction
+A semantic-specific button, eligible for the sendEmailAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in the share menu within its title.
+sap.m.semantic.SendEmailAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.SendMessageAction
+A semantic-specific button, eligible for the sendMessageAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in the share menu within its title.
+sap.m.semantic.SendMessageAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+sap.f.semantic.ShareInJamAction
+A semantic-specific button, eligible for the shareInJamAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in the share menu within its title.
+sap.m.semantic.ShareInJamAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.m.semantic.SortAction
+Has default semantic-specific properties and is eligible to be
+included in the aggregation content of an
+sap.m.semantic.SemanticPage
+control.
+sap.f.semantic.TitleMainAction
+A semantic-specific button, eligible for the titleMainAction
+aggregation of the
+sap.f.semantic.SemanticPage
+to be
+placed in its title.
+sap.m.Title
+Used for header texts and title.
+sap.m.Token
+Renders a token containing text and an optional
+Delete
+icon.
+sap.m.Tokenizer
+Displays multiple tokens.
+sap.suite.ui.commons.BusinessCard
+Allows displaying of business card information, including an image, first title (either URL link or text), second title, and multiple text
+lines.
+sap.suite.ui.commons.ComparisonChart
+Displays a comparison chart.
+sap.suite.ui.commons.ComparisonData
+Comparison tile value holder.
+115
+SAPUI5 Control Name
+Description
+sap.suite.ui.commons.CountingNavigationItem
+Extends the
+sap.ui.ux3.NavigationItem
+control. This
+control displays the number of items in a corresponding content
+area. It also provides a rich tooltip that appears and disappears
+after a certain delay.
+sap.suite.ui.commons.DateRangeScroller
+Provides a method to scroll through a series of time periods, each
+of which is represented by a start date and an end date, known as
+the date range.
+sap.suite.ui.commons.DateRangeSliderInternal
+Provides the user with a
+RangeSlider
+control that is optimized
+for use with dates.
+sap.suite.ui.commons.DeltaMicroChart
+Displays a delta of two values as a chart.
+sap.suite.ui.commons.DynamicContainer
+Displays multiple
+GenericTile
+controls as changing slides.
+sap.suite.ui.commons.FacetOverview
+Used in
+UnifiedThingInspector
+to display a preview of facet
+content.
+sap.suite.ui.commons.GenericTile
+Tile control that displays a title, description, and customizable
+main area.
+sap.suite.ui.commons.HarveyBallMicroChart
+Chart that shows a comparative part to a total.
+sap.suite.ui.commons.HarveyBallMicroChartItem
+Configuration of a slice on a pie chart.
+sap.suite.ui.commons.HeaderCell
+Contains four cells (West, North, East, South). It can display one or
+more controls in different layouts. Each aggregation must contain
+only one instance of
+HeaderCellItem
+sap.suite.ui.commons.HeaderCellItem
+Object that contains an instance of a control and information about
+its height. It should be used inside
+sap.suite.ui.commons.HeaderCell
+sap.suite.ui.commons.HeaderContainer
+Container that provides a horizontal layout. On mobile devices, it
+provides a horizontal scroll. On desktops, it provides scroll left and
+scroll right buttons. This control supports keyboard navigation. You
+can use left and right arrow keys to navigate through the inner
+content. The
+Home
+key puts focus on the first control and the
+End
+key puts focus on the last control. Use the
+Enter
+key or
+Spacebar
+key to choose the control.
+sap.suite.ui.commons.JamContent
+Displays SAP Jam content text, subheader, and numeric value in a
+tile.
+sap.suite.ui.commons.KpiTile
+Used in
+UnifiedThingInspector
+to display object-related
+KPIs in a factsheet.
+sap.suite.ui.commons.NewsContent
+Displays news content text and subheader in a tile.
+sap.suite.ui.commons.NoteTaker
+Allows creation and storage of notes for further reference.
+sap.suite.ui.commons.NoteTakerCard
+Allows storage of
+NoteTaker
+card header and body text.
+sap.suite.ui.commons.NoteTakerFeeder
+Allows entering quick notes and note cards.
+sap.suite.ui.commons.NumericContent
+Numeric content to be used in a tile or other place where it is
+needed to show numeric values with semantic colors and
+deviations.
+sap.suite.ui.commons.TileContent
+Serves as a universal container for different types of content and
+footer.
+116
+SAPUI5 Control Name
+Description
+sap.ui.commons.ApplicationHeader
+Located at the top of an application page and consists of four
+areas.
+sap.ui.commons.Button
+Allows users to trigger actions such as save or print. For the button
+UI, you can define text or an icon, or both.
+sap.ui.commons.CheckBox
+Provides a box that can be fiagged and has a label. A checkbox can
+either stand alone, or be in a group with other checkboxes.
+sap.ui.commons.ColorPicker
+Allows the user to choose a color. The color can be defined using
+HEX, RGB, or HSV values, or a CSS colorname.
+sap.ui.commons.FileUploader
+Framework that generates an input field and a button with the text
+Browse...
+sap.ui.commons.MenuBar
+Represents a user interface area that is the entry point for menus
+with their menu items.
+sap.ui.commons.MenuButton
+Common button control that opens a menu when chosen by the
+user. The control provides an API for configuring the docking
+position of the menu.
+sap.ui.commons.Paginator
+Provides navigation between pages within a list of numbered
+pages.
+sap.ui.commons.Panel
+Represents a container with scroll functionality that can be used for
+text and controls.
+sap.ui.commons.PasswordField
+Text field with masked characters that borrows its properties and
+methods from the
+TextField
+control.
+sap.ui.commons.ProgressIndicator
+Shows the progress of a process in a graphical way.
+sap.ui.commons.RadioButton
+Consists of a round element and descriptive text.
+sap.ui.commons.RangeSlider
+Interactive control that is displayed either as a horizontal or vertical
+line with two pointers and units of measurement.
+sap.ui.commons.RatingIndicator
+Allows the user to rate a certain topic.
+sap.ui.commons.SegmentedButton
+Provides a group of buttons.
+sap.ui.commons.Slider
+Interactive control that is displayed either as a horizontal or vertical
+line with a pointer and units of measurement.
+sap.ui.commons.Splitter
+Allows splitting the screen into two areas.
+sap.ui.commons.TextArea
+Control for entering or displaying multiple rows of text.
+sap.ui.commons.TextField
+Renders an input field for text input.
+sap.ui.commons.Toolbar
+Horizontal row of items where in many cases the single toolbar
+items are buttons that contain icons.
+sap.ui.commons.Tree
+Simple tree for displaying an item in a hierarchical way.
+sap.ui.commons.TreeNode
+Tree node element.
+sap.ui.layout.FixFlex
+Builds the container for a layout with a fixed and a fiexible part.
+sap.ui.layout.form.FormLayout
+Base layout used to render a
+Form
+control.
+sap.ui.layout.form.GridLayout
+Renders a
+Form
+control using an HTML table-based grid.
+117
+SAPUI5 Control Name
+Description
+sap.ui.layout.form.ResponsiveGridLayout
+Renders a
+Form
+control using a responsive grid.
+sap.ui.layout.form.ResponsiveLayout
+Renders a
+Form
+control with a responsive layout.
+sap.ui.layout.ResponsiveSplitter
+A responsive splitter which divides the application into several
+areas.
+sap.ui.unified.Currency
+Text view that displays currency values and aligns them at the
+separator.
+sap.ui.unified.FileUploader
+Framework that generates an input field and a button with the text
+Browse ...
+sap.ui.unified.FileUploaderParameter
+Represents a parameter for the
+FileUploader, which is rendered
+as a hidden input field.
+sap.ui.unified.Menu
+Interactive element that provides a choice of different actions to
+the user.
+sap.ui.unified.MenuItem
+Standard item used inside a menu. Represents an action that can
+be selected by a user in the menu or that can be used as a
+submenu that organizes the actions hierarchically.
+sap.ui.unified.ShellOverlay
+Opened in front of an
+sap.ui.unified.Shell
+control.
+sap.ui.unified.SplitContainer
+Provides a main content and a secondary content area.
+sap.ui.ux3.ExactArea
+Consists of two sections: a toolbar and a content area where
+arbitrary controls can be added.
+sap.ui.ux3.FeedChunk
+Unit that is embedded, standalone or multiple, into a
+Feed
+control.
+sap.ui.ux3.Feeder
+Lean common feed, or a comment feed, with a text commit
+function.
+sap.uxap.ObjectPageHeader
+Static part of an
+Object
+page header.
+sap.uxap.ObjectPageHeaderContent
+Dynamic part of an
+Object
+page header.
+Command Palette
+The command palette provides access to all the IDE functionality including shortcuts for the most common operations.
+o open the command palette, select
+View
+Command Palette...
+from the left-side menu or press
+F1
+(Windows/Linux) or
+Command
+Shift
+(Mac).
+This will open an input field at the top of the IDE allowing you to type a command. Content assist then allows you to find
+commands quickly.
+Some commands will lead you into a minimal text-based wizard, allowing you to enter additional parameters.
+118
+Outline View
+The Outline view displays a symbol tree of the currently active editor. This view is useful for understanding the structure of a file
+or for navigating to a specific element in a file.
+You can click on an element in the Outline view to open that element in the editor tab.
+o open the Outline view, select
+Explorer: Focus on Outline View
+from the command palette.
+The Outline view opens on the left side of the IDE, within the Explorer view.
+119
+Problems View
+The Problems view displays the coding errors and warnings of all open files in a list. When you click an item from the list, the
+problematic piece of code is highlighted in the editor.
+From the left-side menu, select
+View
+Problems
+to open the Problems view.
+Search
+There are different Search capabilities in SAP Business Application Studio.
+You can perform a search from the Search view or from the Find widget in the editor.
+o open the Search view, select
+View
+Search
+from the left-side menu.
+o open the Find widget within a file, press
+Ctrl+F
+120
+Find and Replace
+You can find text and replace in the currently opened file. The search results will be highlighted in the editor, overview ruler, and
+minimap.
+If there is more than one matched result in the current opened file, you can press
+Enter
+and
+Shift+Enter
+to navigate to next
+or previous result when the find input box is focused.
+When the Find Widget is open, it will automatically populate the selected text in the editor into the find input box. If the
+selection is empty, the word under the cursor will be inserted into the input box instead.
+Find In Selection
+By default, the find operations are run on the entire file in the editor. It can also be run on selected text. You can turn this
+feature on by clicking the hamburger icon on the Find Widget.
+Multiline support
+You can search text in multiple lines by pasting it into the
+Find
+input box. Pressing
+Ctrl+Enter
+inserts a new line in the input
+box.
+Resize Find Widget
+You can drag the left sash of the Find Widget to enlarge it. You can also double-click the left sash to maximize it or shrink it to its
+default size.
+Search across files
+121
+You can search over all files in the currently opened folder. Press
+Ctrl+Shift+F
+and enter your search term. Search results
+are grouped into files containing the search term, with an indication of the hits in each file and its location. Expand a file to see a
+preview of all of the hits within that file. Then single-click on one of the hits to view it in the editor.
+Advanced search options
+In the input box below the search box, you can enter patterns to include or exclude from the search.
+If you enter a word, a search will be performed on every folder and file with the name of the word you entered in the workspace.
+If you enter./
+before the word, that will match the folder name at the top level of your workspace.
+Use an exclamation mark
+to exclude those patterns from the search.
+Use a comma
+to separate multiple patterns.
+Paths must use forward slashes.
+You can also use glob syntax: to match one or more characters in a path segment
+to match on one character in a path segment
+**
+to match any number of path segments, including none
+{}
+to group conditions (for example
+{**/*.html,**/*.txt}
+matches all HTML and text files)
+[]
+to declare a range of characters to match
+Some folders are excluded by default to reduce the number of search results that you are not interested in (for example, node_modules). Open settings to change these rules.
+Also note the Use Exclude Settings and Ignore Files toggle button in the files to exclude box. The toggle determines whether to
+exclude files that are ignored by your.gitignore
+files and/or matched by your
+files.exclude
+and
+search.exclude
+settings.
+From the Explorer, you can right-click on a folder and select Find in Folder to search inside a folder only.
+Search and replace
+You can search and replace across files. Expand the Search input field to display the Replace one.
+When you type text into the Replace input field, you will see a diff display of the pending changes. You can replace across all files
+from the Replace input field, replace all in one file or replace a single change.
+Advanced Search and Replace Options
+In addition to search and replace with plain text, there are also advanced search options:
+122
+Match Case
+Match Whole Word
+Regular Expression
+Include Ignored Files
+Test and Run
+Once you have finished coding, you can test and run your application.
+Creating Run Configurations
+Create run configurations that define how your project or unit test is executed.
+Application Preview Settings
+Each application runs on a specific port. If you want to open a new browser tab with your running application, use the
+Ports: Preview
+command.
+Cloud Foundry Tools
+Connect and perform actions on the Cloud Foundry environment.
+Debugging
+SAP Business Application Studio has built-in debugging support for the Node.js runtime and can debug JavaScript, TypeScript, or any other language that gets transpiled to JavaScript.
+Creating Run Configurations
+Create run configurations that define how your project or unit test is executed.
+SAP Business Application Studio provides default run configurations for your projects. You can create and configure additional
+run configurations that define how your project or unit test is executed. You can also create a new run configuration by
+duplicating an existing run configuration and then editing it.
+Clicking
+(Run and Debug) on the right-hand side of the header provides one of the following options: If there is a default run configuration that's created during project creation, this configuration runs.
+If you add a new configuration and run it, this configuration runs.
+If you add multiple configurations, the last configuration that you ran runs.
+If you have run configurations from multiple projects, you can choose which configuration to run.
+Related Information
+Creating Run Configurations for Java Modules
+SAP Fiori tools- Create a New Run Configuration in SAP Business Application Studio
+Creating Run Configurations for CAP Java Modules
+Creating Run Configurations for CAP Node Applications
+Creating Run Configurations for Java Modules
+123
+Create new run configurations to run a Java module for a multitarget application.
+Run a Java module on the local Apache T
+omcat server and allow binding the module's required resources to specific Cloud
+Foundry services.
+Prerequisites
+Your project must include an
+mta.yaml
+file that points to the Java module.
+The Java module's
+pom.xml
+file must include the following definition: packagingType= war
+Add a New Configuration
+1. Click
+from the activity bar to open the
+Run Configurations
+view.
+2. Click
+(Create Configuration).
+3. Select the Java module as the runnable object.
+A new configuration is added to your
+launch.json
+file.
+Bind Dependencies
+In the
+Run Configurations
+view, you can see the resources that are defined in the MTA descriptor. You can bind or unbind these
+resources to a specific Cloud Foundry service instance.
+o bind the resource: 1. Open the
+Run Configurations
+view.
+2. Select the desired configuration.
+Note
+Any manual change performed to the
+launch.json
+file is refiected in the configuration tree.
+Note
+The following Cloud Foundry service types are supported for binding: hana
+(managed-hana
+isn't supported)
+PSA-based SAP HANA
+HaaS (if configured as "Available for all IPs")
+xsuaa
+destination
+connectivity
+auditlog
+application-logs
+124
+3. Select the desired resource.
+4. Click
+(bind).
+If not already logged in, you're prompted to log in to Cloud Foundry.
+A list of all available services that match your resource type are displayed in the command palette.
+5. Select the desired service.
+The resource is bound to the service.
+This updates the resource's configuration files. See the
+Advanced Options
+section below to see the changes made to the
+configuration files.
+If you're binding to an SAP HANA service, a new connection called
+'<my_service_instance name>'
+is added to the
+SQLT
+ools view where your tables and data are displayed.
+Unbinding the resource removes all of the changes made to the configuration files.
+o unbind the resource: 1. Open the
+Run Configurations
+view.
+2. Select the desired configuration.
+3. Select the desired resource.
+4. Click
+(unbind).
+Run a Configuration
+1. If you bound your service to a service that requires Chisel to run: a. In the command palette, enter
+Tasks
+and select
+Tasks: Run Task
+b. Select
+openChiselTunnelFor-<service name>
+2. Select the desired run configuration.
+3. Click
+(Run) to run the project.
+Prelaunch and dependent tasks are run.
+The Debug Console opens.
+4. Click
+Open in New Tab
+to view the UI in a new tab.
+5. If you need to stop a configuration that is already running, you can do so from the
+Run and Debug
+view.
+Note
+If Chisel is already running in the same port and space, skip this step.
+125
+Edit a Run Configuration
+1. Right-click a relevant run configuration to do the following: Configure Environment- Open the environment file to view the binding configuration.
+Rename- Provide a new name for the selected run configuration.
+Show in File- Open the JSON file containing the set of configuration properties, with the name highlighted.
+Delete- Delete the set of configuration properties from the JSON file.
+Delete a Run Configuration
+1. Right-click a run relevant configuration and choose
+Delete
+Advanced Options
+In addition to the
+launch.json
+file that is created as part of the new configuration, the following files are added or updated
+when creating a run configuration: Environment configuration file
+A new environment file is created. After the resource is bound to a service, the file is populated with all the environment
+variables required to connect to Cloud Foundry.
+The environment configuration file is referenced from your
+Launch
+configuration.
+New tasks in the
+tasks.json
+file
+Note
+For more information about the tasks triggered by the run configuration, see the
+Advanced Options
+section below.
+Stopping a configuration from the
+Run and Debug
+view doesn't stop any running tasks.
+Note
+If you delete the launch configuration, it's removed from the
+launch.json
+file but the tasks remain.
+126
+The following tasks are added to the
+tasks.json
+file: A technical generic task. This is the configuration's prelaunch task.
+This task enables you to define additional tasks to run before starting the configuration (using the
+dependsOn
+property).
+A task that triggers the Apache T
+omcat server running with the context of the application resources.
+A build task that triggers the
+mvn clean install
+command.
+Tomcat runtime configuration directory
+When you create a new configuration, a new
+Tomcat runtime configuration directory
+is created containing the following
+configuration files: ROOT.xml
+(user/.tomcat/<configuration_name>/Catalina/localhost)
+For example, /home/user/.tomcat/bookshop-srv-1/conf/Catalina/localhost
+server.xml
+(user/.tomcat/<configuration_name>/conf)
+For example, /home/user/.tomcat/bookshop-srv-1/conf
+You can modify the content of this directory to configure T
+omcat as desired for this run configuration. For example, you
+can add libraries to be used at runtime or change ports. For more information, see
+Apache T
+omcat
+Binding Process
+Not all of the services that you want to bind to are publicly exposed. Therefore, we must use a secure tunnel to access them
+from Cloud Foundry.
+When binding to one of these services, we use chisel
+to open a secure channel to your Cloud Foundry space.
+A new task is created within the binding step to run chisel. Run this task before running the configuration.
+The environment configuration file is updated with the chisel and the selected service parameters.
+The T
+omcat configuration files are updated according to the chosen service.
+Note
+By default, T
+omcat runs on port 8080. If you want to run multiple configurations at the same time, you need to
+configure a different port for the additional T
+omcat in the
+server.xml
+file. In addition, you need to change the
+default ports 8009 and 8005 defined in this file to other ports to avoid collision.
+You also need to define a debug port (that isn't the default 8000), both in the
+'run-tomcat'
+task in the
+tasks.json
+file, and in the matching launch configuration in the
+launch.json
+file, which are all associated with
+the same run configuration.
+127
+Application Preview Settings
+Each application runs on a specific port. If you want to open a new browser tab with your running application, use the
+Ports: Preview
+command.
+Previewing Ports
+1. Enter the
+Ports: Preview
+command in the command palette.
+A list of all the exposed applications is displayed.
+2. Click the relevant application.
+The exposed application opens in a new tab.
+Configuring Port Notification Settings
+You can define which ports should omit a notification when an application is being run.
+1. In SAP Business Application Studio, click
+to open the
+Settings
+view.
+2. Search for
+Ports
+3. From the list of preferences, select
+Ports
+4. Under
+Exclude Expose Notifications
+click
+Edit in settings.json
+5. Specify the port or range of ports for which you do not want to show a notification.
+6. Save your changes.
+Cloud Foundry Tools
+Connect and perform actions on the Cloud Foundry environment.
+You can access the Cloud Foundry tools by opening the command palette and entering
+CF. You can also create a list of pre-defined targets using the
+CLOUD FOUNDRY: TARGETS
+view.
+Login to Cloud Foundry
+You must be logged in to Cloud Foundry to use the Cloud Foundry T
+ools.
+1. In the command palette, select
+CF: Login to Cloud Foundry. The
+Cloud Foundry Sign In and Targets
+page opens.
+2. Select the type of authentication method you prefer.
+See
+Connecting to Cloud Foundry Using Identity Providers.
+3. Depending on the method you selected, enter your username and Cloud Foundry password or your temporary SSO
+authentication code.
+4. Select the organization to which you want to connect.
+5. Select the desired space within the organization.
+Click on the status bar to change the target.
+128
+Select Cloud Foundry Target
+1. Select the organization to which you want to connect.
+2. Select the desired space within the organization.
+3. Click
+Apply
+Set Org and Space
+You can change the organization and space you defined when logging into Cloud Foundry.
+1. In the command palette, select
+CF: Select a space from your allowed spaces. The
+Cloud Foundry Sign In
+and Targets
+page opens.
+2. Select the organization to which you want to connect.
+3. Select the desired space within the organization.
+Create a New Service Instance
+Create service instance in your current Cloud Foundry org and space. You can later consume this service for your development
+needs.
+1. In the command palette, select
+CF: Create a service instance
+2. Provide a service instance name. The name must be unique, if you enter an already existing name, the creation fails.
+3. Select a Cloud Foundry service.
+4. Select the service plan that best fits your service instance.
+5. Optional: Provide additional parameters for the service instance. You can also press
+Enter
+to enter an empty
+parameter.
+Create a User-Provided Service Instance
+With a user-provided service instance, you can use services that are not available in the marketplace.
+1. From the activity bar, click. The
+CLOUD FOUNDRY: TARGETS
+view opens.
+2. Click
+next to the
+Services
+node under the active target.
+Note
+You can create a service instance in the
+CLOUD FOUNDRY: TARGETS
+view. The
+CLOUD FOUNDRY: TARGETS
+view opens.
+1. Click
+from the activity bar.
+2. Click
+(Create a service instance) next to the
+Services
+folder under the active target.
+129
+3. In the command center, provide a service instance name. The name must be unique, if you enter an already existing
+name, the creation fails.
+4. Select a Cloud Foundry service.
+5. Select the service plan that best fits your service instance.
+6. Optional: Provide additional parameters for the service instance. You can also press
+Enter
+to enter an empty
+parameter.
+Bind a Service to a Locally Run Application
+1. In the command palette, select
+CF: Bind a service to a locally run application
+2. Select the folder where the.env
+file will be created. This file contains the information for connecting to the Cloud
+Foundry service.
+3. Click
+OK
+4. Select the service instance to which you want to bind.
+Create a New Cloud Foundry Target
+You can create a list of frequently used Cloud Foundry targets. You can then move from one target to the next with only one
+click.
+1. From the left side menu, click The
+CLOUD FOUNDRY: TARGETS
+view opens. The
+CLOUD FOUNDRY: TARGETS
+view
+opens.
+2. Click
+(Create a Cloud Foundry target)
+3. Click
+Create New
+in the command center. The target is based on the current org and space to which you are connected.
+4. Provide a name for the target.
+You can change the current target in three different ways: Log in to Cloud Foundry using a different endpoint.
+Select a different organization and space within the current endpoint.
+Select a different space within the current organization.
+Once you have set up your targets, you can define which one will be the active target by clicking
+(Set Cloud Foundry Target)
+by the desired target name.
+Reload the Targets Tree
+Note
+You can also bind a service to an application using the
+CLOUD FOUNDRY: TARGETS
+view by right-clicking on the desired
+service and clicking
+Bind a service to a locally run application
+130
+If the target tree is not showing updated information, you can manually trigger a reload to refresh the view.
+1. In the command palette, select
+CF: Reload Targets Tree
+Connecting to Cloud Foundry Using Identity Providers
+Connect to Cloud Foundry using the UI or the command line.
+The manner in which you can connect to Cloud Foundry depends on the identity provider (IdP) you use.
+Comparison Between the Different Identity Providers for Cloud Foundry Login in
+SAP Business Application Studio
+SAP ID Service
+Custom IdP
+Corporate IdP
+SAP Business Application
+Studio UI-based login with
+username and password
+Supported
+Not supported
+Not supported
+SAP Business Application
+Studio UI-based SSO login
+Supported
+Supported
+Supported
+SAP Business Application
+Studio CLI-based login
+Supported
+Supported
+Supported
+CLI-based login example
+Reference
+cf login
+Reference
+cf login --origin
+<origin>
+Reference
+cf login --sso
+Authorization fiow
+OAuth Resource Owner
+Password
+OAuth Resource Owner
+Password
+OAuth Authorization Code Grant
+(browser fiow) + One-Time
+Passcode
+For more information, see
+this blog
+131
+Debugging
+SAP Business Application Studio has built-in debugging support for the Node.js runtime and can debug JavaScript, TypeScript, or any other language that gets transpiled to JavaScript.
+Debugging a File
+o debug a node.js file: 1. Open the Run and Debug view.
+2. Open the dropdown list to select the relevant configuration.
+A list of configuration options is displayed.
+3. Select
+Node.js. A launch configuration file (launch.json) is created automatically. You can configure and save
+debugging setup details in this file.
+This file contains 3 configurations: Launch Program
+Create JavaScript Debug T
+erminal
+Run Current File
+4. T
+o add a new configuration to an existing
+launch.json, from the dropdown list, select
+Add Configuration
+5. From the dropdown list, select
+Run Current File
+or
+Launch Program
+(which provides you the option to skip node internal
+files).
+132
+You can run your configuration through the command palette, by filtering on
+Debug: Start Debugging
+Debugging Modes
+There are two core debugging modes, Launch and Attach.
+The debugger can launch a program in debug mode, or it can attach to an already running program in debug mode.
+You can trigger these modes from the command palette: Debug : Attach to Node Process
+Breakpoints
+Breakpoints can be toggled by clicking on the editor margin or using
+F9
+on the current line.
+You can also use the BREAKPOINTS section.
+Click
+to add a function breakpoint.
+Click
+to deactivate a breakpoint.
+Click
+to remove all breakpoints.
+Build and Deploy
+Use our dedicated tools to build and deploy your application.
+Use the SAP Business Application Studio development tools for working with multitarget applications. See
+MTA Development.
+You can also find documentation for scenario-specific deployment options.
+If you want to deploy an SAP Fiori application, see
+Deploy an Application.
+If you want to deploy an SAP HANA application, see
+Maintaining the Multitarget Application Development & Deployment
+Descriptors.
+MTA Development
+Learn how to use the SAP Business Application Studio development tools for working with multitarget applications.
+Note
+Note that the attributes available in launch configurations vary from debugger to debugger.
+133
+MTA Tools
+The MTA T
+ools allow you to perform operations such as build, deploy, and validation on multitarget applications.
+The MTA T
+ools are provided as an extension to SAP Business Application Studio and contains the following: Cloud Foundry CLI
+The Cloud Foundry Command Line Interface provides commands to deploy and manage CF services and applications.
+For more information, see
+Using the Cloud Foundry Command Line Interface
+Cloud MTA Build Tool
+The Cloud MTA Build T
+ool is a standalone command-line tool that builds a deployment-ready multitarget application (MTA)
+archive.mtar
+file from the artifacts of an MTA project according to the project’s MTA development descriptor (mta.yaml
+file), or from the module build artifacts according to the MTA deployment descriptor (mtad.yaml
+file).
+For more information, see the Cloud MTA Build T
+ool
+user guide.
+Cloud Foundry CLI MTA Plugin
+A CLI plugin for Multitarget Application (MTA) operations in Cloud Foundry.
+For more information, see the documentation
+Cloud Foundry Targets Plugin
+This plugin facilitates the use of multiple API targets with the Cloud Foundry CLI.
+For more information, see the documentation
+Cloud Foundry CLI Copy Env Plugin
+A Cloud Foundry CLI plugin to export application VCAP_SERVICES and VCAP_APPLICATION onto the local machine.
+For more information, see the documentation
+generator-basic-multitarget-application
+The
+generator-basic-multitarget-application
+is a Yeoman generator for creating a basic (empty) multitarget
+application.
+cf-cli-service-info-plugin
+The
+cf-cli-service-info-plugin
+is a Cloud Foundry plugin which enables the following: Provides service key details.
+Provides service credentials.
+Calculates a VCAP_SERVICES json, compatible with how Cloud Foundry binds services to apps and persists to file.
+134
+Chisel
+Chisel is a fast TCP tunnel, transported over HTTP, secured via SSH.
+For more information, see the documentation
+MTA Editor
+The visual MTA editor allows you to edit the MTA descriptor (the
+mta.yaml
+file located in the root project folder) using tables
+and forms instead of the text-based code editor.
+The multitarget application (MTA) descriptor contains the metadata of all entities comprising an application or used by it during
+deployment or runtime, and the dependencies between them.
+The MTA descriptor is automatically generated when an application project is created from scratch, and it is updated when the
+project properties change or when a module is added or removed. However, not all the necessary information can be generated
+automatically. You need to maintain the descriptor manually to define resources, properties, and dependencies, as well as fill in
+missing information.
+The MTA descriptor is written in the YAML format, which has strict syntax requirements. You can edit the descriptor in the text-based code editor, but we recommend you use the visual MTA editor. The visual MTA editor allows you to easily navigate
+between the objects in the
+mta.yaml
+file and helps you avoid dealing with the complex and sensitive syntax of YAML files.
+To open the visual MTA Editor: 1. Right-click the desired
+mta.yaml
+file.
+2. Choose
+Open With
+MTA Editor
+Related Information
+The Multi-T
+arget Application Model
+SAP Business Application Studio Multitarget Application (MTA) development toolkit
+Building and Deploying Multitarget Applications
+Build and deploy multitarget applications to SAP Cloud Foundry.
+Building Multitarget Applications
+Prerequisites
+Your dev space must contain a multitarget application.
+There are several ways for building multitarget applications in SAP Business Application Studio: Note
+The visual MTA editor removes comments and formats the file. If you want to add comments, use the code editor. T
+o open
+the code editor, double-click on the desired
+mta.yaml
+file or right-click the file and choose
+Open With
+Code Editor
+If you edit the file with the code editor, it is important to use spaces rather than tabs for indentation.
+135
+From the context menu.
+1. Right-click on the
+mta.yaml
+file.
+2. Choose
+Build MTA Project
+From the command palette.
+1. Enter
+MTA
+2. Choose
+Build MTA Project
+3. Select the desired
+mta.yaml
+file.
+From the
+Task Explorer
+1. From the activity bar, click
+to open the
+Task Explorer
+view.
+2. Click
+(Create T
+ask).
+3. Click
+Build
+4. Select the MTA project descriptor of the project you want to build.
+5. Click
+Configure
+to edit the build configuration parameters.
+6. Save your changes.
+Use the
+Task Explorer
+to change the default MTA Build options, for example, to change the default location of the MTA
+archive or to provide an MTA extension for the build. In the
+Task Explorer, you can save this build configuration for later
+use.
+From the CLI. See Cloud MTA Build T
+ool
+The terminal opens showing the output of the build. Once the build is complete, a folder named
+mta_archives
+is added to the
+project that contains the relevant MTA archive (MTAR file).
+Deploying Multitarget Applications
+Prerequisites
+You must be logged on to a Cloud Foundry organization and space. See
+Cloud Foundry T
+ools.
+You must have permissions to deploy to your Cloud Foundry space.
+Your dev space must contain a multitarget application.
+Your project must contain an MTA archive (MTAR) file.
+There are several ways for deploying multitarget applications to SAP Cloud Foundry: From the context menu.
+Note
+If there’s only one
+mta.yaml
+available, the build starts automatically.
+Note
+If you changed the default configurations using the T
+ask Explorer, the output will correspond to the specified build
+parameters.
+136
+1. Right-click on the relevant MTAR file.
+2. Choose
+Deploy MTA Archive
+From the command palette.
+1. Enter
+MTA
+2. Choose
+Deploy MTA Archive
+3. Select the desired MTAR file.
+From the
+Task Explorer
+1. From the activity bar, click
+to open the
+Task Explorer
+view.
+2. Click
+(Create T
+ask).
+3. Click
+Deploy
+4. Select the MTA archive of the project you want to build.
+5. Click
+Configure
+to edit deployment configuration parameters.
+6. Save your changes.
+Use the
+Task Explorer
+to change the default MTA deploy options. In the
+Task Explorer, you can save this configuration for
+later use.
+From the CLI. See
+Deploy Commands
+The terminal opens showing the output of the deploy process.
+Continuous Integration and Delivery
+SAP Continuous Integration and Delivery lets you configure and run predefined continuous integration and delivery (CI/CD)
+pipelines that automatically build, test, and deploy your code changes to speed up your development and delivery cycles.
+Prerequisites
+Perform the following configuration steps to use SAP Continuous Integration and Delivery in SAP Business Application Studio: 1. You must subscribe to the
+Continuous Integration & Delivery
+service, assign the required roles and permissions, add the
+relevant service plan, and add the relevant instance.
+See
+Initial Setup in the SAP Continuous Integration and Delivery documentation or run the
+Get Started with SAP
+Business Application Studio
+booster to automate these steps. See
+Initial Setup in the Developing Business Applications
+Using Productivity T
+ools documentation.
+2. In the SAP BTP cockpit, make sure to check that you have the following: A subscription to
+SAP Business Application Studio
+and
+Continuous Integration & Delivery
+An instance for SAP Continuous Integration and Delivery.
+Note
+If there’s only one MTAR file available, the deployment starts automatically.
+137
+If you ran the booster, the instance name is
+default_cicd-service. If you completed the manual steps, the instance
+name is the name that you chose.
+See
+Enabling the API Usage.
+3. Open a dev space in SAP Business Application Studio.
+4. Open a project in the terminal.
+5. Enter the following command to get the space GUID: 6. Open the
+Continuous Integration & Delivery
+service from the SAP BTP cockpit.
+7. In SAP Continuous Integration and Delivery, click
+(Settings).
+8. Click
+(Add space to allow list), enter the space GUID that you obtained in Step 5, and click
+OK
+9. Click
+Save
+10. In the SAP BTP cockpit, navigate to
+Connectivity
+Destinations
+11. Click
+New Destination
+12. Click the
+Service Instance
+tab and create a destination with the following configurations: Property
+Value
+Service Instance
+<the instance created earlier>
+Name
+cicd-backend
+Additional Property
+HTML5.DynamicDestination
+true
+13. Click
+Next
+14. Leave the default values, but change
+Authentication
+to
+OAuth2UserTokenExchange
+and click
+Save
+15. Create a new dev space or restart your existing dev space to use the SAP Continuous Integration and Delivery service.
+Procedure
+The
+CI/CD
+view in SAP Business Application Studio, allows you to see all jobs configured for the current project, as long as the
+project is connected to a Git repository.
+You can create a job for your project using a CI/CD pipeline.
+1. From the left-side menu, select
+View
+Command Palette
+2. Search for
+Guide Center: Create a CI/CD Job. Select the guide and follow the instructions.
+Each job is configured using a
+config.yaml
+file in the project Git repository.
+The
+CI/CD
+view shows the latest build triggered by the user. T
+o see all builds, open the SAP Continuous Integration and Delivery
+service. See
+SAP Continuous Integration and Delivery to learn about this service. You can see the build details for each job, such
+as the creation date and status.
+Once a new build is triggered, the view is updated with the latest build.
+cf
+space
+dev--guid
+138
+From the job’s context menu, you can: See the build steps and logs.
+Click
+View Build Log
+to open.
+Manually trigger a build.
+Click
+Trigger a Build. The best practice is to use Git webhooks to automatically trigger a build with each build action.
+Nevertheless, you can manually trigger a build without pushing changes to Git.
+Open the code editor.
+Click
+Edit
+to open the
+config.yaml
+file in the code editor.
+Delete the job.
+Click
+Delete
+to remove the job from the SAP Continuous Integration and Delivery service and the configuration file is
+deleted from the repository. This affects all users working in the repository.
+From the
+CI/CD JOBS
+view menu bar, you can click
+(Settings) to open the Settings page, or
+to add a new job.
+Develop an App Using Different Subaccounts
+You can develop your application with different subaccounts. You use one subaccount to create and run your application in SAP
+Business Application Studio. You use the other subaccount, in a different region, to deploy your application to Cloud Foundry.
+This scenario is useful in the following situations: You're using a single development subaccount to develop many target accounts.
+Your development account isn't in the same region as your target account.
+Develop an app with two subaccounts as follows: 1. From your global account in the SAP BTP cockpit, create two subaccounts in two different regions. See Create a
+Subaccount [Feature Set B].
+One subaccount is for the design time environment and the other is for the runtime environment.
+2. Complete the following steps in the design time subaccount: a. Add the relevant SAP Business Application Studio service plan. See
+Configure Entitlements and Quotas from Your
+Subaccount.
+b.
+Subscribe to SAP Business Application Studio.
+3. Navigate to the
+Overview
+page of your runtime subaccount and click
+Enable Cloud Foundry. This enables you to deploy
+the application to Cloud Foundry. See
+Create Orgs.
+4. If you're using an external data source (outside SAP BTP) for your application, create the same destination, with the
+same name, in
+both
+subaccounts. See Create HTTP Destinations and
+Add a System.
+5.
+Log in to Cloud Foundry. Make sure to update the Cloud Foundry endpoint with the region of the runtime subaccount (for
+example, change
+https://api.cf.
+us10.hana.ondemand.com
+to
+https://api.cf.
+eu10.hana.ondemand.com).
+6.
+Create a Project in the design time subaccount. Make sure to connect to the relevant destination during data source and
+service selection.
+139
+7. T
+est your application by
+creating a run configuration. Make sure to bind the relevant destination.
+8.
+Build and deploy your application.
+Your application uses the runtime subaccount to deploy to Cloud Foundry.
+Extend SAPUI5 Applications
+You can extend SAPUI5 applications that reside remotely on the on-premise SAPUI5 ABAP repository.
+Prerequisites
+Activate the
+/sap/bc/adt
+and the
+/sap/bc/ui2/app_index/
+services in your back end.
+Make sure you have configured the connectivity to your ABAP system as described in
+Connecting to External Systems.
+Procedure
+1. Migrate your extension project from SAP Web IDE.
+See
+Migrate an Extension Project from SAP Web IDE.
+2. (Optional) Use source control, such as Git, to maintain your extension project source code.
+You must use the extension project source code to preview the extension project and add more extensions to it.
+See Git Source Control.
+3. Add an extension, such as a view or controller extension, to the extension project. See Create New Extensions.
+4. Preview your extension project locally in the SAP Business Application Studio workspace.
+See
+Preview an Application.
+5. Deploy your extension project to the on-premise SAPUI5 ABAP repository.
+See
+Deployment to ABAP.
+Migrate an Extension Project from SAP Web IDE
+o add new extensions to your extension project, you need to first migrate it from SAP Web IDE.
+Prerequisite
+Copy the destination from the SAP Web IDE subaccount to the SAP Business Application Studio subaccount: Note
+When extending a project, compatibility issues may arise between the original and the extended project. For more
+information, see
+Caveats Regarding Stability Across Application Upgrades.
+Note
+The SAPUI5 ABAP repository is based on the BSP repository of the ABAP Server. The BSP repository is used only as a
+repository or storage for SAPUI5 application files. However, BSP server-side processing is not used at runtime and
+therefore the fiow logic of ABAP parts cannot be used, since they are not executed at runtime.
+140
+1. Find the name of the destination to be copied from the extension project’s
+neo-app.json
+file.
+2. Export the destination from the Neo subaccount.
+See
+Exporting Solutions.
+3. Go to the SAP Business Application Studio subaccount and import the destination.
+See
+Import Destinations.
+4. Add the following new property: Property
+Value
+HTML5.DynamicDestination
+true
+5. Make sure that the following properties were added: Property
+Value
+WebIDEEnabled
+true
+WebIDEUsage
+odata_abap,dev_abap
+See
+Connecting to External Systems.
+6. Configure the Cloud Connector to your system.
+See Cloud Connector.
+Procedure
+1. Clone your extension project to SAP Business Application Studio from your Git repository or import the project that you
+exported from the SAP Web IDE workspace.
+2. Make sure that all the resources created in SAP Web IDE are included in this project, including the.che
+folder and the
+neo-app.json
+file.
+3. In the popup window that appears, click
+Start Migration
+The
+Migration
+view opens.
+4. In the
+Migration
+view, perform the following steps: a. Select the destination associated with your original application system (the destination from the
+Prerequisite
+section).
+b. Select an SAPUI5 version.
+Currently, the minimum version required is 1.71.0.
+c. Start the migration.
+See
+Migration steps for more information.
+5. Verify that the.extconfig.json
+configuration file was created under the extension project's root folder, which is
+required for further development of this extension project in SAP Business Application Studio.
+Note
+You can also open the
+Migration
+view by entering
+Fiori: Migrate Project for use in Fiori tools
+in the
+command palette.
+141
+Development Actions after Migration
+You can add extensions, preview, and deploy. See
+Extend SAPUI5 Applications for more information.
+Create New Extensions
+Extensions enable you to change the views or the logic of an extended project.
+Prerequisites
+You migrated an extension project.
+Context
+You can create extensions to: Replace an existing view with a new view in an existing project.
+Add logic to an existing view using an extension point that is defined in the original project.
+Change control visibility.
+Extend an existing controller with new logic.
+Implement a UI controller hook with new logic.
+Customize the strings of the original application.
+Once the extensions have been created, a reference to them is created in the
+Component.js/manifest.json
+file of the
+extended project.
+Extend Controllers
+You can extend a controller of the original application by replacing it with an empty controller or with a copy of the
+original controller. You can also implement UI controller hooks if they are provided by the original application. Once one of
+these controllers is in place, you can customize it as needed.
+Extend Views
+You can extend a view using an extension point.
+Hide Controls
+You can hide a specific control of the original application.
+Edit Strings
+The i18n Resource T
+ext Customization extension allows you to copy the
+i18n
+folder of the original application to your
+extended application. This allows you to edit the UI strings in the extended application without altering the original
+application.
+Replace Views
+You can replace a specific view in an original application with a new view.
+Extend Controllers
+Note
+If you delete or rename a file that is referenced from the
+component.js/manifest.json
+file, the application does not
+work properly. Make sure that you delete the reference or update the file name on the
+component.js/manifest.json
+file as well.
+142
+You can extend a controller of the original application by replacing it with an empty controller or with a copy of the original
+controller. You can also implement UI controller hooks if they are provided by the original application. Once one of these
+controllers is in place, you can customize it as needed.
+Replacing Controllers
+Procedure
+1. In the
+File Explorer, navigate to the extension project to which you want to add the extension.
+2. Right-click the.extconfig.json
+file and click
+Create Extension
+3. Make sure that the desired extension project is selected and click
+Next
+4. Select
+Extend Controller
+and then click
+Next
+5. Select the controller that you want to extend.
+6. From the
+Replace with
+dropdown list, select
+Copy of the original controller
+to edit the controller based on the original
+controller, or select
+Empty Controller
+to replace the controller with an entirely new one and click
+Next
+7. Click
+Finish
+to add the extension to the selected extension project.
+Implementing UI Controller Hooks
+Procedure
+1. In the
+File Explorer, navigate to the extension project to which you want to add the extension.
+2. Right-click the.extconfig.json
+file and click
+Create Extension
+3. Make sure that the desired extension project is selected and click
+Next
+4. Select
+Implement UI Controller Hook
+and click
+Next
+5. Select the controller and the UI controller hook that you want to implement and click
+Next
+6. Click
+Finish
+to add the extension to the selected extension project.
+Extend Views
+You can extend a view using an extension point.
+Prerequisites
+You must have defined extension points in the original application.
+Procedure
+Note
+The new controller extends the controller that is provided by SAP. Methods of the custom controller override
+standard methods with the same name (except for the controller lifecycle methods that are called in addition to the
+original controller method implementations). When overriding a controller method, any functionality that was
+previously provided by the SAP controller in this method is no longer available. Likewise, any future changes made to
+the SAP controller method implementation will not be refiected in the custom controller.
+143
+1. In the
+File Explorer, navigate to the extension project to which you want to add the extension.
+2. Right-click the.extconfig.json
+file and click
+Create Extension
+3. Make sure that the desired extension project is selected and click
+Next
+4. Select
+Extend View/Fragment
+and click
+Next
+5. Select the view or fragment that you want to extend.
+6. Select the desired extension point.
+7. Click
+Next
+8. Click
+Finish
+to add the extension to the selected extension project.
+Hide Controls
+You can hide a specific control of the original application.
+Context
+Controls that are configured in a fragment that is loaded dynamically might still appear in the UI. Elements that are set as
+visible
+manually by the view’s controller will not be hidden.
+You can try and hide these controls by replacing the view or extending the controller that hides it and override the method.
+Procedure
+1. In the
+File Explorer, navigate to the extension project to which you want to add the extension.
+2. Right-click the.extconfig.json
+file and click
+Create Extension
+3. Make sure that the desired extension project is selected and click
+Next
+4. Select
+Hide Control
+and click
+Next
+5. Select the view or fragment containing the control that you want to hide.
+6. Select the specific control that you want to hide.
+7. Click
+Next
+8. Click
+Finish
+to add the extension to the selected extension project.
+Note
+Not all views or fragments have extension points.
+Note
+Only controls with an ID that is defined in the original application appear in the list.
+Note
+You can only hide controls that have their
+Visible
+property defined as
+true. If the
+Visible
+property does not
+exist, you cannot hide the control.
+Note
+If you hide a control and then want to show it again, you must delete the extension from the
+component.js/manifest.json
+customizing block. Changing the
+visible
+property from
+False
+to
+True
+does
+not make the control reappear.
+144
+Edit Strings
+The i18n Resource T
+ext Customization extension allows you to copy the
+i18n
+folder of the original application to your extended
+application. This allows you to edit the UI strings in the extended application without altering the original application.
+Prerequisites
+The original application must have an
+i18n
+folder with at least one
+Properties
+file that contains the relevant strings.
+Procedure
+1. In the
+File Explorer, navigate to the extension project to which you want to add the extension.
+2. Right-click the.extconfig.json
+file and click
+Create Extension
+3. Make sure that the desired extension project is selected and click
+Next
+4. Select the
+i18n Resource Text Customization
+tile and click
+Next
+5. Click
+Finish
+to confirm and add the extension.
+Results
+The
+i18n
+folder of the original application is copied to your extended application, including all its.properties
+files. You can
+change one or more of the strings in the.properties
+file and run your extended application to see them in runtime. The
+original application remains unchanged.
+Replace Views
+You can replace a specific view in an original application with a new view.
+Context
+The new view can be edited using the layout editor.
+The new view replaces the view provided by SAP. Any future changes made to the SAP view will not be refiected in the
+new view. Furthermore, if the new view is an empty view, any functionality that was previously provided by the SAP view
+will not be available.
+Procedure
+1. In the
+File Explorer, navigate to the extension project to which you want to add the extension.
+2. Right-click the.extconfig.json
+file and click
+Create Extension
+3. Make sure that the desired extension project is selected and click
+Next
+4. Select
+Replace View
+and click
+Next
+5. Select the view that you want to replace.
+6. From the
+Replace with
+dropdown list, select
+Copy of the original view
+to edit the view based on the original view, or
+select
+Empty View
+to replace the view with an entirely new one.
+7. Click
+Next
+8. Click
+Finish
+to add the extension to the selected extension project.
+145
+Working with a Trial Account
+Get a trial account to experience SAP Business Application Studio for free.
+rial accounts are intended for personal exploration, and not for production use or team development. They allow restricted use
+of the services. T
+o learn more about the difference between enterprise and trial accounts, see
+Enterprise versus T
+rial Accounts.
+Getting Started with a Trial Account
+Set up your trial system to develop applications using SAP Business Application Studio.
+Trial Account Restrictions
+Creating a New Subaccount
+Your trial account comes with a default subaccount that contains all the relevant roles and authorizations. You can
+create additional subaccounts, if needed.
+Getting Started with a Trial Account
+Set up your trial system to develop applications using SAP Business Application Studio.
+1. Sign up for an SAP BTP trial account. See Get a Free T
+rial Account.
+2. Open the SAP BTP trial cockpit.
+3. From the
+Quick Tool Access
+section, click
+SAP Business Application Studio
+Note
+SAP Business Application Studio is available on T
+rial in the Singapore, Frankfurt, and US East (VA) regions.
+If you do not have a subaccount in these regions, you need to create a new subaccount with the following settings: Provider
+Supported Regions
+Amazon Web Services (AWS)
+Europe (Frankfurt) or US East (VA)
+Microsoft Azure
+Singapore
+Note
+There is no support for new trial accounts in the Europe
+(Frankfurt) region. Trial accounts created before October 2021 will
+still be supported.
+Note
+An SAP BTP trial account is free of charge. However, every trial user gets one trial account only.
+Your trial account contains a subaccount called
+trial
+that is automatically created and already subscribed to SAP
+Business Application Studio.
+Any other subaccount that you create requires a manual subscription. See
+Creating a New Subaccount.
+146
+SAP Business Application Studio
+opens.
+4. Click
+Create Dev Space
+to begin working.
+Trial Account Restrictions
+In addition to the regular SAP Business Application Studio restrictions, when using a trial account the following restrictions also
+apply: A user can only have up to 2 dev spaces.
+A user can only have 1 dev space in the RUNNING state at a time.
+The session times out after one hour of inactivity.
+The maximum size limit of a dev space is 4 GB.
+Dev spaces that have not been in the RUNNING state for 30 consecutive days will be deleted.
+Creating a New Subaccount
+Your trial account comes with a default subaccount that contains all the relevant roles and authorizations. You can create
+additional subaccounts, if needed.
+1. From the SAP BTP cockpit, click
+Enter your Trial Account
+2. Click
+New Subaccount
+147
+3. Fill in the required fields and click
+Create
+4. Open your new subaccount.
+5. From the navigation area, click
+Entitlements
+6. Click
+Configure Entitlements
+7. Click
+Add Service Plans
+8. Search for
+Studio
+9. Select SAP Business Application Studio and, under
+Available Plans, select
+trial (Application)
+10. Click
+Add 1 Service Plan
+11. Click
+Save
+148
+12. From the navigation area, click
+Service Marketplace
+13. Search for
+Studio
+14. Select SAP Business Application Studio and click
+Create
+15. From the
+New Instance or Subscription
+dialog box, leave the default selections and click
+Create
+16. Click
+View Subscription
+to see the details of your new subaccount.
+17. Click
+Go to Application
+Restrictions
+SAP Business Application Studio computing resources (CPU, memory, storage) are limited and optimized for serving standard
+SAP application development use-cases.
+o ensure an optimal performance and developer experience, the following restrictions must be maintained: A user can create up to 10 dev spaces.
+A user can only have up to two running dev spaces.
+A user can have disk space of up to 10 GB per dev space.
+A user can only have up to 100 projects stored on their dev space.
+A user can only have up to 20 projects or MTA modules open in their workspace.
+A user can only have up to 1000 Java classes on a single project compilation.
+A user can only have up to 1000 SAP HANA database artifacts on a single project compilation.
+If your resource usage is close to any of the restrictions above, the system performance may be impacted.
+If the restrictions are surpassed, performance can't be assured by the SAP Business Application Studio product license.
